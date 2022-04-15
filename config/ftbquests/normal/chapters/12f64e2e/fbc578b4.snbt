@@ -1,3 +1,102 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:02acab1c4bd98b5f2f7c5605f05e224de9ef456cd10fc52cdcc0c451a1ff515a
-size 2243
+{
+	title: "新手大礼包",
+	icon: "minecraft:grass",
+	x: -4.5d,
+	y: -3.0d,
+	text: [
+		"挖一个泥土，撸一点树叶，打一点草，证明你准备好了进行一场难忘的冒险",
+		"将阿卡什宝典与其他mod手册合成，右击即可点击手册查看，左击即可切换回阿卡什宝典将阿卡什宝典切换到想拆卸的手册，shift加q即可拆卸下来"
+	],
+	dependencies: [
+		"ef7c7899"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a5e27d2c",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	},
+	{
+		uid: "f15699db",
+		type: "item",
+		title: "Any stickWood",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "stickWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "d107f74e",
+		type: "item",
+		items: [{
+			item: "primal:plant_fiber"
+		}]
+	}],
+	rewards: [{
+		uid: "cc84ed1d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "akashictome:tome"
+		}
+	},
+	{
+		uid: "796928ed",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pouchofunknown:pouch"
+		}
+	},
+	{
+		uid: "4507aa3d",
+		type: "item",
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"--给营养学多加2种buff，所有营养在90以上添加饱和buff（按n查看）\\n蔬菜在90以上夜视buff\\n满饱食度后可以继续吃东西\\n平均40以下虚弱，平均30以下饥饿，平均20以下缓慢，平均10以下失明（合理膳食）\\n单项营养低于5，给一个中毒buff\\n只有熟鱼，蛋糕和aa的食物会加营养和饱食度\"}"
+				],
+				author: "ronyaken",
+				title: "干饭人修炼手册",
+				resolved: 1b
+			}
+		}
+	},
+	{
+		uid: "0b24ebca",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "jecalculation:item_calculator",
+			tag: {
+				jecalculation: {
+					craft: {
+						amount: "",
+						recents: [{
+							type: "itemStack",
+							content: {
+								amount: 1L,
+								item: "extendedcrafting:table_ultimate"
+							}
+						}],
+						inventory: 0b
+					}
+				}
+			}
+		}
+	}]
+}

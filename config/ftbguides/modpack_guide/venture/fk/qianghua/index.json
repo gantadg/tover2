@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:300db9558c95dfdc42ed669f795067a68cd7d5aeb691f2595ff1e99aae90b847
-size 311
+[
+ {
+  "id": "fuwen",
+  "title": "符文效果一览",
+  "icon": "item:mmorpg:runes/ano0"
+ }, 
+ {
+  "id": "hun",
+  "title": "混沌属性一览",
+  "icon": "item:silentgems:craftingmaterial"
+ }, 
+ {
+  "id": "cizhui",
+  "title": "词缀属性一览",
+  "icon": "item:mmorpg:modify_station"
+ }, 
+]

@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b496fb670313f9c1c977d91d2cb5a4032d8c47a21d5716287ca04068ed407dad
-size 405
+
+
+//mods.rockhounding_chemistry.MineralSizer.add(input, [output1, output2, output3, output4, output5], [probability1, probability2, probability3, probability4, probability5], false);
+
+
+
+//mods.rockhounding_chemistry.LeachingVat.add(<minecraft:cobblestone>, <minecraft:dye:15>);
+
+//玻璃
+//mods.rockhounding_chemistry.LeachingVat.add(<minecraft:sand>,<minecraft:glass>);
+
+
+
+
+
+
+
+
+
+
+
+

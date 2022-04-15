@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:403722444f522ad8f96cddcc85d2ef9b119b9d921ac15f19321278a7d5122740
-size 106
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/blood_orb_weak"
+  }
+}

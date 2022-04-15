@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cc2b4ecb4b3b4b9777720555310ad96a2d3dde9cb6445853f8d92eb6d9a87dac
-size 182
+气体冷凝器主要用于将气态氮气、氧气和氨气加工成液体。需求：气体冷凝器，电站，压力容器，缓冲罐。
+摆放如下：
+![Example](摆放.png)

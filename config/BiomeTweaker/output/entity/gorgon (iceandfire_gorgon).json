@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:212b45d24a51d9ea1b75e970fb795bb8e69c5dadec0e004e9d11de3dcbc20f80
-size 129
+
+{
+  "Name": "gorgon",
+  "Registry ID": "iceandfire:gorgon",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityGorgon"
+}

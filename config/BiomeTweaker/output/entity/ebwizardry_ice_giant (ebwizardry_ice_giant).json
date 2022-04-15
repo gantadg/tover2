@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ea0d483648392939d1e45f1a7305e568dd24567729cf5829035396d1b87ccd3
-size 143
+
+{
+  "Name": "ebwizardry:ice_giant",
+  "Registry ID": "ebwizardry:ice_giant",
+  "Class": "electroblob.wizardry.entity.living.EntityIceGiant"
+}

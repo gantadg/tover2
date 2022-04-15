@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3716bec10871c686937650e9de2fc0a57607b2cbe69ee607acea5cc7f2014754
-size 378
+{
+	x: -2.5d,
+	y: 3.0d,
+	dependencies: [
+		"7358a57c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b2b8245f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b6a83e34",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:65206d2d0dd9259d504cd24107e49fa99c813aedb28fbace969719696c1f1ef2
-size 417
+{
+	x: 0.0d,
+	y: 7.0d,
+	text: [
+		"我是一个小木匠，砍树本领强",
+		"建议使用木匠工作台制作漆蜡，再制造那些石制工具"
+	],
+	dependencies: [
+		"63556da9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d60451e2",
+		type: "item",
+		items: [{
+			item: "artisanworktables:worktable 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "4fd6e70f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

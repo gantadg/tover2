@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fbaaeeffb481750fc53d8abf668bfb29946e385c38b1610e78640f3da3888fcd
-size 136
+
+{
+  "Name": "botania:pinkWither",
+  "Registry ID": "botania:pink_wither",
+  "Class": "vazkii.botania.common.entity.EntityPinkWither"
+}

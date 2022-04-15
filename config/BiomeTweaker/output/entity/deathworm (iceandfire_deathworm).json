@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0f117507777c72876fb76aed9569b5e6e8fd2a7205f599b25c99eccd286c2c49
-size 138
+
+{
+  "Name": "deathworm",
+  "Registry ID": "iceandfire:deathworm",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityDeathWorm"
+}

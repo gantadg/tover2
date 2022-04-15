@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d0878f11d4040b853307068b1993820fe2a4537d592e0ecbf74d68db77a95d66
-size 748
+<Asteroids>
+	<asteroid name="Small Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="0.2" richnessVariability="0.5">
+		<ore itemStack="minecraft:iron_ore" chance="15" />
+		<ore itemStack="minecraft:gold_ore" chance="10" />
+		<ore itemStack="minecraft:redstone_ore" chance="10" />
+		<ore itemStack="metallurgy:midasium_ore" chance="15" />
+	</asteroid>
+	<asteroid name="Iridium Enriched asteroid" distance="100" mass="25" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
+		<ore itemStack="minecraft:iron_ore" chance="25" />
+		<ore itemStack="libvulpes:ore0 10" chance="5" />
+		<ore itemStack="metallurgy:carmot_ore" chance="20" />
+	</asteroid>
+</Asteroids>

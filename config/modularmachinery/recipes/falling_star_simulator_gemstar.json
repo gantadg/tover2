@@ -1,3 +1,187 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7e61edb329b68ce252eefc6ec52b4ef2425265bafedcef06e46c790c7e2c3352
-size 4195
+{
+    "machine": "falling_star_simulator",
+    "registryName": "falling_star_simulator_gemstar",
+    "recipeTime": 5000,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lifeessence",
+            "amount": 5000000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:star_gem",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_ore",
+            "amount": 64
+        },
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:emerald_ore",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:emerald_ore",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:emerald_ore",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:emerald_ore",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:gold_ore",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:gold_ore",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:gold_ore",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:gold_ore",
+			"amount": 64
+		}
+    ]
+}

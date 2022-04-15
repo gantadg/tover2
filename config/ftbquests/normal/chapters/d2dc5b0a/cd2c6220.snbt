@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ae2b4ab10c3513ee8655dda04cf75d38c15648371844bce269f908e29dce5113
-size 459
+{
+	x: -0.5d,
+	y: -9.0d,
+	text: [
+		"这应该是章节中最良心的工作台了"
+	],
+	dependencies: [
+		"8901dc69"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b8535ba9",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_crafter"
+		}]
+	},
+	{
+		uid: "53e430a7",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_alternator"
+		}]
+	}],
+	rewards: [{
+		uid: "dff9a196",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

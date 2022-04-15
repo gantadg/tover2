@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ee3a791a0db78f8ecdd50c7857530d1b7246cd2da992bb7ceb4ca4c915d8fb27
-size 377
+{
+	x: 4.0d,
+	y: -2.5d,
+	dependencies: [
+		"ae4718b3",
+		"ddef1b36",
+		"454c429f"
+	],
+	tasks: [{
+		uid: "009b4c14",
+		type: "item",
+		items: [{
+			item: "qmd:neutral_containment_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "252568d0",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "12834c9e",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

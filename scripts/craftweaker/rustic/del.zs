@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:54391e089e073b98996a290b28de0467eb06f9e688ad8407bf156e6cd4dfd731
-size 545
+////////////////////////////////////////////////////////////////////////
+import crafttweaker.item.IItemStack;
+
+////////////////////////////////////////////////////////////////////////
+
+//原版工作台合成删除
+
+val rust = [
+<rustic:chain_gold>,
+<rustic:brewing_barrel>,
+<rustic:crushing_tub>,
+<rustic:evaporating_basin>,
+<rustic:retort_advanced>,
+<rustic:condenser_advanced>,
+<rustic:retort>,
+<rustic:condenser>,
+<rustic:chain>,
+<rustic:apiary>,
+				] as IItemStack[];
+for item in rust {
+    recipes.remove(item);
+    }

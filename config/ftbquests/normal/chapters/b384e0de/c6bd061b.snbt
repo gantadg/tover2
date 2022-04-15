@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:14b4b17be5ad9bb62749320b22d988d0c63d1bdc6f675d83e3af84c3ef6453ea
-size 274
+{
+	x: 3.5d,
+	y: -1.0d,
+	dependencies: [
+		"b29b4306"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f1028929",
+		type: "item",
+		items: [{
+			item: "metallurgy:lemurite_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "6e60a664",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

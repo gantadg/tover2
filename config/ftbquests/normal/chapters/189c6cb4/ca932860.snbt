@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6fe9899305e9690305cb058cac249386ddf35ae85033b597fba0d5bcd45ebdfa
-size 454
+{
+	title: "大冶钢铁",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"在之后的生涯里，你需要大量的钢，反正也不贵，为什么不现在就准备一点呢"
+	],
+	dependencies: [
+		"12553177"
+	],
+	hide: true,
+	tasks: [{
+		uid: "beafb16e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "4a48eac9",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

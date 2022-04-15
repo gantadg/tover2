@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:211a0d934c5d194b13e9b32296dca26e5d47ba38ae8d218b55b0c0208ac37563
-size 385
+拉晶坩埚消耗氩气，纯YAG（钇铝石榴石）化合物，稀有金属元素粉末来生产各种Nd:YAG晶体宝石。具体配方以jei为准。
+需求：需要设备：拉晶坩埚，拉晶坩埚顶部，气体增压器，电站(需要燃气轮机升级)，储气罐(用于储存氩气)。
+摆放如下：
+侧面
+![Example](侧面.png)
+正面
+![Example](正面.png)
+

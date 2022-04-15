@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:406922f05153e2b6a10dcb4fdf0da40da07eeda22bfdb7a306f7b8a029b4d39c
-size 180
+这个阶段是一个魔法的阶段，你会从邪恶的血魔法开始研究，开始尝试使用自然的力量，直到最后可以掌控各种元素之力并开启第二阶段

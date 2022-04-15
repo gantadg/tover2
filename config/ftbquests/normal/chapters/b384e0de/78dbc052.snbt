@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:883dc626e43f9e304f9a05c4c2550b1b9f5b242ae4c849d3c2f1b5fa0ed942a0
-size 337
+{
+	x: -1.5d,
+	y: -4.0d,
+	dependencies: [
+		"1a109e23"
+	],
+	hide: true,
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "a30b65d4",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}],
+	rewards: [{
+		uid: "e19027c0",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

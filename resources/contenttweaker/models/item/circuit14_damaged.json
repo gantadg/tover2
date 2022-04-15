@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:879571d32fc668f0e77470247ca2cc59a88e42f1afba65d8be3e247dbff1e6ce
-size 109
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/circuit14_damaged"
+  }
+}

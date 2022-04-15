@@ -1,3 +1,125 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:14272aca020c9b1a983e3879f71c9ab063d62304a8fb3b9f111ed23aaf1944ef
-size 1675
+
+{  
+  "name": "extrautils2_teleporter_1",
+
+  "disabled": false,
+
+  "target-item": "extrautils2:teleporter",
+  "target-meta": 1,
+  "target-count": 1,
+
+  "duration": 1000,
+
+  "symmetrical": true,
+
+  "catalyst": "extrautils2:snowglobe",
+  "catalyst-meta": 1,
+
+"input-types": {
+    "a": {
+      "id": "silentgems:miscblock",
+      "meta": 2
+    },
+    "b": {
+      "id": "minecraft:redstone_ore",
+      "meta": 0
+    },
+    "c": {
+      "id": "minecraft:gold_ore",
+      "meta": 0
+    },
+    "d": {
+      "id": "minecraft:diamond_ore",
+      "meta": 0
+    },
+    "e": {
+      "id": "minecraft:quartz_ore",
+      "meta": 0
+    },
+    "f": {
+      "id": "extrautils2:compressedcobblestone",
+      "meta": 3
+    },
+    "g": {
+      "id": "minecraft:emerald_ore",
+      "meta": 0
+    },
+    "h": {
+      "id": "minecraft:iron_ore",
+      "meta": 0
+    },
+    "i": {
+      "id": "minecraft:lapis_ore",
+      "meta": 0
+    },
+    "j": {
+      "id": "minecraft:coal_ore",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "e",
+        "a"
+      ],
+      [
+        "i",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "d",
+        "a"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "f",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "a",
+        "h",
+        "a"
+      ],
+      [
+        "j",
+        "a",
+        "c"
+      ],
+      [
+        "a",
+        "g",
+        "a"
+      ]
+    ]
+  ]
+
+
+
+
+
+
+
+}
+
+
+
+
+

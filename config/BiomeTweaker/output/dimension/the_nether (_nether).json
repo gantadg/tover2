@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:36c7c75dc8c25a7dc0fb8d0fad626bcfb3e23257d14948be36fa3cb95add142e
-size 63
+
+{
+  "Name": "the_nether",
+  "Suffix": "_nether",
+  "ID": -1
+}

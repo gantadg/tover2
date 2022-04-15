@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:56629797f1d6b56ea87b9c5b8c5493bdff84755caa667198e90e68819158201a
-size 130
+
+{
+  "Name": "CaveSpider",
+  "Registry ID": "minecraft:cave_spider",
+  "Class": "net.minecraft.entity.monster.EntityCaveSpider"
+}

@@ -1,3 +1,31 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:71eee8e1fdc4b1ad30e2627c53447c28064226f95e705cd764ff9ab0cc480f5c
-size 540
+{
+	x: 4.5d,
+	y: -1.0d,
+	text: [
+		"物质球是个用量很大的东西，你总得整个自动化的办法，比如弄亿点廉价的原石或者水"
+	],
+	dependencies: [
+		"ad8ce769"
+	],
+	hide: true,
+	tasks: [{
+		uid: "73a9e495",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:condenser"
+		}]
+	},
+	{
+		uid: "e302b74e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 6"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "d1c869b7",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4ce28773785e2dc5aa14fac7ef53c831fd105cbf79e4ad0bc20864c1b95896db
-size 88
+{
+	title: "zero",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

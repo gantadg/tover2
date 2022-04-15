@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b288a2b73e8732f3491ad3e20fc13028a70964487c6f741f687ff4f23f126c5c
-size 277
+{
+	x: 24.5d,
+	y: 14.0d,
+	dependencies: [
+		"d6049414"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f0230528",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:dataunit"
+		}]
+	}],
+	rewards: [{
+		uid: "283a88f5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

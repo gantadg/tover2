@@ -1,3 +1,40 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9c53b3dd12efdfb46e8a6d82af6d218a6f975ad40015213da3f6aa7fec7eb377
-size 566
+{
+  "shapes": [
+    {
+      "name": "1x2",
+      "depth": -1,
+      "reticle": 12,
+      "mask": [
+        "OOOOO",
+        "OOOOO",
+        "OOXOO",
+        "OOXOO",
+        "OOOOO"
+      ]
+    },
+    {
+      "name": "3x3",
+      "depth": -1,
+      "reticle": 12,
+      "mask": [
+        "OOOOO",
+        "OXXXO",
+        "OXXXO",
+        "OXXXO",
+        "OOOOO"
+      ]
+    },
+    {
+      "name": "5x5",
+      "depth": -1,
+      "reticle": 12,
+      "mask": [
+        "XXXXX",
+        "XXXXX",
+        "XXXXX",
+        "XXXXX",
+        "XXXXX"
+      ]
+    }
+  ]
+}

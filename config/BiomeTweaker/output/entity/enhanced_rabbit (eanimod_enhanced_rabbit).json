@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f4973bb1853170d9986f566c27415ecee554399f51c0b868722c2c578c51d821
-size 138
+
+{
+  "Name": "enhanced_rabbit",
+  "Registry ID": "eanimod:enhanced_rabbit",
+  "Class": "mokiyoki.enhancedanimals.entity.EnhancedRabbit"
+}

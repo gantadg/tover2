@@ -1,3 +1,97 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:68b8e568d0791257eb35aced512dc5cfc581829bb56d2636705e993cd03aff80
-size 1600
+{
+	title: "蓝图制造器 MK1",
+	x: 3.5d,
+	y: -7.0d,
+	text: [
+		"你的第一台模块化机械",
+		"请不要在意做出来的劣质的破烂的成品",
+		"注意刀架的摆放方向"
+	],
+	dependencies: [
+		"4b1fc695"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1f889886",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "dd622c48",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered 1 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "939fa442",
+		type: "item",
+		items: [{
+			item: "metallurgy:shadow_iron_block"
+		}],
+		count: 3L
+	},
+	{
+		uid: "a55dd2d9",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_greenhouse_glass"
+		}],
+		count: 3L,
+		consume_items: false
+	},
+	{
+		uid: "02b1d74a",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}],
+		count: 5L
+	},
+	{
+		uid: "f3b7da35",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 7"
+		}],
+		count: 16L
+	},
+	{
+		uid: "da3dbbd7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "c387df3e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "7a2a4c24",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		count: 8L
+	},
+	{
+		uid: "ff9b5235",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration2 1 5"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "1f9f0245",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

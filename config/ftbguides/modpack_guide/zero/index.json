@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3904ae0e280c7f5dd914aa9a932b27aa5efff189c82b4f2cf875d65de1db37a9
-size 245
+[
+ {
+  "id": "1",
+  "title": "乌兹钢",
+  "icon": "item:primal:wootz_ingot"
+ },
+ {
+  "id": "2",
+  "title": "蜂箱",
+  "icon": "item:rustic:bee"
+ },
+ {
+  "id": "3",
+  "title": "炼金术",
+  "icon": "item:rustic:condenser"
+ }
+]

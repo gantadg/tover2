@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0f3cc50aefa58e48645db160bdb02ab1d19f376d06aa9a6d46c2e562123cbacc
-size 400
+{
+    "machine": "transformer",
+    "registryName": "transformer_energy_transform",
+    "recipeTime": 1,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 128
+        },
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "output",
+            "energyPerTick": 128
+        }
+    ]
+}

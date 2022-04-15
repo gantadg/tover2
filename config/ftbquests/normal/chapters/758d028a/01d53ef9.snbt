@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e36cf0fe431c7ded1b0035e8d7e8c6f35aafd579a51f485ef7db7b566b9b7dbb
-size 458
+{
+	x: 8.5d,
+	y: 5.0d,
+	text: [
+		"为何不能是炼“铜”大师呢"
+	],
+	dependencies: [
+		"c1527356",
+		"d59bf69e",
+		"b74a89ac"
+	],
+	hide: true,
+	tasks: [{
+		uid: "913abac3",
+		type: "item",
+		items: [{
+			item: "rustic:condenser"
+		}]
+	},
+	{
+		uid: "d62f52ae",
+		type: "item",
+		items: [{
+			item: "rustic:retort"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "8fd37b9a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

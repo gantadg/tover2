@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6a8d4be677f698672f3497d5de4596baadd124ab8f6d80367e108a59a625408c
-size 274
+{
+	title: "玉钢",
+	x: 6.5d,
+	y: 4.0d,
+	text: [
+		"先用生铁烧炼成钢，用钢再次烧炼，变成玉钢"
+	],
+	dependencies: [
+		"433e7eff"
+	],
+	tasks: [{
+		uid: "a7e44e07",
+		type: "item",
+		items: [{
+			item: "primal:tamahagane_ingot"
+		}]
+	}]
+}

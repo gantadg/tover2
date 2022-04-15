@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ea1be43689a963403a24a1d23af73a73bfddbdda1d8b7514f7e901b6f075fc5e
-size 622
+{
+	x: 12.5d,
+	y: -6.0d,
+	shape: "gear",
+	text: [
+		"一把象征知识的钥匙",
+		"当然，你要使用它，还是要在研究台加一点介质",
+		"tips:所有魔法书都需要充足的魔力，用来突破智慧的枷锁"
+	],
+	dependencies: [
+		"6793bb4b"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "17d33368",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:stage_keytwo"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "817b9365",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

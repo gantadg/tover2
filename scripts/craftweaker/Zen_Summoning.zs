@@ -1,3 +1,57 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4e787f4106128e74964b6d85d5a48451cddd739c77bf88b79c675c9b0e6ccc57
-size 1323
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import mods.zensummoning.SummoningDirector;
+import mods.zensummoning.SummoningAttempt;
+import mods.zensummoning.SummoningInfo;
+import mods.zensummoning.MobInfo;
+
+SummoningDirector.enableDebugging();
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<minecraft:blaze_rod>)
+        .setReagents([<eanimod:egg_white>, <thermalfoundation:fertilizer:2>*16])
+        .addMob(MobInfo.create()
+            .setMob("thermalfoundation:blizz")
+            .setCount(4)
+        )
+        .addMob(MobInfo.create()
+            .setMob("thermalfoundation:blitz")
+            .setCount(4)
+        )
+		.addMob(MobInfo.create()
+            .setMob("thermalfoundation:basalz")
+            .setCount(4)
+        )
+		.addMob(MobInfo.create()
+            .setMob("minecraft:blaze")
+            .setCount(4)
+        )
+);
+
+SummoningDirector.enableDebugging();
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<minecraft:nether_star>)
+        .setReagents([<eanimod:egg_green>, <thermalfoundation:fertilizer:2>*16])
+        .addMob(MobInfo.create()
+            .setMob("minecraft:wither_skeleton")
+            .setCount(16)
+        )
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

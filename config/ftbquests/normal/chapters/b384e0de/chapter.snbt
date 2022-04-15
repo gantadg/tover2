@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:10060f909662613893e7f3bd44f3081000fc755e0de7f8ca4e11a6537691fe42
-size 356
+{
+	title: "three 地质的奥秘，专属机器的起始",
+	icon: "actuallyadditions:block_atomic_reconstructor",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 1.5d,
+		y: -11.0d,
+		width: 40.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "assets:three.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

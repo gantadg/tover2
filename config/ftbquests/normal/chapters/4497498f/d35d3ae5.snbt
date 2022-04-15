@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:31fd4b8bfe55f928a267651be0c20e52a6109fe249a202a5efaccf875594e8d9
-size 394
+{
+	x: 2.0d,
+	y: 1.0d,
+	dependencies: [
+		"bde98ba3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6439a5f4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemhandtelescope"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "19ccd79b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

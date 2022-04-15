@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3db639f9700b97e64fb6124130edd8d713ce96278555d060ceb66b3a80cadffb
-size 645
+{
+	x: 5.0d,
+	y: -1.0d,
+	shape: "circle",
+	text: [
+		"缺矿了吗，不如试试用伟大的血魔技艺召唤从天而降的陨石（坠星坐标）",
+		"以下为丢的物品，消耗lp，产出矿物以及半径r",
+		"-铁块 100k (未知矿物，铁矿，混沌，煤矿)r4",
+		"-金块 250k(青金石，红石，铅铜铝银镍银)r6",
+		"-钻石块100w(寂静宝石单矿，金矿)r8",
+		"-宝石陨星（中期）5m(绿宝石钻石矿及其块，金块)r10",
+		"你甚至之后能用模块化进行自动化"
+	],
+	dependencies: [
+		"ac81c2b0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "666011d6",
+		type: "checkmark"
+	}]
+}

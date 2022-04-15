@@ -1,3 +1,37 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cee9c14e08c0024ca28aba8155b1dcea3dcd75855ff801547491e16c5f0925f4
-size 593
+{
+	x: 5.5d,
+	y: 7.0d,
+	dependencies: [
+		"c1e8dd06"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c022d4c2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "calculator:flawlesscalculator",
+			tag: {
+				0: {},
+				slot4: "Energy Module",
+				1: {},
+				slot3: "Storage",
+				2: {},
+				slot2: "Crafting",
+				3: {},
+				slot1: "Dynamic",
+				4: {},
+				slot0: "Flawless"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fc8f1b98",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

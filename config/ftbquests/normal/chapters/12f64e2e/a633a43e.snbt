@@ -1,3 +1,38 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7050eed2f05af6c481da0e4211fee725f09b30d50197f4f73fceb3bc52697818
-size 711
+{
+	title: "愿者上钩",
+	icon: "waterstrainer:strainer_base",
+	x: 6.0d,
+	y: 3.0d,
+	text: [
+		"比特币都靠挖多没意思",
+		"滤网放置在基座上，并被水流穿过。获取物品时会损失耐久值"
+	],
+	dependencies: [
+		"e6ce0107"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b1732a4f",
+		type: "item",
+		items: [{
+			item: "waterstrainer:strainer_base"
+		}]
+	},
+	{
+		uid: "3c71f709",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "waterstrainer:strainer_survivalist_dense"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "22c34d96",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

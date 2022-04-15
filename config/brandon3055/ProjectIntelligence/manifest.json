@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9c7a5e458ce75f08278aac7c353c3946d9dc3c74e24bf644f739bb158a4f9e94
-size 239
+[
+	{
+		"name": "Draconic Evolution",
+		"modid": "draconicevolution",
+		"downloads": {
+			"https://raw.githubusercontent.com/brandon3055/Project-Intelligence-Docs/master/ModDocs/Draconic%20Evolution/draconicevolution-en_US.xml": 16
+		}
+	}
+]

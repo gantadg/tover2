@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2e75f2edb365e537923f9fbf56a72042b103e7f6a4b9135abf3028d8452fe248
-size 524
+
+import mods.qmd.decay_chamber;
+
+
+
+
+/*衰变室
+mods.qmd.decay_chamber.addRecipe(IIngredient inputParticle, IIngredient outputParticle1, IIngredient outputParticle2, IIngredient outputParticle3, double crossSection, {long energyReleased, double processRadiation, long maxEnergy})
+mods.qmd.decay_chamber.removeRecipeWithInput(IIngredient inputParticle)
+mods.qmd.decay_chamber.removeAllRecipes()*/
+//中子衰变
+mods.qmd.decay_chamber.addRecipe(<particle:tover_neutron>, <particle:tover_meson>, null, null, 0.5);

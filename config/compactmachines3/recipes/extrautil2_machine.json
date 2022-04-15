@@ -1,3 +1,87 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ac581d7141ac6cc3ccc3698689655b79e67f1e5eca2815f61b6aea6d10415e66
-size 1158
+
+{ 
+
+  "name": "extrautils2_machine",
+
+  "disabled": false,
+
+  "target-item": "extrautils2:machine",
+  "target-meta": 0,
+  "target-count": 4,
+
+  "duration": 20,
+
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:circuit1",
+  "catalyst-meta": 0,
+
+
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 9
+    },
+    "b": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 2
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "c",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ]
+    ]
+  ]
+}

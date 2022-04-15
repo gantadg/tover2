@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:41c7bb59c873d221823fbf60c3adc4707652e0921109ec2c16b9f646e27d500f
-size 443
+{
+	x: -4.0d,
+	y: 2.5d,
+	text: [
+		"我知道这和金钱无关",
+		"但用一半的出货量换步骤的省略，相信你一定不会拒绝这比划算的交易"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "666f3e90",
+		type: "item",
+		items: [{
+			item: "primal:logs"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "bf00c054",
+		type: "item",
+		item: "primal:logs_split_ironwood",
+		count: 128
+	}]
+}

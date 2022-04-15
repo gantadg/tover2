@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6b0738f193527887e5e934782769e4ea969c7c4ee0faab243396db3ab93c5c1f
-size 110
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/blood_orb_magician"
+  }
+}

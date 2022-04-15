@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9213d5da34509254c0766a779d32f5ae9a4277f225c1e8ec72477c1840d33db5
-size 126
+{
+	title: "seven 于宏观世界探寻微观的真理",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

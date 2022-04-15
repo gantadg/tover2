@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9e64eb4a14612b6ad4386711827f3f4647886a4176c8f92928a38c6ba16becbf
-size 400
+{
+	x: 22.5d,
+	y: 15.5d,
+	text: [
+		"将扫描完成后的小行星芯片放入天体数据处理器进行二次加工"
+	],
+	dependencies: [
+		"d6049414",
+		"7527876f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8c7c3585",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:planetanalyser"
+		}]
+	}],
+	rewards: [{
+		uid: "93939d74",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,3 +1,38 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4e159ef581051cb1fae666162b82ef86b1ec4f495d03e1e5dbbc802b4d3e2b50
-size 773
+{
+	x: 0.0d,
+	y: 7.5d,
+	text: [
+		"传送器对空气右键便是模组书",
+		"由于这个模组合成有一定的方向，所以像漆黑世界这种不对称的合成，你可能需要准备不少的原矿去一遍一遍尝试",
+		"可以用rftools的建筑机进行自动化"
+	],
+	dependencies: [
+		"c4cdb01c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2c7108ff",
+		type: "item",
+		items: [{
+			item: "compactmachines3:fieldprojector"
+		}],
+		count: 4L
+	},
+	{
+		uid: "ea3e18a6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "compactmachines3:psd"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "38197170",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

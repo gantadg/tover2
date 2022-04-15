@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:af124104aae9e21da83c5eaea83cb96b64558ad8db7796ed1fe0c9a19d300d9b
-size 271
+{
+	x: -8.5d,
+	y: 0.0d,
+	dependencies: [
+		"adbbd902"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1670bf4d",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "c1b9f9ff",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

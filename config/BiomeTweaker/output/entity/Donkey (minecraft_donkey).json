@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4f0c41308281afabe0c480242d0da9b2e59998bf0cf3117f288e4d1d8fdf980d
-size 117
+
+{
+  "Name": "Donkey",
+  "Registry ID": "minecraft:donkey",
+  "Class": "net.minecraft.entity.passive.EntityDonkey"
+}

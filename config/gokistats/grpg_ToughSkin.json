@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cf02a2ef5123aa3f5ca1bbb85cde6a39186c07b30c322c65c17df4d4186822a1
-size 94
+{
+  "damageSources": [
+    "explosion",
+    "explosion.player"
+  ],
+  "bonusMultiplier": 1.0
+}

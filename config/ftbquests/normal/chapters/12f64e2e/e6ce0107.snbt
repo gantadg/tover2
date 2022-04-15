@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9c95722f9087c63e50cf67f171866b707413d7d6747e07e4010d7e5dc9561cf8
-size 206
+{
+	title: "基础物流",
+	x: 4.0d,
+	y: 3.0d,
+	dependencies: [
+		"fd5910c5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "badd35ac",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}]
+}

@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:43f58de3f17cb1597f2105f1456ce2f5ef4806aaa5fbb6571f3b6ec6f6a41ece
-size 719
+////////////////////////////////////////////////////////////////////////
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+////////////////////////////////////////////////////////////////////////
+
+val chemistry= [
+	<rockhounding_chemistry:misc_items:1>,
+	<rockhounding_chemistry:misc_items>,
+	<rockhounding_chemistry:test_tube>,
+	<rockhounding_chemistry:graduated_cylinder>,
+	<gbook:guidebook>,
+	<rockhounding_chemistry:machines_a:11>,
+	<rockhounding_chemistry:machines_a:2>,
+	<rockhounding_chemistry:misc_blocks_a>,
+	<rockhounding_chemistry:misc_items:6>,
+	<rockhounding_chemistry:machines_a:9>,
+
+	] as IIngredient[];
+for item in chemistry {
+    recipes.remove(item);
+    }

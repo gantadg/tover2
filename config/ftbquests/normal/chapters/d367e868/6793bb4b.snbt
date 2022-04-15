@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e087a3bd7a537a7c6bc67c9f704e7ee81add91d4a1dd1620dc5b879a8cb37c9d
-size 410
+{
+	x: 10.0d,
+	y: -8.5d,
+	dependencies: [
+		"a7c863d5",
+		"1dae782d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9c21e1bf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "zettaigrimoires:empty_grimoire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6defca87",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

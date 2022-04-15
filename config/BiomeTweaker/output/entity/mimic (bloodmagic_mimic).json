@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9ee3a56606f44e05073795f05e38eeb92450c7445fb711cd0f0d049f15ff737c
-size 118
+
+{
+  "Name": "mimic",
+  "Registry ID": "bloodmagic:mimic",
+  "Class": "WayofTime.bloodmagic.entity.mob.EntityMimic"
+}

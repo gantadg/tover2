@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b7820f19679196767864c14e3833086c1e459564f4160b080b7819f2514f779c
-size 389
+[
+ {
+  "id": "ui",
+  "title": "ui介绍",
+  "icon": "item:draconicevolution:dragon_heart"
+ },
+ {
+  "id": "atk",
+  "title": "装备介绍",
+  "icon": "item:mmorpg:sword/sword0"
+ },
+ {
+  "id": "magic",
+  "title": "魔法介绍",
+  "icon": "item:mmorpg:spell_instantheal"
+ },
+ {
+  "id": "fk",
+  "title": "功能方块介绍",
+  "icon": "item:mmorpg:modify_station"
+ },
+ ]

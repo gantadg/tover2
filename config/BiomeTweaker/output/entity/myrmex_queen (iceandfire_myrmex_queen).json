@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d8397f7bc4618dd4c9d2a13a145a470736a460a8ee166c3b14e4c266e3acffb3
-size 146
+
+{
+  "Name": "myrmex_queen",
+  "Registry ID": "iceandfire:myrmex_queen",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexQueen"
+}

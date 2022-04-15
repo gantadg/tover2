@@ -1,3 +1,69 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8dc9af9a5adcc5e424691d27b828271457365c00a9d84f47931eea5d36f2b95a
-size 1483
+{
+	title: "埋在地下的宝贝：木炭",
+	icon: "minecraft:coal 1 1",
+	x: -4.5d,
+	y: 3.0d,
+	text: [
+		"利用原木堆制作木炭",
+		"用火弓右击点燃原木堆（有几率点着但不论失败都会消耗木棍）后围上指定的方块，里面要全部塞满原木堆，稍后变成木炭堆（需要很长时间，请慢慢等待）在旁边的泥土上锄地或许能看见里面的进度",
+		"指定方块包括：泥土、粘土、铁化玻璃、金块、铁块、地狱砖",
+		"tips：木炭的品质和原木堆有关系",
+		"你也可以用火弓点个火把（为什么不做个打火机呢）"
+	],
+	dependencies: [
+		"ce67bc15"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6a2a1419",
+		type: "item",
+		title: "木炭",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "charcoal",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "9db1cbf4",
+		type: "item",
+		title: "原木堆",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logStack",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "de3a2ca8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal:fire_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "abcc91ca",
+		type: "item",
+		items: [{
+			item: "primal:torch_wood"
+		}]
+	}],
+	rewards: [{
+		uid: "7814675f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

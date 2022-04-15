@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4499a75823a3b611ec52bb7130462ca6c371c0ae7540090603689b985857a0a3
-size 421
+{
+	x: 4.0d,
+	y: -3.0d,
+	text: [
+		"这种矿石用量很大，弄一些存货是必须的",
+		"它深埋于地底,需要钻石的挖掘等级",
+		""
+	],
+	dependencies: [
+		"34161f23"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9ac876b7",
+		type: "item",
+		items: [{
+			item: "silentgems:essenceore"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "7b7bc620",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

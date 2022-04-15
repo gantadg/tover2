@@ -1,3 +1,250 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:65127aed323715058a5e482920dc0f424f9e154b6cb8f566c63d92a6194c458b
-size 6518
+{"ss": [
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 64L,
+                "item": "silentgems:craftingmaterial",
+                "meta": 2
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "nbt": {"SG_Grade": "SS"},
+                    "amount": 4L,
+                    "item": "silentgems:gem",
+                    "meta": 43
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "silentgems:craftingmaterial",
+                    "meta": 1
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "bitcoin:bitcoin"
+                }
+            }
+        ],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "contenttweaker:gem_ss_9"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 9L,
+                "item": "contenttweaker:gem_ss"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "contenttweaker:gem_ss"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "nbt": {"SG_Grade": "SS"},
+                    "amount": 2L,
+                    "item": "silentgems:gemsuper"
+                }
+            },
+            {
+                "type": "oreDict",
+                "content": {
+                    "amount": 1L,
+                    "name": "artisansPliers"
+                }
+            },
+            {
+                "type": "oreDict",
+                "content": {
+                    "amount": 1L,
+                    "name": "artisansGemCutter"
+                }
+            },
+            {
+                "type": "oreDict",
+                "content": {
+                    "amount": 1L,
+                    "name": "artisansCarver"
+                }
+            }
+        ],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "artisanworktables:workshop",
+                "meta": 4
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "silentgems:gemsuper"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 6L,
+                    "item": "silentgems:craftingmaterial",
+                    "meta": 2
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "nbt": {"SG_Grade": "SS"},
+                    "amount": 2L,
+                    "item": "silentgems:gem"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "silentgems:craftingmaterial",
+                    "meta": 17
+                }
+            }
+        ],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "nbt": {"SG_Grade": "SS"},
+                "amount": 4L,
+                "item": "silentgems:gem",
+                "meta": 43
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "silentgems:gem",
+                    "meta": 43
+                }
+            },
+            {
+                "type": "oreDict",
+                "content": {
+                    "amount": 1L,
+                    "name": "artisansPliers"
+                }
+            },
+            {
+                "type": "oreDict",
+                "content": {
+                    "amount": 1L,
+                    "name": "artisansGemCutter"
+                }
+            },
+            {
+                "type": "oreDict",
+                "content": {
+                    "amount": 1L,
+                    "name": "artisansCarver"
+                }
+            }
+        ],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "artisanworktables:workshop",
+                "meta": 4
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "silentgems:craftingmaterial",
+                "meta": 17
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "silentgems:craftingmaterial",
+                    "meta": 1
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "bitcoin:bitcoin"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "silentgems:craftingmaterial",
+                    "meta": 16
+                }
+            }
+        ],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    }
+]}

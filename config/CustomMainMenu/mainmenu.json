@@ -1,3 +1,196 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3c37ab515c1aa149a871e52cc8121cdf78cd1f9e1aed14ec44a89169a266439d
-size 4615
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:top001.png",
+            "posX" : -148,
+            "posY" : 30,
+            "width" : 300,
+            "height" : 40,
+            "alignment" : "top_center"
+        },
+        
+        "edition":
+        {
+            "image" : "mainmenu:top002.png",
+            "posX" : -90,
+            "posY" : 67,
+            "width" : 180,
+            "height" : 16,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 20,
+            "posY" : -120,
+            "width" : 40,
+            "height" : 10,
+			"imageWidth": 1,
+			"imageHeight": 1,
+			"alignment": "left_center",
+			"texture": "mainmenu:null.png",
+
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 20,
+            "posY" : -110,
+            "width" : 40,
+            "height" : 10,
+			"imageWidth": 1,
+			"imageHeight": 1,
+			"alignment": "left_center",
+			"texture": "mainmenu:null.png",
+
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 20,
+            "posY" : -100,
+            "width" : 40,
+            "height" : 10,
+			"imageWidth": 1,
+			"imageHeight": 1,
+			"alignment": "left_center",
+			"texture": "mainmenu:null.png",
+
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "选项",
+            "posX" : 20,
+            "posY" : -90,
+            "width" : 40,
+            "height" : 10,
+			"imageWidth": 1,
+			"imageHeight": 1,
+			"alignment": "left_center",
+			"texture": "mainmenu:null.png",
+
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 20,
+            "posY" : -70,
+            "width" : 40,
+            "height" : 10,
+			"imageWidth": 1,
+			"imageHeight": 1,
+			"alignment": "left_center",
+			"texture": "mainmenu:null.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "语言",
+            "posX" : 20,
+            "posY" : -80,
+            "width" : 40,
+            "height" : 10,
+			"imageWidth": 1,
+			"imageHeight": 1,
+			"alignment": "left_center",
+			"texture": "mainmenu:null.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -150,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        "changelog":{
+          "text":"作者:ganta_dg",
+		  "color": "16776960",
+		  "hoverColor": "12326679",
+          "posX" : 5,
+          "posY" : 30,
+          "color" : -1,
+          "alignment" : "left_center"
+        },
+		"changelog2":{
+          "text":"参与者:鳕鱼",
+		  "color": "16776960",
+		  "hoverColor": "12326679",
+          "posX" : 5,
+          "posY" : 40,
+          "color" : -1,
+          "alignment" : "left_center"
+        },
+		"changelog3":{
+          "text":"参与者:泷",
+		  "color": "16776960",
+		  "hoverColor": "12326679",
+          "posX" : 5,
+          "posY" : 50,
+          "color" : -1,
+          "alignment" : "left_center"
+        }
+    },
+    
+    "other":
+    {
+                  
+        "background":{
+            "image" : "",
+            "slideshow":{
+                "images" : ["mainmenu:001.png","mainmenu:002.png"],
+                "displayDuration" : 100,
+                "fadeDuration" : 80
+            }
+        }
+    }
+}

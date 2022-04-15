@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:922d1611fb08cd532251ce99a3f83f9332977329a27d1df5b7624bc90dbd3a6b
-size 345
+{
+	x: 20.5d,
+	y: 18.5d,
+	text: [
+		"拿出你的瞭望台，看看哪些小行星上有"
+	],
+	dependencies: [
+		"1db4ab07"
+	],
+	hide: true,
+	tasks: [{
+		uid: "840c41c8",
+		type: "item",
+		items: [{
+			item: "metallurgy:carmot_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "78b00e67",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:674a8bfb9b88c41f27c9a76edecf0998dbe67e1b6924cf0d4c076eb63b4614b8
-size 141
+
+{
+  "Name": "enhanced_chicken",
+  "Registry ID": "eanimod:enhanced_chicken",
+  "Class": "mokiyoki.enhancedanimals.entity.EnhancedChicken"
+}

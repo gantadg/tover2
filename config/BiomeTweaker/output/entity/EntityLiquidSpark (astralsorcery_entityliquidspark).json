@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3410272bd6379cf8e6be0ad73e1e6f7b1d8eed85f090862380c4daa9e02dbaad
-size 161
+
+{
+  "Name": "EntityLiquidSpark",
+  "Registry ID": "astralsorcery:entityliquidspark",
+  "Class": "hellfirepvp.astralsorcery.common.entities.EntityLiquidSpark"
+}

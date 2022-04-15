@@ -1,3 +1,40 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4993660d3e16c67cf6ffa3130d8b6c3bc8a7b971ae8af84f9e2ed52640b5772f
-size 747
+{
+  "version": 1,
+  "ingredients": [
+    {
+      "mobName": "minecraft:wither",
+      "items": [
+        {
+          "item": "minecraft:soul_sand",
+          "count": 4
+        },
+        {
+          "item": "minecraft:skull",
+          "data": 1,
+          "count": 3
+        }
+      ],
+      "fluids": []
+    },
+    {
+      "mobName": "minecraft:ender_dragon",
+      "items": [
+        {
+          "item": "minecraft:end_crystal",
+          "count": 4
+        }
+      ],
+      "fluids": []
+    },
+    {
+      "mobName": "draconicevolution:chaosguardian",
+      "items": [
+        {
+          "item": "draconicevolution:awakened_core",
+          "count": 1
+        }
+      ],
+      "fluids": [ ]
+    }
+  ]
+}

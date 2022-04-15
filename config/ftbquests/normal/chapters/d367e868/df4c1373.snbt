@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9bb7bb18665adc7a6ec6f9e2bc3aa7c2898d138ae612fafa89eabb6c3b57565b
-size 870
+{
+	x: 5.0d,
+	y: 6.5d,
+	text: [
+		"右键宝珠可以绑定，用于链接独属于自己的灵魂网络",
+		"右键使用扣除一定血量补充200lp，亦或者是放入祭坛消耗源质补充对应lp",
+		"注意，束缚工具和仪式是需要消耗lp的，一旦不够，就会出现反胃buff，此时只能靠补充lp解除（所以别妄想用牛奶了）",
+		"宝珠共有五个等级，对应祭坛的五个阶段，所拥有的灵魂网络容量也是不相同的"
+	],
+	dependencies: [
+		"cb362b5d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "95c83649",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c76e8dfd",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

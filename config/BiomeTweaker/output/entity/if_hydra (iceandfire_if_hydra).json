@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5b2811bd536956079c5e199a0828489f4d5bbda7ec514d315eb9fb041a8542b2
-size 132
+
+{
+  "Name": "if_hydra",
+  "Registry ID": "iceandfire:if_hydra",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityHydra"
+}

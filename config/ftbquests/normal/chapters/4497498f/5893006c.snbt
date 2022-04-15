@@ -1,3 +1,53 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1163b27500f0437eca21941fdabfdeda29b1c17eb9c2eaf6dc59717421887889
-size 938
+{
+	x: 2.0d,
+	y: 2.5d,
+	text: [
+		"利用圣晶座和效益放大器的力量来制作星银矿吧"
+	],
+	dependencies: [
+		"57a403b2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a333e19b",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockritualpedestal"
+		}]
+	},
+	{
+		uid: "a65dbd68",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemtunedcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.aevitas",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6bd2d4f3",
+		type: "item",
+		items: [{
+			item: "metallurgy:astral_silver_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "a0c68a43",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

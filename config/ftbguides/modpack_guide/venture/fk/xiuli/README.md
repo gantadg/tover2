@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1206e453515d440e0cf9bc5bfe19b3674a98234a9f3e19a00d78f4a7c42438ea
-size 183
+![Example](xiu.png)
+顾名思义，用来修理装备.
+左边放入要修理的装备，下面放入矿石，上面可以放入容器以减少消耗（品阶不同，效率更高）

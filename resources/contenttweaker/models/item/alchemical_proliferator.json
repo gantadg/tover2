@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:159cc9c8ac696ed108bdb36d2b701b11c8bc0dda8321dca418557939c25a3ff4
-size 115
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/alchemical_proliferator"
+  }
+}

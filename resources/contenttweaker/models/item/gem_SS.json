@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b843910e8ca513104bfb4727a8c65cdefa9f92f03060871be4b3abb4d1186665
-size 98
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/gem_SS"
+  }
+}

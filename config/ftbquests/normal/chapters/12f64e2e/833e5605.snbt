@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c19c5cc41f081e04769013b02442826421cced6a1417442eca09075182fb4083
-size 304
+{
+	title: "文明的起源：纸",
+	x: 0.0d,
+	y: 1.0d,
+	dependencies: [
+		"76ed0004"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eb87edf8",
+		type: "item",
+		items: [{
+			item: "primal:plant_papyrus"
+		}]
+	}],
+	rewards: [{
+		uid: "04954a22",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

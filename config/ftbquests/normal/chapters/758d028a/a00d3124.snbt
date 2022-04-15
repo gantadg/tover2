@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d75456d403fd598d3e06f4921a5696a3baf8f7501a96865ce0e6fab88b7a2f11
-size 503
+{
+	x: -0.5d,
+	y: 3.0d,
+	text: [
+		"劣质的工具，，但你在沉浸之前，仍需要做大量以用于合成",
+		"做亿点桶,用来存液体"
+	],
+	dependencies: [
+		"8410a584"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cf5eb996",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal:barrel",
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e6d68868",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

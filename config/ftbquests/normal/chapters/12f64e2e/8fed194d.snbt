@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:22642934573cd6bf04628b066a753cbcead47b0a7063c0729a317e402290a640
-size 436
+{
+	x: 6.0d,
+	y: -1.0d,
+	text: [
+		"用纯净木炭和铁冶炼成钢，再把钢晾晒成玉钢",
+		"tips:纯净木炭只有丛林树、铁树、贝叶棕原木堆才能产出"
+	],
+	dependencies: [
+		"d51473eb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2731f394",
+		type: "item",
+		items: [{
+			item: "primal:tamahagane_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "2d1cfea8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

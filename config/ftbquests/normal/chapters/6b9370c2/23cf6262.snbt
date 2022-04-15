@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e7d911149858a217fbee6073aaec3e860c66cec86f4dd3d70c73f0d895779c9c
-size 359
+{
+	x: 6.0d,
+	y: -2.5d,
+	dependencies: [
+		"ae4718b3",
+		"ea09c790"
+	],
+	tasks: [{
+		uid: "aeaedb28",
+		type: "item",
+		items: [{
+			item: "contenttweaker:isotopic_polymer"
+		}]
+	}],
+	rewards: [{
+		uid: "e5adc272",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "aa0902b6",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

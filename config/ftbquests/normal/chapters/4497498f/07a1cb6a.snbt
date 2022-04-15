@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a14dc1e11d5ea340fb0c99ff7d76c6289740c7070891e55f375e19f8b9335945
-size 481
+{
+	x: -2.0d,
+	y: 2.5d,
+	text: [
+		"把星能液和岩浆接触会产生沙子，也会有很小一部分的概率长出海蓝宝石矿",
+		"考虑用AE来制作一个自动化海蓝宝石机是个不错的选择"
+	],
+	dependencies: [
+		"15307800"
+	],
+	hide: true,
+	tasks: [{
+		uid: "91490554",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomsandore"
+		}]
+	}],
+	rewards: [{
+		uid: "e4bd6645",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

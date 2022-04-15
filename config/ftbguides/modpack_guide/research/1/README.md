@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:52cfccd0c6e718776c2ad4e1018a0f540771f6a757c9130cf179c8fd39a55af4
-size 101
+在研究未完成时取消研究会丢失研究进度
+所以请东西都准备好了再开始研究

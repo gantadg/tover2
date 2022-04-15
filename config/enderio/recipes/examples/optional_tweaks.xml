@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3fd6acf93a71b72e8e62fab1d8a6abc76f57bbb1267fa29587c2ac08f6e54d13
-size 925
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <!-- This is an example for optional tweaks. Copy this file into the enderio/config/recipes/user folder to activate it. -->
+
+  <recipe name="Alloy: Dark Steel, Variant: Steel, Obsidian Dust" required="false">
+    <alloying energy="9000" exp="0.4">
+      <input name="ingotSteel"/>
+      <input name="dustObsidian" amount="4"/>
+      <output name="ingotDarkSteel"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Dark Steel, Variant: Obsidian Dust" required="false">
+    <alloying energy="9000" exp="0.4">
+      <input name="ingotIron"/>
+      <input name="dustCoal"/>
+      <input name="dustObsidian" amount="4"/>
+      <output name="ingotDarkSteel"/>
+    </alloying>
+  </recipe>
+
+</enderio:recipes>

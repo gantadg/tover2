@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4aa520600cb12e7abdf59a27419ce1c3f53a7e9fa1cfdcddfc382f0c0947d59a
-size 290
+{
+	x: -2.0d,
+	y: 4.0d,
+	dependencies: [
+		"07a1cb6a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f6595bf4",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "89e28a75",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

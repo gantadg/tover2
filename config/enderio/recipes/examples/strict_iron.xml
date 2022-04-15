@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:975a81e1202b7f5d70be7d1a134206eaf91ae3de4898e49f1b82c72654aa247f
-size 930
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <!-- This recipe file disables "Iron Alloy" (a.k.a "construction_alloy").
+  
+       Copy this file into the enderio/config/recipes/user folder to activate it. -->
+
+  <alias name="IRON" item="ingotIron" />
+
+  <recipe name="Alloy: Construction Alloy" disabled="true" />
+
+  <grindingball name="Construction Alloy Ball" disabled="true" durability="1">
+    <item name="CONSTRUCTION_ALLOY_BALL"/>
+  </grindingball>
+
+  <recipe name="Construction Alloy Ball Crafting" disabled="true" />
+
+  <recipe name="Construction Alloy Casting" disabled="true" />
+
+  <recipe name="Construction Alloy Ball Smelting" disabled="true" />
+
+  <recipe name="Construction Alloy Ball Reverse Casting" disabled="true" />
+
+</enderio:recipes>

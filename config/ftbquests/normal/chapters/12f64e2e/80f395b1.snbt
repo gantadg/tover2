@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0394ae56c2a2416b41f80a03af1ae71fb2f3d922522a292605689cef8f82ce32
-size 370
+{
+	icon: "rftools:regeneration_module",
+	x: 2.0d,
+	y: 3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "ac6f5a73",
+		type: "ftbmoney:money",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "7362405d",
+		type: "command",
+		title: "无法自动回血？",
+		icon: "rftools:regeneration_module",
+		team_reward: true,
+		command: "/gamerule naturalRegeneration true"
+	}]
+}

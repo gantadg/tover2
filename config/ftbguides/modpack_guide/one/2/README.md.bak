@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9dc83618e283b101ef63589141db1828751c0fc92c588eb4aeaf1a3de53b0551
-size 201
+用原始投网右击投到怪物身上后，如出现下图的白色粒子效果则说明成功，此时再进行击杀便可获得恶魔意志，若没出现，则多投掷几次
+![Example](1.png)

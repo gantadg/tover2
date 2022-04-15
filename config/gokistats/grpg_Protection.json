@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e8c3cbcd5daaa6e0215f15bb7da830bc664c05b624ef1116b2fbfe681a6ee4b4
-size 64
+{
+  "damageSources": [
+    "mob"
+  ],
+  "bonusMultiplier": 1.0
+}

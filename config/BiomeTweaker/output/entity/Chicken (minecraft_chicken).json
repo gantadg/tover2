@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:895f5ec40da5e594c6ba23bcb64815aec8676f36ff6673572306bf82fdf6f1db
-size 120
+
+{
+  "Name": "Chicken",
+  "Registry ID": "minecraft:chicken",
+  "Class": "net.minecraft.entity.passive.EntityChicken"
+}

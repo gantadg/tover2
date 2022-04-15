@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:30daba0d5a318b2f8c800d56f1df2c23e89c33d51c4e638449f791cb0886bba4
-size 332
+{
+	title: "five 植物与星辰的礼赞，太空的奥秘",
+	icon: "contenttweaker:tover",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 12.5d,
+		y: 4.5d,
+		width: 50.0d,
+		height: 25.0d,
+		rotation: 0.0d,
+		image: "assets:five.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:225ca5294d9790c8d8f7b62aae91d63129d9c4e110098be3b82a0dd8264cbd72
-size 604
+{
+	title: "来点宝石",
+	icon: "biomesoplenty:gem 1 6",
+	x: 2.0d,
+	y: -3.0d,
+	text: [
+		"地下有着丰富的，杂七杂八的宝石，它们有着不同的特性，是时候挑一些属性好的宝石，做一套属于自己的强大装备了"
+	],
+	dependencies: [
+		"9fe28fab"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b95dbe18",
+		type: "item",
+		title: "Any gem",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gem",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "2fc3db00",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

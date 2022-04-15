@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bd8939fa7897d27f7a6548eb44cba0c6dd680233ea7a207ebc54554b77d1adab
-size 389
+{
+	x: 5.0d,
+	y: -4.0d,
+	shape: "gear",
+	text: [
+		"用金属冲压机压一下就变成完美的啦"
+	],
+	dependencies: [
+		"fb5f916f",
+		"e2c6d1e6"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "5658db14",
+		type: "item",
+		items: [{
+			item: "contenttweaker:circuit2"
+		}]
+	}],
+	rewards: [{
+		uid: "fb66a993",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

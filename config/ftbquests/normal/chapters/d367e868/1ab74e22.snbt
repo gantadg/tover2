@@ -1,3 +1,35 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:48582b7aa39f13b315fcc1bb8af79dcc4ef1169e25e1cc76d892d6b66c436f4d
-size 524
+{
+	x: 7.5d,
+	y: 1.5d,
+	dependencies: [
+		"e3fc5e9b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6e1cc116",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:bound_sword",
+			tag: {
+				Unbreakable: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dbb30f8c",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "b70bb7d0",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

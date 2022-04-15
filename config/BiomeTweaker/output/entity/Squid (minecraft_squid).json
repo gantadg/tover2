@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9bc33abce41d9d421374585e967062efc978993372a8d2039d96cd16ae7763cb
-size 114
+
+{
+  "Name": "Squid",
+  "Registry ID": "minecraft:squid",
+  "Class": "net.minecraft.entity.passive.EntitySquid"
+}

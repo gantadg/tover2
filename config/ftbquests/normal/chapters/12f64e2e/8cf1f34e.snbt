@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:de5f1aec24f5c7e427d58b5c6a4b9643effa6244a58232c0c27cf658ca0bc8ea
-size 545
+{
+	x: 8.0d,
+	y: 1.0d,
+	text: [
+		"皮革的制作相当的复杂，需要先用加工刀剥出生皮，再使用盐腌制，之后晾干，最后与鞣酸反应成鞣质皮革再晒干",
+		"如果没有盐可以去河边寻找",
+		"繁琐的制皮工艺提供了最棒的科学性（雾）"
+	],
+	dependencies: [
+		"2c43577e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f390c4a7",
+		type: "item",
+		items: [{
+			item: "minecraft:leather"
+		}]
+	}],
+	rewards: [{
+		uid: "a0c373c9",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

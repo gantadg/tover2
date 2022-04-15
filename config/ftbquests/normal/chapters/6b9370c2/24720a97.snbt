@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d559099b2df2e904125abbc47794f90a59d88ab7b58891f26cf9ba1e008e9d23
-size 255
+{
+	x: 2.0d,
+	y: -4.5d,
+	dependencies: [
+		"89d3c23c"
+	],
+	tasks: [{
+		uid: "1f6f1914",
+		type: "item",
+		items: [{
+			item: "qmd:semiconductor"
+		}]
+	}],
+	rewards: [{
+		uid: "0464364d",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

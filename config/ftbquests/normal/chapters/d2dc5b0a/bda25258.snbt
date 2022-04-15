@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5c3f07326a107d1857d08df53edb6eb6127374a1ec289b77701c2c73441db8d3
-size 370
+{
+	x: -6.5d,
+	y: -1.0d,
+	text: [
+		"现在，你可以尝试着用模块化发电了，搜索涡轮机，你可以看看哪种燃料适合你"
+	],
+	dependencies: [
+		"bd8657db"
+	],
+	hide: true,
+	tasks: [{
+		uid: "45e3954b",
+		type: "fluid",
+		fluid: "fire_water"
+	}],
+	rewards: [{
+		uid: "447a0b9c",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

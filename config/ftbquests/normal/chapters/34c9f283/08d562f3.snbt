@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:719eba282c7f0d31648c74099e815c304fe233bcc1b854e382c29f1bbdcb3f5d
-size 224
+{
+	x: 6.5d,
+	y: -7.0d,
+	tasks: [{
+		uid: "1ec220b3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "toughasnails:canteen"
+		}],
+		ignore_nbt: 1b
+	}]
+}

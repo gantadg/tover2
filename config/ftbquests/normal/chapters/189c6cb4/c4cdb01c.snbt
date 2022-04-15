@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a5472fe0ff8b7924e1411b3bc839f4a20405301ba989cccad1486c7121518d47
-size 466
+{
+	x: 0.0d,
+	y: 5.0d,
+	text: [
+		"如果条件允许，建议多做几个，这东西要的还挺多的"
+	],
+	dependencies: [
+		"32ea14ff"
+	],
+	hide: true,
+	tasks: [{
+		uid: "63075775",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:snowglobe",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "17d0cc20",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

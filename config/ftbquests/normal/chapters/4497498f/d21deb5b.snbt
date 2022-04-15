@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8bd9b11984f63f62507a193eb666064784fac6f904af327f8a02f18d2c80afdd
-size 264
+{
+	x: -1.0d,
+	y: 9.5d,
+	dependencies: [
+		"7c5f1086"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0af8efd5",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "2beefab3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

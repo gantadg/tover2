@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5b38b69ff43bd61fdcd76cd8c5c2edc266f8536b046763e820c0809568fa0314
-size 154
+[
+  {
+    "item": {
+      "name": "minecraft:milk_bucket",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  }
+]

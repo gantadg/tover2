@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7ae5e23aa7e1b0fbaf4e5d14992d614aab83a410bf1bb3a2ab937fff4cc4d6e1
-size 318
+{
+	x: 0.5d,
+	y: 0.0d,
+	text: [
+		"新开完阶段记得小退"
+	],
+	dependencies: [
+		"506e1b3b",
+		"676edd58"
+	],
+	tasks: [{
+		uid: "76f7bcb2",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}],
+	rewards: [{
+		uid: "65aa5754",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

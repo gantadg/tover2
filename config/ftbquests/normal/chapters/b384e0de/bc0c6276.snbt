@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:464f7c4d93017cb207d9d5500b926b2d4a4b0c0b3f16fc056f5496157ad74049
-size 286
+{
+	x: 11.5d,
+	y: -4.0d,
+	dependencies: [
+		"93d2fb56"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9cf53d29",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_canola_seed"
+		}]
+	}],
+	rewards: [{
+		uid: "aa2fb60e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

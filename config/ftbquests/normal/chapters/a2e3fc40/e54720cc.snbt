@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8badc2f7313a1bb9740b4d3072c0f8b5864e579cf9e0eb246320ca5bf9f29941
-size 281
+{
+	x: -1.5d,
+	y: 0.0d,
+	dependencies: [
+		"c56787e0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4c393037",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "34ca2e63",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

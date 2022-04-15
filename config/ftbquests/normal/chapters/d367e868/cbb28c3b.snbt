@@ -1,3 +1,31 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:aa233cd6a6b636c26d77d4f4b12d4deca164cb7b1c548327d9a94afaaae8559a
-size 543
+{
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"毛球只能从驯服后的猫身上获得 什么？ 你说你没有猫？ 那还不快去养只（重度猫奴作者如是说道）",
+		""
+	],
+	dependencies: [
+		"af2eabfe"
+	],
+	hide: true,
+	tasks: [{
+		uid: "04a6c2dc",
+		type: "item",
+		items: [{
+			item: "silentgems:petsummoner"
+		}]
+	},
+	{
+		uid: "cc05751e",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_hairy_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "32e87bb9",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

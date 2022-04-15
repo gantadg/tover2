@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7fc7704134ce41782b5e304fd033b8c6be2e482e73ef77343e6560349e65ccd2
-size 134
+
+{
+  "Name": "EntityBedPet",
+  "Registry ID": "inventorypets:entitylivingbed",
+  "Class": "com.inventorypets.entities.EntityBedPet"
+}

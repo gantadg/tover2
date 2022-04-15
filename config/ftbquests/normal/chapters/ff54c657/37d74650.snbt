@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2efb921c54a94caeb3716f9ea3699b424929b34edfbdd174472f38421a885c6c
-size 269
+{
+	x: -2.0d,
+	y: 6.0d,
+	dependencies: [
+		"896342d6"
+	],
+	tasks: [{
+		uid: "cd288336",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 128"
+		}]
+	}],
+	rewards: [{
+		uid: "1d0fa33c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

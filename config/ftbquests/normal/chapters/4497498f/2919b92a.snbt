@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6e0cbe02252e60a3e5c2182a4f04f9c82488832e9e1bd4515ca94a651f48c0a3
-size 363
+{
+	x: 1.5d,
+	y: 4.0d,
+	text: [
+		"使用星辉的力量可以把铁矿石转变为星辉矿石"
+	],
+	dependencies: [
+		"808072eb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3bf9ed0e",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomore 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "f16ce369",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

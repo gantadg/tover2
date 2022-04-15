@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9272128b319b1d51a16f6b3406675215212adabd335c5b6803e0ba80a94a7fbc
-size 114
+
+{
+  "Name": "Slime",
+  "Registry ID": "minecraft:slime",
+  "Class": "net.minecraft.entity.monster.EntitySlime"
+}

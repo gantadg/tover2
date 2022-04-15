@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:485a63ddba87a71f77a79d3453d3941912b11881be77423feb0bbf8b45d10537
-size 248
+{
+	"name": "blindness",
+	"potion": "minecraft:blindness",
+	"amplifier": 0,
+	"minimum": 0,
+	"maximum": 20,
+	"detect": "average",
+	"nutrients": [                   
+		"fruit",                   
+		"vegetable"                 
+	], 
+	"enabled": true
+}

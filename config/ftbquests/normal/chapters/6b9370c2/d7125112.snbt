@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2d1058a9f3bf76134a26df026b5839df9611653c078127e02e7b23924ee2ffe1
-size 427
+{
+	x: 6.0d,
+	y: -0.5d,
+	text: [
+		"华而不实",
+		"毕竟他不是生存该有的东西"
+	],
+	dependencies: [
+		"23cf6262",
+		"e39b7035"
+	],
+	tasks: [{
+		uid: "38c1dec4",
+		type: "item",
+		items: [{
+			item: "minecraft:command_block"
+		}]
+	}],
+	rewards: [{
+		uid: "46258e00",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "f5c20a9b",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

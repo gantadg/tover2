@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:eeab8a0e4f9c54a9ebce8c86db45d4922fca3870e38f978c505a2710601b2430
-size 627
+{
+    "machine": "iron_centrifuge",
+    "registryName": "iron_centrifuge_wash_redstone",
+    "recipeTime": 180,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:gunpowder",
+            "amount": 1,
+            "chance": 0.6
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:dustRedstone",
+            "amount": 1
+        }
+    ]
+}

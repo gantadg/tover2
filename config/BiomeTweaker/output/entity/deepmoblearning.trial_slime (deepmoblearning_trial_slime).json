@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bdebf5a7f0bc2bd69d6b7e3bd686074810d3a783401692104a0059719ed772d2
-size 158
+
+{
+  "Name": "deepmoblearning.trial_slime",
+  "Registry ID": "deepmoblearning:trial_slime",
+  "Class": "xt9.deepmoblearning.common.entity.EntityTrialSlime"
+}

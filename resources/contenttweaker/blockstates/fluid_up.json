@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:afba15baf36f1bcf1ca081a540655ee94841898b0ddfe902af48df4c1f405ef5
-size 160
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "custom": {
+      "fluid": "fluid_up"
+    }
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}

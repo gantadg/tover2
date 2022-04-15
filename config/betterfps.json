@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7631a4b190ebf25bd18314c5b5a31ef6ef585d0859dee850d44eafa5d9adf38e
-size 176
+{"algorithm":"rivens-half","updateChecker":true,"preallocateMemory":false,"fog":true,"beaconBeam":true,"fastHopper":true,"fastBeacon":true,"fastSearch":true,"asyncSearch":true}

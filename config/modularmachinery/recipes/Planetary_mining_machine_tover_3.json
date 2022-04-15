@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8c8729f6752c53a358a91c59b77cb34da63756ff508037a0e128f93d7b281801
-size 824
+{
+    "machine": "Planetary_mining_machine",
+    "registryName": "Planetary_mining_machine_tover_3",
+    "recipeTime": 20,
+	"description": "来自提尔行星-3特产",
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "metallurgy:sanguinite_ore",
+            "amount": 4
+        },
+		{
+			"type": "fluid",
+			"io-type": "input",
+			"fluid": "pyrotheum",
+			"amount": 100
+		},
+		{
+			"type": "gugu-utils:environment",
+			"io-type": "input",
+			"subType": "dimension",
+			"dimensions": [3]
+		},
+		{
+			"type": "gugu-utils:mana",
+			"io-type": "input",
+			"mana": 1000
+		},
+		{
+			"type": "grid",
+			"io-type": "input",
+			"power": 16
+		}
+    ]
+}

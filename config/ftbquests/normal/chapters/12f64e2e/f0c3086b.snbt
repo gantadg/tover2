@@ -1,3 +1,36 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1385a6fddac6d84f31604c21f96407a460fac0ce4effcb0d5de12c675116bca9
-size 583
+{
+	title: "贵的离谱的工作台",
+	x: 11.0d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"做出它的这一刻起，你终于正式进入了第0阶段"
+	],
+	dependencies: [
+		"3c955254",
+		"15f1eaa3",
+		"ca384965",
+		"8cf1f34e"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "825db768",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "566d9074",
+		type: "gamestage",
+		title: "第0阶段",
+		auto: "no_toast",
+		stage: "zero"
+	},
+	{
+		uid: "26b70ad4",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

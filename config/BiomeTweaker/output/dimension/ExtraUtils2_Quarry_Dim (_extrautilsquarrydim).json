@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:70e2ba1cad5fd4d64823616e69f0e028d1d3942f5c49bc7d2467292c6e391b8d
-size 91
+
+{
+  "Name": "ExtraUtils2_Quarry_Dim",
+  "Suffix": "_extrautilsquarrydim",
+  "ID": -9999
+}

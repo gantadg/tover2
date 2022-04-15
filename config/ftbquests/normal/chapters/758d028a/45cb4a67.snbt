@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:14a37d0d7808d9456e26d9c8232841894b20e0566ff532aa2290b1a4753cb3f2
-size 380
+{
+	x: 6.5d,
+	y: 3.0d,
+	text: [
+		"现在你终于可以做出能防止烫伤的铁桶了（说实话铁不是导热更好吗）"
+	],
+	dependencies: [
+		"a97a3e3d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "19aaa367",
+		type: "item",
+		items: [{
+			item: "minecraft:bucket"
+		}]
+	}],
+	rewards: [{
+		uid: "2024c882",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

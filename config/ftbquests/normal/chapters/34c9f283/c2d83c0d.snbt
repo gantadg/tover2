@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8ad16870f920f6e566e48454193cb98599cb967e2da03e09249ce1c2afdc8166
-size 268
+{
+	x: -3.5d,
+	y: 0.0d,
+	dependencies: [
+		"d2412724"
+	],
+	tasks: [{
+		uid: "2be1ca95",
+		type: "item",
+		title: "纸",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "paper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

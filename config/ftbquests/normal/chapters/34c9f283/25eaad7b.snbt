@@ -1,3 +1,43 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:19c178543f6ad1a9a5b726fd28caf9332424dcbbad18ac4493c5b6381c5f7f80
-size 1050
+{
+	title: "木炭",
+	icon: "primal:charcoal_high",
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"使用原木堆制作大量木炭，过程会有些许漫长，请慢慢等待",
+		"原木堆的使用方式：用打火石右击点燃原木堆后围上指定的方块，里面要全部塞满原木堆，稍后变成木炭堆，潜行右击熄灭原木堆。",
+		"注：指定方块有：地狱砖、末地石砖、砂岩、金块、铁块、干泥砖、赤陶块、灰烬陶块、石灰石、铁方解石、铁化玻璃、泥土、黏土",
+		"木炭堆的质量取决于制作原木堆的材料。"
+	],
+	dependencies: [
+		"b12fe2bf"
+	],
+	tasks: [{
+		uid: "ec063f3e",
+		type: "item",
+		title: "木炭",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "charcoal",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "aff3121d",
+		type: "item",
+		title: "原木堆",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logStack",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

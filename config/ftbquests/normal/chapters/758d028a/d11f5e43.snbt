@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:89d052fe868c4465ec2bba69b8837e851c29f17bc725e39ffeac080fed96e4be
-size 399
+{
+	x: 0.0d,
+	y: 9.0d,
+	text: [
+		"制作一个蜂箱用来大量获取蜂蜜",
+		"被动配方的意思就是你只要放进材料挂机就完事了"
+	],
+	dependencies: [
+		"b4c1eb84"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ee489559",
+		type: "item",
+		items: [{
+			item: "rustic:apiary"
+		}]
+	}],
+	rewards: [{
+		uid: "cc590402",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

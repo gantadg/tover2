@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e847ce8fa540cfca09bf04b0e021ac9342cfb84a01462f0f43d209e7b52ca574
-size 183
+{
+	x: -2.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "2a1108e2",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "9403366d",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f1ef03104781cc91d218477d2f2e7bd869c673f963811a4bf6cae06a4a804687
-size 283
+{
+	x: 22.5d,
+	y: 12.5d,
+	dependencies: [
+		"b700738c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b7d30025",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:cuttingmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "c1027e82",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

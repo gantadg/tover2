@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5d36f9e1d3a5929d895ba59104f2498bc074244c381398445130a0f5105ef36b
-size 307
+{
+	x: 4.0d,
+	y: 2.0d,
+	text: [
+		"制作一个桶，用来盛放水和岩浆（小心烫）"
+	],
+	dependencies: [
+		"0e20e4aa"
+	],
+	tasks: [{
+		uid: "9a89f378",
+		type: "item",
+		items: [{
+			id: "primal:bucket_clay",
+			tag: {
+				Fluid: {}
+			}
+		}],
+		only_from_crafting: true
+	}]
+}

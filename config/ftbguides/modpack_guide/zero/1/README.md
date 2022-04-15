@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b16ab032c70fe8d859f70188e6f559c5a90eb95d0138d3ebfa5bced91b10bcbd
-size 134
+尘埃通过杀死原版亡灵类生物均有小概率掉落
+制作钢锭所需的纯净碳块只有在高等木炭堆里才会出现

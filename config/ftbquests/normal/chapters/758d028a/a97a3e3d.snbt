@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d8dc3d865ab8844b57691602f699e0a2bb255b4a24999f93ca159bc2bdd9af2a
-size 387
+{
+	x: 4.0d,
+	y: 3.0d,
+	text: [
+		"警告：做出来的东西禁止用来挖鼻子",
+		"你多了个刷铁矿的方式"
+	],
+	dependencies: [
+		"99e13907"
+	],
+	hide: true,
+	tasks: [{
+		uid: "95effd7b",
+		type: "item",
+		items: [{
+			item: "artisanworktables:worktable 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "80dae529",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

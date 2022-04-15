@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1f3c403c31fa5435d46d54e6a0e46c8458424a77740bc6c8e7746e5c43773e47
-size 397
+{
+	x: 17.0d,
+	y: 15.0d,
+	shape: "gear",
+	text: [
+		"从月球采下来的矿融合而成，他拥有着极高的力学性能"
+	],
+	dependencies: [
+		"1db4ab07"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "781c82a8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tover"
+		}]
+	}],
+	rewards: [{
+		uid: "dc9d75da",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

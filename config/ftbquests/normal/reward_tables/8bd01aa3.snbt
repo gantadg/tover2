@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:582ca29db41f5091014bb3bf4da0a6ccc2a6d1191a6932d2d8d07cdefb60185f
-size 61
+{
+	title: "冷却空气",
+	loot_size: 1,
+	rewards: []
+}

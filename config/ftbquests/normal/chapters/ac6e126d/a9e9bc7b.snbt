@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9ab476ba2876573cdb0640f2a951b75d09abf9e1a790e17ddffd2bb14a368931
-size 279
+{
+	x: 4.5d,
+	y: 0.0d,
+	dependencies: [
+		"d7b53d8b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e81f8aae",
+		type: "item",
+		items: [{
+			item: "calculator:calculatorassembly"
+		}]
+	}],
+	rewards: [{
+		uid: "3d117000",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

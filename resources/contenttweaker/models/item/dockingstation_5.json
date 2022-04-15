@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ac08c347ba0f812abb13961dc5f909669203bc73db288e2e5d1bd7fc06bfcae0
-size 108
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/dockingstation_5"
+  }
+}

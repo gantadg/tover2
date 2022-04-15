@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5eb8ddb9f2355159c48350c01dd476ddf6b27ed8520dc06b98f689811286d4ef
-size 123
+
+{
+  "Name": "Villager",
+  "Registry ID": "minecraft:villager",
+  "Class": "net.minecraft.entity.passive.EntityVillager"
+}

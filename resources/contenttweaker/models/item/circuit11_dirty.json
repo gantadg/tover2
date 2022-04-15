@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3818288109590f8e18ff7dae182b20ec7a7f5433c7ce6e20f18dca19efb65932
-size 107
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/circuit11_dirty"
+  }
+}

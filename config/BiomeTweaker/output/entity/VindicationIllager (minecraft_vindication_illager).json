@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a8b422886c83b1ec750a9c50e6f8ae130ab56773510e6579b52c8480b2b50152
-size 146
+
+{
+  "Name": "VindicationIllager",
+  "Registry ID": "minecraft:vindication_illager",
+  "Class": "net.minecraft.entity.monster.EntityVindicator"
+}

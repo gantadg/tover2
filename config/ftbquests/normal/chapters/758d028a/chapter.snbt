@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:daefcf6f8004370843f22dee8b949ea176fb907a251cb60fde5c880b8ce5d057
-size 323
+{
+	title: "zero 至高的工匠技艺",
+	icon: "artisanworktables:worktable 1 5",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -0.5d,
+		y: -0.5d,
+		width: 40.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "assets:zero.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

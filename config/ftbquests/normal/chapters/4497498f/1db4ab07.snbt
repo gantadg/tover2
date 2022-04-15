@@ -1,3 +1,31 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f0c909290ad17f51e52b8778355accbee8a7be103828106f64ba7450be9ff6f8
-size 550
+{
+	x: 20.5d,
+	y: 17.0d,
+	text: [
+		"制作一个挖矿火箭 开始你星空挖矿之旅把",
+		"当三条数据都达到1000的时候就可以制作挖矿火箭挖矿啦"
+	],
+	dependencies: [
+		"450c8921"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f7d2b01e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:monitoringstation"
+		}]
+	},
+	{
+		uid: "c355baff",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketbuilder"
+		}]
+	}],
+	rewards: [{
+		uid: "0a9b48c1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

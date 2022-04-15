@@ -1,3 +1,97 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ed53797780dc0793d44dff5ad604d17f37871f2533dd61b8ab38153a2418b7ec
-size 1785
+{
+    "machine": "falling_star_simulator",
+    "registryName": "falling_star_simulator_iron",
+    "recipeTime": 2000,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lifeessence",
+            "amount": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:iron_block",
+            "amount": 1
+        },
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:iron_ore",
+			"amount": 60
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:iron_ore",
+			"amount": 60
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:iron_ore",
+			"amount": 60
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:iron_ore",
+			"amount": 60
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:iron_ore",
+			"amount": 60
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:iron_ore",
+			"amount": 60
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:iron_ore",
+			"amount": 60
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:iron_ore",
+			"amount": 60
+		},		
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "rockhounding_chemistry:uninspected_mineral",
+			"amount": 45
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "silentgems:essenceore",
+			"amount": 45
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:coal_ore",
+			"amount": 60
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:coal_ore",
+			"amount": 60
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:coal_ore",
+			"amount": 60
+		}	
+    ]
+}

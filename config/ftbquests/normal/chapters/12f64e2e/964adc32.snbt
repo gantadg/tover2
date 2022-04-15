@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c75b30da330934e833c59a37999e2b96f3bf77fef6b88167309ecaf039de1e7d
-size 486
+{
+	title: "挖矿time到",
+	x: -2.5d,
+	y: -1.0d,
+	text: [
+		"在信息显示框中记得看看镐的等级是否够"
+	],
+	dependencies: [
+		"53d41d59"
+	],
+	hide: true,
+	tasks: [{
+		uid: "55d326b5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal:flint_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ffe8f023",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

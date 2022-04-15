@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8617d3ace1228bb5986be5df2617c80463a773cf772e169f29ca0009dedd4b47
-size 266
+{
+    "craft": {
+        "amount": "",
+        "recents": [],
+        "inventory": 0b
+    },
+    "math": {
+        "current": "",
+        "last": "0",
+        "state": 0,
+        "operator": 0
+    },
+    "player": {
+        "recipes": {},
+        "last": ""
+    }
+}

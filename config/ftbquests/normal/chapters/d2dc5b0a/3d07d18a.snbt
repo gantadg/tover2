@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:539f48892c78e17dfb4ca0564178d90d79b4df653a12b4fa0920aac2c2f4a075
-size 357
+{
+	x: 4.5d,
+	y: -7.0d,
+	text: [
+		"之所以通用，便是它将所有齿轮凝聚在一起（雾）"
+	],
+	dependencies: [
+		"8901dc69"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ada255df",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gear"
+		}]
+	}],
+	rewards: [{
+		uid: "5a689148",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

@@ -1,3 +1,42 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a624ad01bd4699c13f631ad16ea6554d09dd3795b9f019e4aa13a5985468fd4b
-size 629
+{
+	title: "各种终端",
+	x: 0.5d,
+	y: 2.0d,
+	dependencies: [
+		"fc3becdd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2c48580c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	},
+	{
+		uid: "8cb539fd",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 520"
+		}]
+	},
+	{
+		uid: "e5c5a838",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 480"
+		}]
+	},
+	{
+		uid: "c3a90b91",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 340"
+		}]
+	}],
+	rewards: [{
+		uid: "b2fee62a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

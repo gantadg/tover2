@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:920ecff964b3ef84a5a05bb7b19a294d15aa9fda5e3e25dd8726ef82befbeb29
-size 456
+{
+	title: "two  蒸汽朋克的盛宴",
+	icon: "efab:grid",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -6.5d,
+		y: -2.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:two.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 15.0d,
+		y: 7.0d,
+		width: 40.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "assets:two.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

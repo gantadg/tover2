@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0cda37929603c9bb5a75d1976bff670db7244fe77dbfb441ff4aedd27ac5e8f9
-size 308
+{
+	title: "one 血液与灵气的交织",
+	icon: "bloodmagic:altar",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 9.5d,
+		y: -1.0d,
+		width: 50.0d,
+		height: 25.0d,
+		rotation: 0.0d,
+		image: "assets:one.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

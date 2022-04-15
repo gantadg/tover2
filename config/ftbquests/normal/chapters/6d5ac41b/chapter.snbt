@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:da717dc5140451ae5982f0ea8674977b5145004fcd1949360e99b8096ca4ff84
-size 328
+{
+	title: "six 通用科技与龙研技艺",
+	icon: "draconicevolution:awakened_core",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -15.5d,
+		y: -2.5d,
+		width: 40.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "assets:six.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

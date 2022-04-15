@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:74ac2124e600c4795bb1ae3cd7042088facf9d6031ea1fcaba96acbe0197d5a3
-size 97
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/tover"
+  }
+}

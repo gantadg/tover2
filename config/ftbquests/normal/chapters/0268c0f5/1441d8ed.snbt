@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c0235cddedc5f7168dd3a922e08a8b4e04ae72c7e2b474e54c54737ab1464217
-size 304
+{
+	x: -1.5d,
+	y: 5.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "d9af828b",
+		type: "ftbmoney:money",
+		value: 30L
+	}],
+	rewards: [{
+		uid: "9efbb77f",
+		type: "random",
+		icon: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "IE:MASTERWORK"
+			}
+		},
+		table: 1
+	}]
+}

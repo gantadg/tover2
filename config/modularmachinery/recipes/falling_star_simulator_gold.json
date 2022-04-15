@@ -1,3 +1,127 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:28000dd42d282d10ce45bb5680bf3c2552b0056b76d876b146e852dea3db0189
-size 2339
+{
+    "machine": "falling_star_simulator",
+    "registryName": "falling_star_simulator_gold",
+    "recipeTime": 3000,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lifeessence",
+            "amount": 250000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:gold_block",
+            "amount": 1
+        },
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "thermalfoundation:ore@0",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "thermalfoundation:ore@0",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "thermalfoundation:ore@0",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "thermalfoundation:ore@1",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "thermalfoundation:ore@1",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "thermalfoundation:ore@3",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "thermalfoundation:ore@3",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "thermalfoundation:ore@4",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "thermalfoundation:ore@4",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "thermalfoundation:ore@2",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "thermalfoundation:ore@2",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "thermalfoundation:ore@5",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "thermalfoundation:ore@5",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:redstone_ore",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:redstone_ore",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:redstone_ore",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:lapis_ore",
+			"amount": 64
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "minecraft:lapis_ore",
+			"amount": 64
+		}
+    ]
+}

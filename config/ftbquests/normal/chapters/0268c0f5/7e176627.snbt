@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c4fe228b92c8157442b1d7bfec6d81e454b0220f246061a7f073d82ef6679c3e
-size 410
+{
+	x: -1.5d,
+	y: -2.5d,
+	text: [
+		"我知道任务和商店的价格很不合理。",
+		"但这东西要平衡好确实很费劲"
+	],
+	dependencies: [
+		"53d41d59"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "e6484a28",
+		type: "item",
+		items: [{
+			item: "ftbquests:screen"
+		}]
+	}],
+	rewards: [{
+		uid: "65d0247c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ece865edf6ef5579ad6a64e93f3156e6388808200b8d714d95fb7f72e2e2202b
-size 125
+
+{
+  "Name": "EnderDragon",
+  "Registry ID": "minecraft:ender_dragon",
+  "Class": "net.minecraft.entity.boss.EntityDragon"
+}

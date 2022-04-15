@@ -1,3 +1,40 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c6ae817a646be35bf91e0995e08d74b41c72ba19a0e378b1efa9e9fa71e9b9ca
-size 605
+{
+	title: "80! 80!",
+	x: 8.0d,
+	y: -1.0d,
+	text: [
+		"做个锤子，为了板子"
+	],
+	dependencies: [
+		"8fed194d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eca3a668",
+		type: "item",
+		title: "Any toolMalletStone",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "toolMalletStone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8ba55ebb",
+		type: "item",
+		items: [{
+			item: "primal:tamahagane_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "29cf293e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:25afc1bdcf762bd955d9c895186ada932ca6705683749c80da50efaf18e5d6b1
-size 65
+{
+  "damageSources": [
+    "fall"
+  ],
+  "bonusMultiplier": 1.0
+}

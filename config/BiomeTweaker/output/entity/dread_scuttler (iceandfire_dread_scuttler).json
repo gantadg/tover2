@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:765108cb8f95212cd9476bd09568362b10bbe0ddf39334c202bb72bcd5fca745
-size 152
+
+{
+  "Name": "dread_scuttler",
+  "Registry ID": "iceandfire:dread_scuttler",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityDreadScuttler"
+}

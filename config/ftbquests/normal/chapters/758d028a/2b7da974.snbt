@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:08c7808bea27f0db0ff92052e6bc0e77825d070d32e019b70216841b9e6e5aa7
-size 371
+{
+	x: 6.5d,
+	y: 7.0d,
+	text: [
+		"橄榄树多生长于白桦林中，树干为棕色，叶子相比于桦木更加青翠"
+	],
+	dependencies: [
+		"b74a89ac"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a3ad481b",
+		type: "item",
+		items: [{
+			item: "rustic:olives"
+		}]
+	}],
+	rewards: [{
+		uid: "ad7d3eec",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

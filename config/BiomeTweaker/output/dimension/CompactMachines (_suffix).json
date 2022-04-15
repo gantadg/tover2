@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7e29596a098de8657c9ecd196560116132ab249df439626067aa5aacbbdcd85b
-size 69
+
+{
+  "Name": "CompactMachines",
+  "Suffix": "_suffix",
+  "ID": 144
+}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:503918e3dcdca8beaea84af39bb8f6a53f36c7a23341f5e2551a30d281e9ad18
-size 141
+
+{
+  "Name": "seaserpent",
+  "Registry ID": "iceandfire:seaserpent",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntitySeaSerpent"
+}

@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:63c640f0dffcee58e401a8be2bab0ce03be28dd60274c591e09085aa2c80b7e0
-size 338
+{
+	x: 7.0d,
+	y: -2.0d,
+	text: [
+		"爱泡澡的电路板",
+		"越泡越强大"
+	],
+	dependencies: [
+		"cea7b507"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e89a508f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:circuit1"
+		}]
+	}],
+	rewards: [{
+		uid: "7b394f71",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

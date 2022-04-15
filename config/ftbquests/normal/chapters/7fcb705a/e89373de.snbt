@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0e06ae7ee17e3c9050e6f22390f729df90224cff357052e67414b025da9bd81e
-size 100
+{
+	x: -3.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "a8e8f8da",
+		type: "dimension",
+		dim: -1
+	}]
+}

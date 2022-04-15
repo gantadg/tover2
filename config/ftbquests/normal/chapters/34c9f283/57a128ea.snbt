@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:447f42a964d77480b7dcec64ffab2c0e4565011767b48533cc32dcafb8d429e6
-size 318
+{
+	title: "铁矿石",
+	icon: "minecraft:iron_ore",
+	x: 1.5d,
+	y: 2.0d,
+	text: [
+		"用挖下来的铁矿石敲击石头，把它敲成铁矿簇",
+		""
+	],
+	dependencies: [
+		"574a50ad"
+	],
+	tasks: [{
+		uid: "7f26bddd",
+		type: "item",
+		items: [{
+			item: "primal:ore_cluster_bog_iron"
+		}]
+	}]
+}

@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:85db80e1d5d0ddfb90b682071332c0812b233620649c8e0e7139d698bb0131f7
-size 243
+{
+	x: 6.5d,
+	y: -5.0d,
+	dependencies: [
+		"533dc3f3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ee2af79e",
+		type: "fluid",
+		fluid: "cloud_seed"
+	}],
+	rewards: [{
+		uid: "db2f0ce2",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

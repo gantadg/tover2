@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bdc3bcc519948420c6f30734c8629876ab1984dc407f0cbd0f0f5d24789cfe2a
-size 438
+{
+	x: 15.0d,
+	y: -1.0d,
+	text: [
+		"来自荒古的遗存",
+		"需要恶魔的意志以唤醒",
+		"它会为你的世界带来灵气",
+		"这是自然仪式的原初之力"
+	],
+	dependencies: [
+		"e39f9f07"
+	],
+	hide: true,
+	tasks: [{
+		uid: "04c30c53",
+		type: "item",
+		items: [{
+			item: "naturesaura:ancient_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "974f9563",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

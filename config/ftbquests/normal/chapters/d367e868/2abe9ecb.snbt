@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d528e525521646bdb6dd8a16bd0263a90ca22998592fd285543982bbe3a13cab
-size 352
+{
+	x: 18.0d,
+	y: -3.5d,
+	text: [
+		"挥洒树叶，等待片刻，便是富含魔力的金叶"
+	],
+	dependencies: [
+		"0a7bb447"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f406b39f",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_fiber"
+		}]
+	}],
+	rewards: [{
+		uid: "da2fc970",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c8a26369265648945d5a3378f42e8750675651fc8e1f52d15867381a987a0a89
-size 103
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/tartarite_4"
+  }
+}

@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ebb8c6a7768795d7e9e578421a73d9f07d79b49cb8d145ada0b67cab1a83a68f
-size 370
+{
+	x: -2.0d,
+	y: 1.0d,
+	text: [
+		"千万别忘记获得水晶石还可以通过泡在星能液体里来获得"
+	],
+	dependencies: [
+		"2d9117e0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "30fcbe0d",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockwell"
+		}]
+	}],
+	rewards: [{
+		uid: "c84435b3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:be16040ca309df52d6074dfbdd7cff4301181b8a82396efdc2666c1f3c6cf768
-size 619
+{
+	x: 2.0d,
+	y: 5.0d,
+	text: [
+		"这个系列的工作台能做普通工作台的合成，并且基础工作台能让你更容易的合成工作台",
+		"框架盔甲要限定品质的宝石！你可以通过分解再合成的方式刷新宝石的品质",
+		"不要用这些工作台做寂静宝石的工具！随机NBT可不是什么好玩的事情"
+	],
+	dependencies: [
+		"63556da9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3adb1fab",
+		type: "item",
+		items: [{
+			item: "artisanworktables:worktable 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "1bf5a97b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

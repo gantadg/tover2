@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:214556d08234c8182520885fc00b1f5b5f28a71386bb96571c93322b7d7586af
-size 394
+{
+	x: 15.0d,
+	y: -10.5d,
+	text: [
+		"造不起？那就去抢把，散落于世界各地的巫师塔，那里有你需要的东西"
+	],
+	dependencies: [
+		"972a4e5e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e2e11239",
+		type: "item",
+		items: [{
+			item: "ebwizardry:arcane_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "052b241f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

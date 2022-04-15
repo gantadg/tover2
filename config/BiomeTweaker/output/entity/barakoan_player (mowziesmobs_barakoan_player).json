@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:14fbe1386898dc51b6d2455f0a640c07512bceef8c26651b69aa0605ef89dcf2
-size 166
+
+{
+  "Name": "barakoan_player",
+  "Registry ID": "mowziesmobs:barakoan_player",
+  "Class": "com.bobmowzie.mowziesmobs.server.entity.barakoa.EntityBarakoanToPlayer"
+}

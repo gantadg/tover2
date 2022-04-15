@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:025ad07cfb5c0cb75f73fc7ed44e79508dd624f2fdccbcb8e153dedbf6f3eb4a
-size 278
+{
+	x: 3.5d,
+	y: -2.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "f8a219d9",
+		type: "item",
+		items: [{
+			item: "minecraft:potato"
+		}],
+		count: 1024L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "76ec1192",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:658c86f55117485918730ba65a0ce3d645aae4811c01829e4810e312a3915d7d
-size 149
+
+{
+  "Name": "EntitySteveBallmer",
+  "Registry ID": "inventorypets:entitysteveballmer",
+  "Class": "com.inventorypets.entities.EntitySteveBallmer"
+}

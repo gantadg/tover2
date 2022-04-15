@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7073edea8c7144f8f4b4985e3a5899eae08a6b062947fe5f7d16eaa84d1257da
-size 329
+{
+	x: -6.5d,
+	y: 0.0d,
+	text: [
+		"淦兄弟，你的xp太怪了吧"
+	],
+	dependencies: [
+		"0fa62025"
+	],
+	hide: true,
+	tasks: [{
+		uid: "81c8b056",
+		type: "item",
+		items: [{
+			item: "inventorypets:windows_xp"
+		}]
+	}],
+	rewards: [{
+		uid: "f83d8c37",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

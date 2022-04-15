@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d6b664e344344e3bcdb2d402703c0cfe7006c390dd920138229cf4163d3e2b41
-size 281
+{
+	x: -4.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "a359be21",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "5bbe0aff",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

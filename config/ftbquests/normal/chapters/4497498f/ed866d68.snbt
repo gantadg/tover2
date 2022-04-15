@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f748f4f4351828d70d86ecc4640b9f59681c2fb6ef0a8de1d4f8f7a9d9768741
-size 570
+{
+	x: 8.5d,
+	y: 9.5d,
+	text: [
+		"记得魔力发射器需要绑定到一个魔力池或者魔力销毁器上面哦",
+		"如果发现没法合成 可以考虑下升级魔力发射器"
+	],
+	dependencies: [
+		"6df1bdf8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "214e957a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gugu-utils:lenstransform",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "48c3d628",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ca14bee0abdde4b628b26bab851f7a396b70177763f49a938fcaa0241fbeb1c3
-size 549
+{
+	title: "“来不了硬的了”",
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		"使用木炭、铁矿簇、沙子在冶炼炉里烧铁",
+		"可以通过下蹲右键观察进度"
+	],
+	dependencies: [
+		"c0392294",
+		"e37bccdc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b9a8a4c5",
+		type: "item",
+		title: "生铁",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "nuggetCrudeIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "9f1797ea",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e2fb7c048ff120efcda2ad14e5c7852a0e7950ff72bb36d3603ade51f694a0bf
-size 111
+
+{
+  "Name": "bat_smart",
+  "Registry ID": "coroutil:bat_smart",
+  "Class": "CoroUtil.entity.EntityBatSmart"
+}

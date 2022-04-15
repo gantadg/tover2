@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:584901b90f8f0de3337c2c84497addac782cd6dc408d63e2fa2ab6c0f0ebd4e4
-size 246
+{
+	x: 10.5d,
+	y: 9.5d,
+	dependencies: [
+		"ed866d68"
+	],
+	hide: true,
+	tasks: [{
+		uid: "33bc04b6",
+		type: "fluid",
+		fluid: "astral_silver"
+	}],
+	rewards: [{
+		uid: "7890814f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

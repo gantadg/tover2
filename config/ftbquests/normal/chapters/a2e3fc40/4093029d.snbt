@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2fdf1d18d4722a2db4b2fcc431deaae3618cc3503d17f6a6b8e536f484d297a4
-size 286
+{
+	x: -1.5d,
+	y: -3.0d,
+	dependencies: [
+		"84cf7035"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5c382812",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_storage 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "85a07211",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

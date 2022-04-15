@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8d8c584e17f124ada1197dbce1e6fdcb15b49fdba26e7bd855103bd1a3a5874b
-size 361
+{
+	x: -4.5d,
+	y: -3.0d,
+	text: [
+		" 简易的机器框架需要不简单的制作工艺"
+	],
+	dependencies: [
+		"e2c6d1e6",
+		"20d75db5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a3ec101d",
+		type: "item",
+		items: [{
+			item: "enderio:item_material"
+		}]
+	}],
+	rewards: [{
+		uid: "7e82d874",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

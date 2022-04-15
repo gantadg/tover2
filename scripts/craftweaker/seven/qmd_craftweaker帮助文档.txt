@@ -1,3 +1,123 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3c42eb3e72f4a6ce872c309fad19314df17801a451358d53f371b1b6bf52e74e
-size 5246
+#loader preinit
+导入部分：
+import mods.qmd.accelerator_source;
+import mods.qmd.decay_chamber;
+import mods.qmd.target_chamber;
+import mods.qmd.irradiator;
+import mods.qmd.ore_leacher;
+
+
+
+
+
+
+自定义粒子：
+mods.qmd.particle.addParticle("tover_meson", "tover_meson.png", 999999999.99, 1.0, 2.0); 
+
+/*靶室
+mods.qmd.target_chamber.addRecipe(IIngredient inputItem, IIngredient inputParticle, IIngredient outputItem, IIngredient outputParticle1, IIngredient outputParticle2, IIngredient outputParticle3, long maxEnergy, double crossSection, {long energyReleased, double processRadiation})
+mods.qmd.target_chamber.removeRecipeWithInput(IIngredient inputItem, IIngredient inputParticle)*/
+	例子：
+	mods.qmd.target_chamber.addRecipe(<ore:ingotip>, <particle:tover_meson>*10, <metallurgy:etherium_ingot>, <particle:tover_innerquark>*20, <particle:tover_outerquark>*20, <particle:tover_boson>, 53000, 0.53, -20000, 0.001);
+	mods.qmd.target_chamber.addRecipe(<ore:ingotooooo>, <particle:tover_boson>*15, <minecraft:command_block>, null, null, null, 54000, 0.53, -20000, 0.001);
+
+
+/*衰变室
+mods.qmd.decay_chamber.addRecipe(IIngredient inputParticle, IIngredient outputParticle1, IIngredient outputParticle2, IIngredient outputParticle3, double crossSection, {long energyReleased, double processRadiation, long maxEnergy})
+mods.qmd.decay_chamber.removeRecipeWithInput(IIngredient inputParticle)
+mods.qmd.decay_chamber.removeAllRecipes()*/
+	例子：
+	mods.qmd.decay_chamber.addRecipe(<particle:tover_neutron>, <particle:tover_meson>, <particle:tover_meson>, <particle:tover_meson>, 0.5);
+
+/*离子源
+mods.qmd.accelerator_source.addRecipe(IIngredient inputItem, IIngredient outputParticle)
+mods.qmd.accelerator_source.removeRecipeWithInput(IIngredient inputItem)
+mods.qmd.accelerator_source.removeAllRecipes()*/
+	例子：
+	mods.qmd.accelerator_source.addRecipe(<ore:ingotTover>,  <particle:tover_neutron>);
+
+
+
+
+
+
+/*
+粒子
+下面是本模组中所有粒子的列表：
+
+夸克					
+up_quark	down_quark	charm_quark	strange_quark	top_quark	bottom_quark
+antiup_quark	antidown_quark	anticharm_quark	antistrange_quark	antitop_quark	antibottom_quark
+
+
+上夸克 下夸克 璨夸克 奇夸克 顶夸克 底夸克
+
+反上夸克 反下夸克 反璨夸克 反奇夸克 反顶夸克 反底夸克
+轻子					
+electron	muon	tau	electron_neutrino	muon_neutrino	tau_neutrino
+positron	antimuon	antitau	electron_antineutrino	muon_antineutrino	tau_antineutrino
+玻色子				
+photon	gluon	w_plus_boson	z_boson	higgs_boson
+w_minus_boson		
+重子	
+proton	neutron
+antiproton	antineutron
+质子 中子
+
+反质子 反中子
+原子核/离子				
+deuteron	triton	helion	alpha	boron_ion
+antideuteron	antitriton	antihelion	antialpha	
+介子		
+pion_plus	kaon_plus	eta
+pion_naught	kaon_naught	eta_prime
+pion_minus	antikaon_naught	charmed_eta
+kaon_minus	bottom_eta
+其他	
+glueball*/	
+
+
+
+/*
+添加自定义的粒子
+完全添加一种新粒子需要同时安装 [CoT]ContentTweaker。
+
+为避免出现错误，添加粒子时 addParticle 方法必须在预加载阶段即被调用，因此你必须在一个单独的脚本顶部加入一行 #loader preinit。在此脚本中按照下面的方法添加粒子：
+
+mods.qmd.particle.addParticle(String custom_name, String textureLocation, double mass, double charge, double spin, { boolean weakCharged, boolean coloured})
+材质的位置为 \resources\contenttweaker\textures\particles\ 加上 textureLocation（例如 particle.png）。创建此粒子后你便可以在其他脚本中用 particle:custom_name 指代它了。
+
+设定游戏内名称和描述可以通过在位于 \resources\contenttweaker\lang\ 的语言文件中添加包含下面变量的条目实现：qmd.particle.custom_name.name 与 qmd.particle.custom_name.desc。
+
+创建后你也可以为粒子添加其他信息，例如其构成（包含的粒子）：
+
+mods.qmd.particle.addComponentParticle(IIngredient particle, IIngredient componentParticle)
+以及其反粒子（未设定则其本身即其反粒子）：
+
+mods.qmd.particle.addAntiParticle(IIngredient particle, IIngredient antiParticle)
+例子
+如果你想要添加一个铀-238 离子及其反粒子，你可以参考下面的内容：
+在某一脚本中：
+#loader preinit
+mods.qmd.particle.addParticle("u_238_ion", "uranium_238_ion.png", 221740.92, 1.0, 0.0);        
+mods.qmd.particle.addParticle("a_u_238_ion", "antiuranium_238_ion.png", 221740.92, -1.0, 0.0);
+在另一脚本中：
+
+mods.qmd.particle.addComponentParticle(<particle:u_238_ion>, <particle:proton>*92);
+mods.qmd.particle.addComponentParticle(<particle:u_238_ion>, <particle:neutron>*146);
+mods.qmd.particle.addComponentParticle(<particle:u_238_ion>, <particle:electron>*91);
+
+mods.qmd.particle.addComponentParticle(<particle:a_u_238_ion>, <particle:antiproton>*92);
+mods.qmd.particle.addComponentParticle(<particle:a_u_238_ion>, <particle:antineutron>*146);
+mods.qmd.particle.addComponentParticle(<particle:a_u_238_ion>, <particle:positron>*91);
+
+mods.qmd.particle.addAntiParticle(<particle:u_238_ion>, <particle:a_u_238_ion>);*/
+
+
+
+
+
+
+
+
+注：每个机器配方需要分开不同文件（ganta_dg）

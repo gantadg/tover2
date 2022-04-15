@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ab939fe200c8b60d18169dbb2771e256d5afeb88a55879f033a353a89f93b835
-size 902
+{
+	x: 7.5d,
+	y: -1.0d,
+	text: [
+		"下蹲右键切换所需建设仪式，对主仪式石使用会消耗背包的仪式石进行搭建",
+		"搭建完成后需要用激活水晶激活，注意，激活水晶需要有足够的lp（要不然会显示没有足够力量）同时，更高等级的水晶能激活更强的仪式"
+	],
+	dependencies: [
+		"1ab74e22"
+	],
+	hide: true,
+	tasks: [{
+		uid: "928fbf7d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:ritual_diviner",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f541f177",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:activation_crystal",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ce18f59d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

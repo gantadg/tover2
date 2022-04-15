@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a87e7813da8f26dcfa7181b341de7ba7af8e4f2ce77961a7e572284b1b65c6a0
-size 502
+{
+	title: "“热”门时刻",
+	x: 6.5d,
+	y: 1.0d,
+	text: [
+		"我们的老朋友！熔炉他终于来了",
+		"终于不用忍受那该死的火炉效率了",
+		"由于作者的缺德，你只能将矿物烧成8个粒而不是一个完整的锭"
+	],
+	dependencies: [
+		"a2b63de8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e2160cca",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "e377612e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

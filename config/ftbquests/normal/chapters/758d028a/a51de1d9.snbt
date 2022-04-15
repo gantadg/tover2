@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8c1c575b97cee87377914413509ae40c0889db4ac6fc907a084c71a525721187
-size 575
+{
+	x: -2.5d,
+	y: 5.0d,
+	shape: "heart",
+	text: [
+		"寻找世界各地的混沌节点，用他们的能量帮你筛分宝石的品质",
+		"有些配方需要限定品质",
+		"当然，你也可以选择制作被动的混沌水晶塔，相比于天然混沌节点，它的效率更慢，并且修复不了装备"
+	],
+	dependencies: [
+		"63556da9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ba135cf7",
+		type: "item",
+		items: [{
+			item: "silentgems:materialgrader"
+		}]
+	}],
+	rewards: [{
+		uid: "1fb3ed30",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

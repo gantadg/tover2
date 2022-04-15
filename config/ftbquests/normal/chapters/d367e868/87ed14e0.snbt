@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bb70b24a40a580e1cb4ac70a22cedf57918b5de42b85966730c2e0054694d30a
-size 515
+{
+	x: 2.5d,
+	y: 6.5d,
+	text: [
+		"一种能让损失的生命力极速回复的液体，借助它的能力，献血并不是一件令人有多么折磨的事情"
+	],
+	dependencies: [
+		"cb362b5d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "373f1fdc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hot_spring_water",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

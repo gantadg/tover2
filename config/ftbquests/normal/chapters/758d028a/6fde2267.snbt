@@ -1,3 +1,39 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7efe803e04922488d6bcbd74f1e1ad3f045928ac6a53f538dc2f0d199504b73c
-size 766
+{
+	x: 11.0d,
+	y: 5.0d,
+	shape: "gear",
+	text: [
+		"--这是一首很古老的歌谣：",
+		"野莓生于树林的灌木之中",
+		"月盖菇生成于丛林和洞穴",
+		"飘云花生成与山脉之间",
+		"地核根于洞穴之中钻出",
+		"黄春菊则诞生于平原、森林和沼泽之间",
+		"种吧种吧，把他们种下，来年可以获得翻倍的收成”"
+	],
+	dependencies: [
+		"01d53ef9",
+		"f5a70327"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "088e6a52",
+		type: "item",
+		items: [{
+			item: "rustic:condenser_advanced"
+		}]
+	},
+	{
+		uid: "a707f500",
+		type: "item",
+		items: [{
+			item: "rustic:retort_advanced"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "5a5e1996",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

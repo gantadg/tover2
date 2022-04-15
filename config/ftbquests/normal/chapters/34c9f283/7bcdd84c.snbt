@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:acd12ec59fea1ced49db621415186837988cf05e6314dbbf82e16cccaaef1729
-size 317
+{
+	title: "地狱之门",
+	x: 4.0d,
+	y: 4.0d,
+	text: [
+		"用水和岩浆在坩埚里制作黑曜石，并搭建地狱门"
+	],
+	dependencies: [
+		"499faddb"
+	],
+	tasks: [{
+		uid: "62380849",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 8L,
+		consume_items: false
+	}]
+}

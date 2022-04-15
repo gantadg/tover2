@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:36501aca5998d05fd37803701a068cfef793bb1c40c7cfd8044db5f830a1a624
-size 387
+{
+	x: -2.5d,
+	y: 4.0d,
+	dependencies: [
+		"6fde2267"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5adfc3e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f4e0f7b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

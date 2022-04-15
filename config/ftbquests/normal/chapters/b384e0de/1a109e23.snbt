@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ab270f350e3579774ef05eb587ef3bbebcf85ace9bf5179154b6e1df3c5b5947
-size 296
+{
+	x: -3.5d,
+	y: -4.0d,
+	dependencies: [
+		"bc4c4dbf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "96879631",
+		type: "item",
+		items: [{
+			item: "rockhounding_chemistry:alloy_items_deco 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "5f7b52d8",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

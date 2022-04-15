@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c595d3048f5387ac9022d2f97cb9e6c03933a2144741f888f90b85fe873bec3d
-size 542
+[
+{
+  "id": "research",
+  "title": "研究台",
+  "icon": "item:akashictome:tome"
+ },
+ {
+  "id": "primitive",
+  "title": "原始阶段",
+  "icon": "item:akashictome:tome"
+ },
+ {
+  "id": "zero",
+  "title": "第零阶段",
+  "icon": "item:akashictome:tome"
+ },
+ {
+  "id": "one",
+  "title": "第一阶段",
+  "icon": "item:akashictome:tome"
+ },
+ {
+  "id": "two",
+  "title": "第二阶段",
+  "icon": "item:akashictome:tome"
+ },
+ {
+  "id": "three",
+  "title": "第三阶段",
+  "icon": "item:akashictome:tome"
+ },
+]

@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e1a83ee7ef6e38ea42062ea3314ac1e1f269f5f5b1690cb3d451e47afb6f6a07
-size 278
+{
+	x: 18.5d,
+	y: 17.0d,
+	dependencies: [
+		"1db4ab07"
+	],
+	hide: true,
+	tasks: [{
+		uid: "143f6b28",
+		type: "item",
+		items: [{
+			item: "metallurgy:vyroxeres_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "77814dd7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

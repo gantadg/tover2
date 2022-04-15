@@ -1,3 +1,53 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:db2111e9c17f85444a6a74e29f0baffa7739c8dd6bb051d0611fc5eb05e6233f
-size 1105
+{
+	title: "冒泡泡！冒泡泡！",
+	x: 6.0d,
+	y: 1.0d,
+	text: [
+		"合成时需要将相应液体倒入，并从上方丢进相应固体。使用锅勺敲击来获得坩埚的信息，右击坩埚上方来捞出物品。",
+		" 在下面放置岩浆，火等热源，就能使水温升高，如果丢入岩浆桶能直接让水温变成hot",
+		"锅盖子只是特定配方需要（jei有写），但这并不妨碍你做一个"
+	],
+	dependencies: [
+		"d51473eb",
+		"a0ed3172"
+	],
+	hide: true,
+	tasks: [{
+		uid: "84276603",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal:cauldron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c43d789c",
+		type: "item",
+		items: [{
+			item: "primal:cauldron_lid"
+		}]
+	},
+	{
+		uid: "c2ab1c1e",
+		type: "item",
+		title: "锅勺",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ladle",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "89da320e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

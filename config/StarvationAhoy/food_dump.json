@@ -1,3 +1,1299 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ba4986edba48f0e9fc6a9681412a7e1f2e25204d0546480a3e3029c48427aca3
-size 27180
+{
+  "foods": [
+    {
+      "mod": "minecraft",
+      "foods": [
+        {
+          "name": "rotten_flesh",
+          "hunger": 2,
+          "saturation": 0.05
+        },
+        {
+          "name": "spider_eye",
+          "hunger": 1,
+          "saturation": 0.4
+        },
+        {
+          "name": "poisonous_potato",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "rabbit",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "cooked_rabbit",
+          "hunger": 2,
+          "saturation": 0.3
+        },
+        {
+          "name": "rabbit_stew",
+          "hunger": 5,
+          "saturation": 0.3
+        },
+        {
+          "name": "mutton",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "cooked_mutton",
+          "hunger": 3,
+          "saturation": 0.4
+        },
+        {
+          "name": "chorus_fruit",
+          "hunger": 2,
+          "saturation": 0.15
+        },
+        {
+          "name": "beetroot",
+          "hunger": 0,
+          "saturation": 0.3
+        },
+        {
+          "name": "beetroot_soup",
+          "hunger": 3,
+          "saturation": 0.3
+        },
+        {
+          "name": "apple",
+          "hunger": 1,
+          "saturation": 1.2
+        },
+        {
+          "name": "mushroom_stew",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "bread",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "porkchop",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "cooked_porkchop",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "golden_apple",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "fish",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "cooked_fish",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "cookie",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "melon",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "beef",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "cooked_beef",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "chicken",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "cooked_chicken",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "carrot",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "potato",
+          "hunger": 1000,
+          "saturation": 250.0
+        },
+        {
+          "name": "baked_potato",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "golden_carrot",
+          "hunger": 6,
+          "saturation": 5.0
+        },
+        {
+          "name": "pumpkin_pie",
+          "hunger": 6,
+          "saturation": 5.0
+        }
+      ]
+    },
+    {
+      "mod": "calculator",
+      "foods": [
+        {
+          "name": "fiddledewfruit",
+          "hunger": 8,
+          "saturation": 0.3
+        },
+        {
+          "name": "broccoli",
+          "hunger": 0,
+          "saturation": 0.1
+        },
+        {
+          "name": "pear",
+          "hunger": 6,
+          "saturation": 1.0
+        },
+        {
+          "name": "rottenpear",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "cookedbroccoli",
+          "hunger": 4,
+          "saturation": 0.3
+        }
+      ]
+    },
+    {
+      "mod": "bloodarsenal",
+      "foods": [
+        {
+          "name": "blood_orange",
+          "hunger": 2,
+          "saturation": 1.0
+        }
+      ]
+    },
+    {
+      "mod": "tombstone",
+      "foods": [
+        {
+          "name": "lollypop",
+          "hunger": 1,
+          "saturation": 0.5
+        }
+      ]
+    },
+    {
+      "mod": "primal",
+      "foods": [
+        {
+          "name": "animal_fat",
+          "hunger": 0,
+          "saturation": 0.4
+        },
+        {
+          "name": "animal_fat_nether",
+          "hunger": 0,
+          "saturation": 0.4
+        },
+        {
+          "name": "salo",
+          "hunger": 2,
+          "saturation": 0.5
+        },
+        {
+          "name": "chum",
+          "hunger": 0,
+          "saturation": 0.25
+        },
+        {
+          "name": "rot",
+          "hunger": 0,
+          "saturation": 0.0
+        },
+        {
+          "name": "fish_cod_rotten",
+          "hunger": 1,
+          "saturation": 0.05
+        },
+        {
+          "name": "fish_salmon_rotten",
+          "hunger": 1,
+          "saturation": 0.05
+        },
+        {
+          "name": "fish_clown_rotten",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "fish_puffer_rotten",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "fish_cod_dried",
+          "hunger": 2,
+          "saturation": 0.25
+        },
+        {
+          "name": "fish_salmon_dried",
+          "hunger": 2,
+          "saturation": 0.25
+        },
+        {
+          "name": "fish_clown_dried",
+          "hunger": 2,
+          "saturation": 0.25
+        },
+        {
+          "name": "fish_puffer_dried",
+          "hunger": 2,
+          "saturation": 0.25
+        },
+        {
+          "name": "fish_cod_salted",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "fish_salmon_salted",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "fish_clown_salted",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "fish_puffer_salted",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "fish_cod_cured",
+          "hunger": 3,
+          "saturation": 0.35000002
+        },
+        {
+          "name": "fish_salmon_cured",
+          "hunger": 3,
+          "saturation": 0.35000002
+        },
+        {
+          "name": "fish_clown_cured",
+          "hunger": 2,
+          "saturation": 0.35000002
+        },
+        {
+          "name": "fish_puffer_cured",
+          "hunger": 2,
+          "saturation": 0.35000002
+        },
+        {
+          "name": "fish_clown_cooked",
+          "hunger": 3,
+          "saturation": 0.35000002
+        },
+        {
+          "name": "fish_puffer_cooked",
+          "hunger": 3,
+          "saturation": 0.35000002
+        },
+        {
+          "name": "fish_lava_worm_raw",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "fish_lava_worm_rotten",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "fish_lava_worm_salted",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "fish_lava_worm_dried",
+          "hunger": 2,
+          "saturation": 0.3
+        },
+        {
+          "name": "fish_lava_worm_cured",
+          "hunger": 3,
+          "saturation": 0.4
+        },
+        {
+          "name": "fish_lava_crawdad_raw",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "fish_lava_crawdad_rotten",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "fish_lava_crawdad_salted",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "fish_lava_crawdad_dried",
+          "hunger": 2,
+          "saturation": 0.3
+        },
+        {
+          "name": "fish_lava_crawdad_cured",
+          "hunger": 3,
+          "saturation": 0.4
+        },
+        {
+          "name": "shark_meat_raw",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "gator_meat_raw",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "horse_meat_raw",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "wolf_meat_raw",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "ovis_meat_raw",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "pigman_meat_raw",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "bear_meat_raw",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "llama_meat_raw",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "bat_meat_raw",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "shark_meat_rotten",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "gator_meat_rotten",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "horse_meat_rotten",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "wolf_meat_rotten",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "ovis_meat_rotten",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "pigman_meat_rotten",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "bear_meat_rotten",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "llama_meat_rotten",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "bat_meat_rotten",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "shark_meat_salted",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "gator_meat_salted",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "pigman_meat_salted",
+          "hunger": 2,
+          "saturation": 0.3
+        },
+        {
+          "name": "bear_meat_salted",
+          "hunger": 2,
+          "saturation": 0.25
+        },
+        {
+          "name": "llama_meat_salted",
+          "hunger": 1,
+          "saturation": 0.3
+        },
+        {
+          "name": "wolf_meat_salted",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "ovis_meat_salted",
+          "hunger": 2,
+          "saturation": 0.2
+        },
+        {
+          "name": "bat_meat_salted",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "horse_meat_salted",
+          "hunger": 2,
+          "saturation": 0.25
+        },
+        {
+          "name": "shark_meat_dried",
+          "hunger": 2,
+          "saturation": 0.3
+        },
+        {
+          "name": "horse_meat_dried",
+          "hunger": 3,
+          "saturation": 0.35000002
+        },
+        {
+          "name": "wolf_meat_dried",
+          "hunger": 2,
+          "saturation": 0.3
+        },
+        {
+          "name": "ovis_meat_dried",
+          "hunger": 3,
+          "saturation": 0.3
+        },
+        {
+          "name": "pigman_meat_dried",
+          "hunger": 3,
+          "saturation": 0.4
+        },
+        {
+          "name": "bear_meat_dried",
+          "hunger": 3,
+          "saturation": 0.35000002
+        },
+        {
+          "name": "bat_meat_dried",
+          "hunger": 2,
+          "saturation": 0.3
+        },
+        {
+          "name": "shark_meat_cured",
+          "hunger": 3,
+          "saturation": 0.4
+        },
+        {
+          "name": "gator_meat_cured",
+          "hunger": 3,
+          "saturation": 0.4
+        },
+        {
+          "name": "pigman_meat_cured",
+          "hunger": 3,
+          "saturation": 0.5
+        },
+        {
+          "name": "llama_meat_charqui",
+          "hunger": 3,
+          "saturation": 0.5
+        },
+        {
+          "name": "wolf_meat_cured",
+          "hunger": 3,
+          "saturation": 0.4
+        },
+        {
+          "name": "ovis_meat_cured",
+          "hunger": 3,
+          "saturation": 0.4
+        },
+        {
+          "name": "bat_meat_cured",
+          "hunger": 3,
+          "saturation": 0.4
+        },
+        {
+          "name": "horse_meat_cured",
+          "hunger": 3,
+          "saturation": 0.45000002
+        },
+        {
+          "name": "horse_meat_cooked",
+          "hunger": 4,
+          "saturation": 0.45000002
+        },
+        {
+          "name": "wolf_meat_cooked",
+          "hunger": 3,
+          "saturation": 0.4
+        },
+        {
+          "name": "ovis_meat_cooked",
+          "hunger": 4,
+          "saturation": 0.4
+        },
+        {
+          "name": "shark_meat_cooked",
+          "hunger": 3,
+          "saturation": 0.4
+        },
+        {
+          "name": "gator_meat_cooked",
+          "hunger": 3,
+          "saturation": 0.4
+        },
+        {
+          "name": "pigman_meat_cooked",
+          "hunger": 4,
+          "saturation": 0.5
+        },
+        {
+          "name": "bear_meat_cooked",
+          "hunger": 4,
+          "saturation": 0.45000002
+        },
+        {
+          "name": "llama_meat_cooked",
+          "hunger": 3,
+          "saturation": 0.5
+        },
+        {
+          "name": "bat_meat_cooked",
+          "hunger": 3,
+          "saturation": 0.4
+        },
+        {
+          "name": "cheese_white",
+          "hunger": 2,
+          "saturation": 0.4
+        },
+        {
+          "name": "cheese_red",
+          "hunger": 2,
+          "saturation": 0.4
+        },
+        {
+          "name": "corn_cob_cooked",
+          "hunger": 2,
+          "saturation": 0.4
+        },
+        {
+          "name": "corn_bread",
+          "hunger": 2,
+          "saturation": 0.3
+        },
+        {
+          "name": "corn_ground",
+          "hunger": 0,
+          "saturation": 0.0
+        },
+        {
+          "name": "wheat_ground",
+          "hunger": 0,
+          "saturation": 0.0
+        },
+        {
+          "name": "rush_seeds_cooked",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "daucus_murn_root_cooked",
+          "hunger": 2,
+          "saturation": 0.3
+        },
+        {
+          "name": "valus_bread",
+          "hunger": 2,
+          "saturation": 0.3
+        },
+        {
+          "name": "egg_death",
+          "hunger": 3,
+          "saturation": 0.8
+        },
+        {
+          "name": "egg_boiled",
+          "hunger": 1,
+          "saturation": 0.4
+        },
+        {
+          "name": "potato_boiled",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "mushroom_cooked",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "nether_wart_cooked",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "sinuous_resin",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "potato_rotten",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "pumpkin_piece",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "corn_cob",
+          "hunger": 0,
+          "saturation": 0.1
+        },
+        {
+          "name": "valus_melon",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "daucus_murn_root",
+          "hunger": 2,
+          "saturation": 0.3
+        },
+        {
+          "name": "tannin_bottle",
+          "hunger": 0,
+          "saturation": 0.0
+        },
+        {
+          "name": "urushi_bottle",
+          "hunger": 0,
+          "saturation": 0.0
+        },
+        {
+          "name": "ovis_milk_bottle",
+          "hunger": 3,
+          "saturation": 0.4
+        },
+        {
+          "name": "aconite_sprig",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "aconite_petal",
+          "hunger": 0,
+          "saturation": 0.1
+        },
+        {
+          "name": "yew_aril_seedless",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "devils_tongue_sepals",
+          "hunger": 1,
+          "saturation": 0.3
+        },
+        {
+          "name": "corn_seeds",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "rush_seeds",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "dry_grass_root",
+          "hunger": 0,
+          "saturation": 0.0
+        },
+        {
+          "name": "dry_grass_seed",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "nether_root",
+          "hunger": 0,
+          "saturation": 0.0
+        },
+        {
+          "name": "nether_seed",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "searing_ember",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "daucus_murn_seeds",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "valus_seed",
+          "hunger": 0,
+          "saturation": 0.1
+        },
+        {
+          "name": "corypha_seed",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "void_grass_root",
+          "hunger": 0,
+          "saturation": 0.0
+        },
+        {
+          "name": "void_seed",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "sinuous_spore",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "devils_tongue_tendril",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "aconite_root",
+          "hunger": 1,
+          "saturation": 0.3
+        },
+        {
+          "name": "yew_seed",
+          "hunger": 0,
+          "saturation": 0.15
+        },
+        {
+          "name": "yew_aril",
+          "hunger": 1,
+          "saturation": 0.3
+        },
+        {
+          "name": "tall_grass_seeds",
+          "hunger": 0,
+          "saturation": 0.0
+        }
+      ]
+    },
+    {
+      "mod": "biomesoplenty",
+      "foods": [
+        {
+          "name": "berries",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "pear",
+          "hunger": 2,
+          "saturation": 0.15
+        },
+        {
+          "name": "peach",
+          "hunger": 2,
+          "saturation": 0.1
+        },
+        {
+          "name": "persimmon",
+          "hunger": 2,
+          "saturation": 0.1
+        },
+        {
+          "name": "filled_honeycomb",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "shroompowder",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "ricebowl",
+          "hunger": 1,
+          "saturation": 0.3
+        }
+      ]
+    },
+    {
+      "mod": "qmd",
+      "foods": [
+        {
+          "name": "flesh",
+          "hunger": 2,
+          "saturation": 0.05
+        }
+      ]
+    },
+    {
+      "mod": "iceandfire",
+      "foods": [
+        {
+          "name": "fire_dragon_flesh",
+          "hunger": 4,
+          "saturation": 0.4
+        },
+        {
+          "name": "ice_dragon_flesh",
+          "hunger": 4,
+          "saturation": 0.4
+        },
+        {
+          "name": "pixie_dust",
+          "hunger": 0,
+          "saturation": 0.15
+        },
+        {
+          "name": "ambrosia",
+          "hunger": 2,
+          "saturation": 0.3
+        }
+      ]
+    },
+    {
+      "mod": "inventorypets",
+      "foods": [
+        {
+          "name": "holiday_cookie",
+          "hunger": 2,
+          "saturation": 2.5
+        },
+        {
+          "name": "mug_egg_nog",
+          "hunger": 3,
+          "saturation": 3.75
+        },
+        {
+          "name": "candy_cane",
+          "hunger": 5,
+          "saturation": 5.0
+        },
+        {
+          "name": "rock_candy",
+          "hunger": 1,
+          "saturation": 1.0
+        }
+      ]
+    },
+    {
+      "mod": "rustic",
+      "foods": [
+        {
+          "name": "cloudsbluff",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "core_root",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "ginseng",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "marsh_mallow",
+          "hunger": 1,
+          "saturation": 0.15
+        },
+        {
+          "name": "olives",
+          "hunger": 0,
+          "saturation": 0.2
+        },
+        {
+          "name": "ironberries",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "tomato",
+          "hunger": 2,
+          "saturation": 0.2
+        },
+        {
+          "name": "chili_pepper",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "wildberries",
+          "hunger": 1,
+          "saturation": 0.25
+        },
+        {
+          "name": "grapes",
+          "hunger": 1,
+          "saturation": 0.15
+        }
+      ]
+    },
+    {
+      "mod": "eanimod",
+      "foods": [
+        {
+          "name": "rawchicken_darksmall",
+          "hunger": 0,
+          "saturation": 0.25
+        },
+        {
+          "name": "rawchicken_dark",
+          "hunger": 1,
+          "saturation": 0.5
+        },
+        {
+          "name": "rawchicken_darkbig",
+          "hunger": 1,
+          "saturation": 0.6
+        },
+        {
+          "name": "cookedchicken_darksmall",
+          "hunger": 1,
+          "saturation": 1.8
+        },
+        {
+          "name": "cookedchicken_dark",
+          "hunger": 2,
+          "saturation": 2.5
+        },
+        {
+          "name": "cookedchicken_darkbig",
+          "hunger": 3,
+          "saturation": 3.6
+        },
+        {
+          "name": "rawchicken_palesmall",
+          "hunger": 0,
+          "saturation": 0.25
+        },
+        {
+          "name": "rawchicken_pale",
+          "hunger": 1,
+          "saturation": 0.5
+        },
+        {
+          "name": "cookedchicken_palesmall",
+          "hunger": 1,
+          "saturation": 1.8
+        },
+        {
+          "name": "cookedchicken_pale",
+          "hunger": 2,
+          "saturation": 2.5
+        }
+      ]
+    },
+    {
+      "mod": "botania",
+      "foods": [
+        {
+          "name": "manacookie",
+          "hunger": 0,
+          "saturation": 0.05
+        }
+      ]
+    },
+    {
+      "mod": "silentgems",
+      "foods": [
+        {
+          "name": "food",
+          "hunger": 4,
+          "saturation": 0.4
+        }
+      ]
+    },
+    {
+      "mod": "enderio",
+      "foods": [
+        {
+          "name": "item_ender_food",
+          "hunger": 5,
+          "saturation": 0.4
+        }
+      ]
+    },
+    {
+      "mod": "extrautils2",
+      "foods": [
+        {
+          "name": "magicapple",
+          "hunger": 2,
+          "saturation": 0.15
+        }
+      ]
+    },
+    {
+      "mod": "actuallyadditions",
+      "foods": [
+        {
+          "name": "item_coffee",
+          "hunger": 4,
+          "saturation": 2.5
+        },
+        {
+          "name": "item_food",
+          "hunger": 0,
+          "saturation": 0.025
+        },
+        {
+          "name": "item_jam",
+          "hunger": 3,
+          "saturation": 0.05
+        },
+        {
+          "name": "item_coffee_beans",
+          "hunger": 0,
+          "saturation": 0.5
+        },
+        {
+          "name": "item_canola_seed",
+          "hunger": 0,
+          "saturation": 0.005
+        }
+      ]
+    },
+    {
+      "mod": "integrateddynamics",
+      "foods": [
+        {
+          "name": "menril_berries",
+          "hunger": 2,
+          "saturation": 0.15
+        }
+      ]
+    },
+    {
+      "mod": "rockhounding_surface",
+      "foods": [
+        {
+          "name": "sourberry_fruit",
+          "hunger": 0,
+          "saturation": 0.1
+        },
+        {
+          "name": "purplepear_fruit",
+          "hunger": 0,
+          "saturation": 0.1
+        },
+        {
+          "name": "mesquite_fruit",
+          "hunger": 0,
+          "saturation": 0.1
+        },
+        {
+          "name": "mesquite_flower",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "rosemary_flower",
+          "hunger": 0,
+          "saturation": 0.05
+        },
+        {
+          "name": "sourberry_pie",
+          "hunger": 3,
+          "saturation": 0.25
+        },
+        {
+          "name": "sourberry_tea",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "purplepear_jam",
+          "hunger": 4,
+          "saturation": 0.2
+        },
+        {
+          "name": "mesquite_liquor",
+          "hunger": 2,
+          "saturation": 0.15
+        },
+        {
+          "name": "mesquite_tea",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "rosemary_tea",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "sotol",
+          "hunger": 2,
+          "saturation": 0.05
+        },
+        {
+          "name": "truffle_slices",
+          "hunger": 0,
+          "saturation": 0.15
+        },
+        {
+          "name": "truffle_vodka",
+          "hunger": 2,
+          "saturation": 0.1
+        },
+        {
+          "name": "truffle_toast",
+          "hunger": 2,
+          "saturation": 0.2
+        },
+        {
+          "name": "truffle_pumpkin",
+          "hunger": 4,
+          "saturation": 0.4
+        },
+        {
+          "name": "truffle_omelette",
+          "hunger": 1,
+          "saturation": 0.4
+        }
+      ]
+    },
+    {
+      "mod": "nuclearcraft",
+      "foods": [
+        {
+          "name": "dominos",
+          "hunger": 8,
+          "saturation": 0.9
+        },
+        {
+          "name": "graham_cracker",
+          "hunger": 0,
+          "saturation": 0.1
+        },
+        {
+          "name": "ground_cocoa_nibs",
+          "hunger": 0,
+          "saturation": 0.1
+        },
+        {
+          "name": "cocoa_butter",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "unsweetened_chocolate",
+          "hunger": 1,
+          "saturation": 0.1
+        },
+        {
+          "name": "dark_chocolate",
+          "hunger": 1,
+          "saturation": 0.2
+        },
+        {
+          "name": "milk_chocolate",
+          "hunger": 2,
+          "saturation": 0.3
+        },
+        {
+          "name": "marshmallow",
+          "hunger": 0,
+          "saturation": 0.2
+        },
+        {
+          "name": "smore",
+          "hunger": 4,
+          "saturation": 0.7
+        },
+        {
+          "name": "moresmore",
+          "hunger": 10,
+          "saturation": 1.9
+        },
+        {
+          "name": "foursmore",
+          "hunger": 22,
+          "saturation": 4.3
+        }
+      ]
+    }
+  ]
+}

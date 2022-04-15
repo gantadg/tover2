@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:517069da45778d2bae0bf3b8366b6922f0a8bcad91e22a68e59e6437a92d01bb
-size 784
+  淤浆池的主要用途是使用有机堆肥(地表分包)或腐肉生产有机浆料，或是使用裂化煤生产煤浆，这两样产品都可以作为生合成气的原材料。 除此以外也可以使用硫酸将尾矿直接处理成渗滤液而不获取其他任何矿物碎片产品。
+       调整淤浆池GUI中的 Current Concentration 滑动条可以调整淤浆池的工作周期长度和原材料转化效率。Concentration越低，工作周期越久，原材料转化效率越高：例如当 Concentration=100% 时，每次工作周期长35ticks，将消耗100MB的原材料液体和1个原材料物品产出100MB的产品；当Concentration=10% 时，每次工作周期长170ticks，将消耗1000MB的原材料液体和4个原材料物品产出1000MB的产品。

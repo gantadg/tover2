@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c5513c274534611c6e1f05ade2cc4b1f36af38737943dc7c411be457c2615dd3
-size 549
+{
+	x: 4.0d,
+	y: 1.0d,
+	text: [
+		"前期的科技不足以制作铁桶，那么做一个简易的粘土桶，则成为了装载液体的必须条件",
+		"不必担心，他和铁桶并没有什么区别，只是在装过热液体后，会烫伤并且损毁罢了"
+	],
+	dependencies: [
+		"d51473eb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2f7cc271",
+		type: "item",
+		items: [{
+			id: "primal:bucket_clay",
+			tag: {
+				Fluid: {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2f877826",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

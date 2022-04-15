@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:47ef44291b4aa8d3bb98a48897c569501d34767ea3cb1780b2820881eb0ed8f9
-size 278
+{
+	x: 2.5d,
+	y: 1.5d,
+	dependencies: [
+		"d7b53d8b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a3df7fcc",
+		type: "item",
+		items: [{
+			item: "calculator:enrichedgoldingot"
+		}]
+	}],
+	rewards: [{
+		uid: "60b1394b",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

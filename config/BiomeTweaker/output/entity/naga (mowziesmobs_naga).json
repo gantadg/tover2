@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ab6738cac41ab8d5f7bf62df2759f09036fed641cb92a25d741e4f3cec42919c
-size 129
+
+{
+  "Name": "naga",
+  "Registry ID": "mowziesmobs:naga",
+  "Class": "com.bobmowzie.mowziesmobs.server.entity.naga.EntityNaga"
+}

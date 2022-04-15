@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c4b2776db2e08deaadec134b50dc5d0c10a692816fc519cc10b5a726f2aa3e89
-size 114
+
+{
+  "Name": "Witch",
+  "Registry ID": "minecraft:witch",
+  "Class": "net.minecraft.entity.monster.EntityWitch"
+}

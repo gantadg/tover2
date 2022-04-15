@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:eeb0c24bf489a5ea7b014cdd9d268cccc18899ec4e3af5bb1847480fb26bf171
-size 111
+
+{
+  "Name": "Mule",
+  "Registry ID": "minecraft:mule",
+  "Class": "net.minecraft.entity.passive.EntityMule"
+}

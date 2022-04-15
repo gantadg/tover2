@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7f7cce09cf1bf909a81c30e09bbcdf441abd9903c636e93f0bdea669bdae166b
-size 132
+
+{
+  "Name": "if_troll",
+  "Registry ID": "iceandfire:if_troll",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityTroll"
+}

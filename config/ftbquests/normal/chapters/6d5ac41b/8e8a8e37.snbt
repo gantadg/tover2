@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ed4e9844d22aa810ae75e9635b3dbbd2c42c15724800872084cf3969a575645
-size 386
+{
+	x: -4.5d,
+	y: 7.5d,
+	dependencies: [
+		"59eaee21"
+	],
+	tasks: [{
+		uid: "d9ae911b",
+		type: "checkmark",
+		title: "我想，接下来就可以尝试着去做十倍矿了"
+	}],
+	rewards: [{
+		uid: "58652e90",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:10x_mineral_generator"
+			}
+		}
+	}]
+}

@@ -1,3 +1,40 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8ac6b7ef0e1aa6e04f66b6825e6732e68b8cc7783e1077e35fd29ed3a5df55e8
-size 672
+{
+	x: 5.0d,
+	y: 0.0d,
+	text: [
+		"化工人的基础工具"
+	],
+	dependencies: [
+		"46d234d9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cfa3c5b3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rockhounding_chemistry:test_tube"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3370fa3c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rockhounding_chemistry:graduated_cylinder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9b82b05a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

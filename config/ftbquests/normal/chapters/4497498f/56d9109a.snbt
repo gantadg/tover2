@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ea589ee9c9805b3985ec28bfb1c76c10d4e0d94c79e1f8437a61563de6ff48d9
-size 277
+{
+	x: 1.5d,
+	y: 5.5d,
+	dependencies: [
+		"e4519028"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1c26a5c8",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockborehead"
+		}]
+	}],
+	rewards: [{
+		uid: "08cd09ce",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f376e7f49d5202525c20c1bd483ca9eccdbf61a61ce1cef25a829cf643bfe24c
-size 487
+{
+	x: 4.0d,
+	y: 1.0d,
+	text: [
+		"燃起来了！"
+	],
+	dependencies: [
+		"8410a584"
+	],
+	hide: true,
+	tasks: [{
+		uid: "82c70539",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal:bucket_clay",
+			tag: {
+				Fluid: {
+					FluidName: "bitumen_boiling",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "747cdefc",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

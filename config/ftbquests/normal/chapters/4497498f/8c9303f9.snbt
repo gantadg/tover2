@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:389e8e0144827209edb28bbd84b8ad4de4f1ed6de9682505abfa716651d14766
-size 394
+{
+	x: 6.5d,
+	y: 5.5d,
+	text: [
+		"在有元初魔力的圣杯附件放上带有谐振末影珍珠的圣杯，则会产生魔力珍珠"
+	],
+	dependencies: [
+		"56d9109a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8fa5b334",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "730658f2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

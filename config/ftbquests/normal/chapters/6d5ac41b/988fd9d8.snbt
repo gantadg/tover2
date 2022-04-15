@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:57361d30371e0a0d3f9ff0b672faff0eea539b309beb3797f3903db7315b61f4
-size 337
+{
+	x: -8.5d,
+	y: 4.5d,
+	text: [
+		"你的xp系统升级了，这不是很棒"
+	],
+	dependencies: [
+		"ce2e0a03"
+	],
+	hide: true,
+	tasks: [{
+		uid: "12177c06",
+		type: "item",
+		items: [{
+			item: "inventorypets:windows_7"
+		}]
+	}],
+	rewards: [{
+		uid: "c461ac2c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:327094f75f277321d10e14914be9eab4e8d2b9144566fe5fe2c84a0c95406850
-size 138
+
+{
+  "Name": "ebwizardry:phoenix",
+  "Registry ID": "ebwizardry:phoenix",
+  "Class": "electroblob.wizardry.entity.living.EntityPhoenix"
+}

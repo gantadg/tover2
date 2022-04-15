@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:39b455ee5ad03d0cf5ab3acb7854e436c36f1fb3d40f9d08700b68c80bafbb24
-size 200
+
+{
+  "Name": "ancientspellcraft:skeleton_mage_minion",
+  "Registry ID": "ancientspellcraft:skeleton_mage_minion",
+  "Class": "com.windanesz.ancientspellcraft.entity.living.EntitySkeletonMageMinion"
+}

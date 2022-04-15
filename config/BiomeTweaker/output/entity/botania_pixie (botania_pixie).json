@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:42e1c4b1882a8faa5cbe51fcc155449dc87a52ebada989c7f310cc57e61ccd47
-size 120
+
+{
+  "Name": "botania:pixie",
+  "Registry ID": "botania:pixie",
+  "Class": "vazkii.botania.common.entity.EntityPixie"
+}

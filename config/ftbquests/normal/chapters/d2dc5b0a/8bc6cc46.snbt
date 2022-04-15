@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:05136bcb9d7eb09e3452aa18bead3564ce87b7342f47976573b429d9cb6a854b
-size 281
+{
+	x: 8.5d,
+	y: -3.0d,
+	dependencies: [
+		"f39b51ff"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4b7c8a0e",
+		type: "item",
+		items: [{
+			item: "redstonearsenal:material 1 224"
+		}]
+	}],
+	rewards: [{
+		uid: "474f9460",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

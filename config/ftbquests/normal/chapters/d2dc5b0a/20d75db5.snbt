@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5cbd9d78f0eeb64c4f671169b4b2993e74eebd5714b12503e2780b9d6ab3f9e5
-size 383
+{
+	x: -6.5d,
+	y: -3.0d,
+	text: [
+		"将火焰水盖到压缩圆石上，等待一会就行，建议整一些虚空漏斗"
+	],
+	dependencies: [
+		"bda25258"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3cb1ebca",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "e23a75d3",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

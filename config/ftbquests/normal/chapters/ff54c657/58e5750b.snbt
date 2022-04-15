@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:584080186182673e3c767bffaff714201bf02d652e05430cac42980c59f422e7
-size 834
+{
+	x: 3.0d,
+	y: -2.0d,
+	text: [
+		"如果你是联机玩家，阶段的同步问题可能会让你困扰，不用担心，我们添加了一个mod，用来解决这个问题",
+		"/tf invite <player_name>-邀请一名玩家加入你的队伍，如果你没有一个团队，它就会被创造出来",
+		"/tf accept <player_name>-接受邀请加入那个玩家的队伍",
+		"/tf decline <player_name>-拒绝加入该玩家队的邀请",
+		"/tf kick <player_name>-它从您的团队中踢出一名玩家，只有创建该团队的玩家才允许运行该命令",
+		"/tf leave-离开你现在的团队",
+		"/tf info-展示你团队的信息",
+		"/tf forcesync-迫使团队信息同步",
+		"tf代表together"
+	],
+	dependencies: [
+		"9d029e02"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1f01e5d4",
+		type: "checkmark"
+	}]
+}

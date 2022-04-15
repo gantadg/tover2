@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:da826cce78d05c6f19e9f2e880b6ce6be88f332a1ec01230a965a13e1901775d
-size 430
+{
+	x: 6.5d,
+	y: 11.0d,
+	text: [
+		"唯有血与星辰能让它归于平静",
+		"消耗周围的星能液或者生命源治进行产能"
+	],
+	dependencies: [
+		"6df1bdf8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ef7351ff",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "liquido"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2f95f3cf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

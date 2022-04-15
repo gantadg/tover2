@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9c519201ca88b8dd2c20ce2fe4ca1fc60da6f12e935cd0b7afa59dc6e00119f5
-size 144
+
+{
+  "Name": "hippocampus",
+  "Registry ID": "iceandfire:hippocampus",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityHippocampus"
+}

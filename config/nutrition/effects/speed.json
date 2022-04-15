@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d3c91f9b97cb6906cd456eed7f9b193729e7adc934dd1cd381904bda64619e7a
-size 247
+{
+	"name": "speed",               
+	"potion": "minecraft:absorption",  
+	"amplifier": 1,                  
+	"minimum": 99,                   
+	"maximum": 100,                  
+	"detect": "all",                   
+	"enabled": true             
+}
+

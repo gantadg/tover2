@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:800c8461e7476c6a2722346d8606cb3f7a03222310a1519502a0cd5992d93cc6
-size 143
+
+{
+  "Name": "EntityFlare",
+  "Registry ID": "astralsorcery:entityflare",
+  "Class": "hellfirepvp.astralsorcery.common.entities.EntityFlare"
+}

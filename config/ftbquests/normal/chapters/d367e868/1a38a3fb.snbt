@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5c20001a40642f27e2fc6570171f74dce72d372f7dcef0cb8b1f9f8fea6ba5ba
-size 323
+{
+	x: 10.0d,
+	y: -3.5d,
+	text: [
+		"更高级的合成材料"
+	],
+	dependencies: [
+		"ff0c188a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "63d49732",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_shard 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "47be4d6c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

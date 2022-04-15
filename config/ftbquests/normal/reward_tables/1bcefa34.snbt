@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2f5a3386e9426ccf4745deb70443ed8892e5df33a36b7b47937861882a7a01ce
-size 368
+{
+	title: "zhiwu",
+	loot_size: 1,
+	rewards: [{
+		item: "rustic:mooncap_mushroom"
+	},
+	{
+		item: "rustic:core_root"
+	},
+	{
+		item: "rustic:cloudsbluff"
+	},
+	{
+		item: "rustic:chamomile"
+	},
+	{
+		item: "rustic:bee"
+	},
+	{
+		item: "rustic:ginseng"
+	},
+	{
+		item: "rustic:marsh_mallow"
+	},
+	{
+		item: "actuallyadditions:item_canola_seed"
+	}]
+}

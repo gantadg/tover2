@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cd1c75cc4ab773545843342ee6b5f45cdc01364cbe011661b80f6e496bb875d9
-size 390
+{
+	x: -1.5d,
+	y: 2.5d,
+	text: [
+		" 找不到海洋？不如弄把精准挖挖星辉的东西，用来用碎片换点别的东西"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "eaa7116c",
+		type: "item",
+		items: [{
+			item: "minecraft:sea_lantern"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "0ac003af",
+		type: "item",
+		item: "minecraft:prismarine_shard"
+	}]
+}

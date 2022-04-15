@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4178142670d56fdabaafddbb54055b41949073bed5bed1a0a88c76203071d278
-size 332
+{
+	x: 1.5d,
+	y: 1.0d,
+	text: [
+		"虽然对于前期并没有什么大作用，但是可以帮你把工作台中不足1b的液体提取出来，这很棒，不是吗"
+	],
+	dependencies: [
+		"a00d3124"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6a077ff4",
+		type: "item",
+		items: [{
+			item: "flopper:flopper"
+		}]
+	}]
+}

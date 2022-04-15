@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a0538acb5ed7e5d5e0d3547e81c849b47507de26acf4ac6a7b462540bcc29115
-size 267
+{
+	x: 2.0d,
+	y: -2.5d,
+	dependencies: [
+		"62355bd8"
+	],
+	tasks: [{
+		uid: "813b6267",
+		type: "item",
+		items: [{
+			item: "qmd:target_chamber_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "b5e5332c",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

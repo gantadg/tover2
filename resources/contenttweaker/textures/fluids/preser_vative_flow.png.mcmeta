@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dfde1a74ae41ba02443ba0e4896cb42b48d9710838e3b6d5ea18d8a61e20b55e
-size 62
+{
+	"animation": {
+		"interpolate": true,
+		"frametime": 4
+	}
+}

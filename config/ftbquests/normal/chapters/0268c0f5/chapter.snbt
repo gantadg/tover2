@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:722db7dc6cd2839bb0a2ec8686db4aba246ba75056529c5e269483a56b006e45
-size 269
+{
+	title: "“等价”贸易",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -1.5d,
+		y: -5.5d,
+		width: 16.0d,
+		height: 21.0d,
+		rotation: 0.0d,
+		image: "assets:2.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

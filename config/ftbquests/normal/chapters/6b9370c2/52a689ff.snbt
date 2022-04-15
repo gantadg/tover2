@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3bc1a8b7060c36d76fb7db78b134ed87347e35ec86d4dc3b2666930ed5d823ae
-size 303
+{
+	x: -4.0d,
+	y: -0.5d,
+	text: [
+		"劝退章节（雾）"
+	],
+	dependencies: [
+		"03e553c2"
+	],
+	tasks: [{
+		uid: "bb9c634a",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:part 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "c9412d04",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

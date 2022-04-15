@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0a019b522c57c02b3055393eee688003ca5488d85ffbc19f9a50aff5c27fd929
-size 281
+{
+	x: -4.5d,
+	y: -5.0d,
+	dependencies: [
+		"71126ccf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "91176d8c",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_sag_mill"
+		}]
+	}],
+	rewards: [{
+		uid: "6a57760d",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

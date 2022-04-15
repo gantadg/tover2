@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0c77f9a235882448fb95ba32100a4e6c5fccc9a673c79251664376737028196e
-size 387
+{
+	x: 7.5d,
+	y: 6.5d,
+	dependencies: [
+		"e3fc5e9b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6dbcaab4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b7882190",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,3 +1,57 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c1c62155c43353f15241cb5964c396b3e69e2a100f718224fabf16be8d82dcab
-size 1027
+{
+	x: 24.5d,
+	y: 17.0d,
+	text: [
+		"先使用卫星来获得距离、质量、成分这三大信息",
+		"使用卫星建造机来制作一个卫星来探测星球上的数据"
+	],
+	dependencies: [
+		"ba8f58c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6f14f246",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satellitebuilder"
+		}]
+	},
+	{
+		uid: "f7d8140c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:satellite"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2304f008",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satelliteprimaryfunction"
+		}]
+	},
+	{
+		uid: "4806e265",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satelliteprimaryfunction 1 2"
+		}]
+	},
+	{
+		uid: "694c23a7",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satelliteprimaryfunction 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "41487c2f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

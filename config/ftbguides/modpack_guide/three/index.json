@@ -1,3 +1,103 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:277c66c00e7ce19451d0601aced95fdb65ec663dc73ba98688e1d2791ff3e547
-size 2270
+[
+ {
+  "id": "1",
+  "title": "沉淀室",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+  "id": "2",
+  "title": "低温蒸馏塔",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+  "id": "3",
+  "title": "电化学CSTR",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+  "id": "4",
+  "title": "合金炉",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+  "id": "5",
+  "title": "化学萃取机",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+  "id": "6",
+  "title": "回收槽",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+  "id": "7",
+  "title": "浸出槽",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+  "id": "9",
+  "title": "拉晶坩埚",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+  "id": "10",
+  "title": "气化炉",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+  "id": "11",
+  "title": "气体净化器",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+ "id": "12",
+  "title": "气体冷凝器",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+ "id": "13",
+  "title": "气相沉积室",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+ "id": "14",
+  "title": "热交换器",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+ "id": "15",
+  "title": "实验室反应器",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+ "id": "16",
+  "title": "实验室搅拌器",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+ "id": "17",
+  "title": "压型工作台",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+ "id": "19",
+  "title": "淤浆池",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+ "id": "123",
+  "title": "蒸发槽",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+ "id": "114514",
+  "title": "重整反应器",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ {
+ "id": "as",
+  "title": "矿物筛选器",
+  "icon": "item:rockhounding_chemistry:uninspected_mineral"
+ },
+ 
+]

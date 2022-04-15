@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7999746b46005ec09585e69fe967ceedded4b36135681fce7a3cf2abf38d5a12
-size 273
+{
+	x: 4.5d,
+	y: -5.0d,
+	dependencies: [
+		"51bb07c4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bac7ee0c",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "136b6355",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f3be24900ca49fec3bf9d36f3b2efb77a7cb287de2830940fe3bfa85e354d4cb
-size 320
+{
+	x: 2.0d,
+	y: -3.0d,
+	text: [
+		"热力四元素就指望他了"
+	],
+	dependencies: [
+		"07635441"
+	],
+	hide: true,
+	tasks: [{
+		uid: "28862de1",
+		type: "item",
+		items: [{
+			item: "zensummoning:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "1d1f1bea",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9c53474cc1ec52dd4e2a59d3e2a23b07f4d421a0bc15f1fa1786ff623a12f491
-size 377
+{
+	title: "比特比特~",
+	x: 8.0d,
+	y: 3.0d,
+	text: [
+		"挂机就能得到的比特币谁不会喜欢呢）"
+	],
+	dependencies: [
+		"a633a43e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5f4a1a52",
+		type: "item",
+		items: [{
+			item: "bitcoin:bitcoin"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3075437e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ea1abd48892aa529678674406c6f21deb93fc4e22a0a739a8abcabf1b0bd5ddd
-size 100
+background = addStretchedTexture("top_right", "mainmenu:2.png")
+
+
+
+background.setRelRender(1, 1)

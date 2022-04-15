@@ -1,3 +1,40 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3b8c503b51bd5e32bbf26527cef0f114a7cb876dbce58e3933872979377680a2
-size 648
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "contenttweaker",
+      "path": "star_gem"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 200,
+      "oreName": "oreEmerald"
+    },
+    {
+	  "weight": 1000,
+	  "oreName": "oreDiamond"
+	},
+	{
+      "weight": 5,
+      "oreName": "blockEmerald"
+    },
+    {
+	  "weight": 100,
+	  "oreName": "blockDiamond"
+	},
+    {
+      "weight": 20,
+      "oreName": "blockGold"
+    },
+	{
+      "weight": 1,
+      "oreName": "bedrock"
+    }
+  ],
+  "explosionStrength": 18.0,
+  "radius": 10,
+  "maxWeight": 2500,
+  "version": 4,
+  "cost": 5000000
+}

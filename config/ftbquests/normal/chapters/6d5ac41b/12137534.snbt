@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:527601c48c66574244ee31869774bbf28814689bec252daa0d8ea56abc16ce8b
-size 284
+{
+	x: -12.5d,
+	y: 4.5d,
+	dependencies: [
+		"339250d0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ab30398f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}]
+	}],
+	rewards: [{
+		uid: "1d7cff52",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

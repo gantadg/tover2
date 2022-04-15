@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d8dcdc0a10f7a0abe5765ce752ce5faea0b042093b0d40c2bdd8a79579b71eae
-size 117
+
+{
+  "Name": "Rabbit",
+  "Registry ID": "minecraft:rabbit",
+  "Class": "net.minecraft.entity.passive.EntityRabbit"
+}

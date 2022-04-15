@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:174e4f185339d2cb1a53b3019244762b003ee3086fd4c3f0a3de3517ddf43eec
-size 103
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/star_primal"
+  }
+}
