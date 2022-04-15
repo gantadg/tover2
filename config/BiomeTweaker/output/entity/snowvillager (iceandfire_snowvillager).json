@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7308b3fcf08dd85f0c00b6fb3f2b553d7b82efcc124156718ade792efc3cfc45
-size 147
+
+{
+  "Name": "snowvillager",
+  "Registry ID": "iceandfire:snowvillager",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntitySnowVillager"
+}

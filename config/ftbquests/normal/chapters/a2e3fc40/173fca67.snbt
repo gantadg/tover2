@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dd027ce08b4b6da39992ba103b418a6cb80ffe124b015ce51c4860460d4c9703
-size 287
+{
+	x: -8.5d,
+	y: -3.0d,
+	dependencies: [
+		"adbbd902"
+	],
+	hide: true,
+	tasks: [{
+		uid: "29a4598c",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "e2f29ca9",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

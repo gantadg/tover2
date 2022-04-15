@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0a5515764e90543ed6488c77687566b17379718c3e2aa8932e9e6df331e1e321
-size 313
+{
+	title: "initial 原始之路",
+	icon: "minecraft:crafting_table",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 10.0d,
+		y: -5.5d,
+		width: 60.0d,
+		height: 30.0d,
+		rotation: 0.0d,
+		image: "assets:initial.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

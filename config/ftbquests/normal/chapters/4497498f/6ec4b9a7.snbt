@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:820a6a8d1b69e21866e3f30f25cd7f2a698a74bb9716216bc5d65ca39ee1b3b4
-size 265
+{
+	x: 18.5d,
+	y: 11.0d,
+	dependencies: [
+		"e205216e"
+	],
+	tasks: [{
+		uid: "b05f9221",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:arcfurnace"
+		}]
+	}],
+	rewards: [{
+		uid: "dc904e54",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

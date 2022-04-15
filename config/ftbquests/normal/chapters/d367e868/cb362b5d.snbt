@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7b8870f818aa6cf53dff53ce463fd179e090d8f86ff5dffc3aa930573aa4d460
-size 281
+{
+	x: 5.0d,
+	y: 4.0d,
+	dependencies: [
+		"aaf525ad",
+		"d16dd1af"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6112825c",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "760cc3b7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

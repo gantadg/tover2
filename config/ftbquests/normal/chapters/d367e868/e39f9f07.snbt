@@ -1,3 +1,31 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e1483dff736d0499efdb6fdc3e7f09cdd4f0434cd0220baf0adbc8299915138e
-size 454
+{
+	title: "森林仪式",
+	x: 18.0d,
+	y: -1.0d,
+	dependencies: [
+		"2abe9ecb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f1689d8a",
+		type: "item",
+		items: [{
+			item: "naturesaura:wood_stand"
+		}],
+		count: 8L
+	},
+	{
+		uid: "8cbf2478",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_powder"
+		}],
+		count: 16L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "742fa99c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

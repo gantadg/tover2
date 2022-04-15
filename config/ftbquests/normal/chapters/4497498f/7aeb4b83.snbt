@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:74a85428a362311fd36461cccee9709d89b61df5d1d2c043ff9b161fbdae4b07
-size 502
+{
+	x: -4.0d,
+	y: -1.0d,
+	text: [
+		"据说在夜晚1点到4点,用自然灵气灌注过以及浓缩云之精华，再加以宝石陨星，在高于100层以上的诸星祭祀之坛内开启仪式后，会降下与“星”有关的矿物"
+	],
+	dependencies: [
+		"89bb20d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d1b1e047",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomore"
+		}]
+	}],
+	rewards: [{
+		uid: "98b3767f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

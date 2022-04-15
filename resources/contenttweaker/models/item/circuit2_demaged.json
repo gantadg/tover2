@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8b48f6302a41dba87aed35b99beba1ad93dc7bf0a64af2c75a39001ed44ee306
-size 108
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/circuit2_demaged"
+  }
+}

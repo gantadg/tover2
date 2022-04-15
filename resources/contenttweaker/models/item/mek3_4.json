@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c80064153203ecb998382583c7ea75d0259dc63fa0d4445e304354b0d4e6d551
-size 98
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/mek3_4"
+  }
+}

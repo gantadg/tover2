@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bb69966a5972b297adc5ed25a1df9d223d1ffdddf29f681ae95f650149bfba13
-size 481
+这个仪式依旧需要基础的生命源治、红石、烈焰粉、末影珍珠以及注血萤石粉，可以以10:1的比例将生命源质变为精炼生命精华。
+注:主仪式石上方隔一格，放置两个血法师储罐，其中上层储罐必须含有生命源质，下层储罐里必须是空或只含精练生命精华。
+注2:只要不断有能量供给，就会一直提炼生命精华。
+![Example](f.png)
+![Example](s.png)
+红色板子
+![Example](sp.png)

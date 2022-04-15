@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:78b7a5e424a6ca7788dc6bb11acc843f08de890fb6b72cf6044a52794a625714
-size 143
+
+{
+  "Name": "dread_ghoul",
+  "Registry ID": "iceandfire:dread_ghoul",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityDreadGhoul"
+}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1e39bb1bbde80d1af6ac39cf3ec9666a46d03297b1194493afcb8609fde20438
-size 128
+
+{
+  "Name": "primal:gator",
+  "Registry ID": "primal:gator",
+  "Class": "nmd.primal.core.common.entities.living.EntityGator"
+}

@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bc5f0941a87d82931331274b4021375a1c870f1a8490e1082985f17f05d5b97d
-size 464
+{
+	x: 1.5d,
+	y: 9.5d,
+	text: [
+		"当然 你可以使用木头和石头来做，但如果你尝试使用聚星木和大理石的话可能会有意想不到的效果哦"
+	],
+	dependencies: [
+		"d21deb5b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0e5bb377",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ff793d70",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

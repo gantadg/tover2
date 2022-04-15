@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3803db30ff9fac7403e7dbc254bece0e1f0721c6becc8ee0ccc58d21e320643f
-size 234
+{
+	x: -4.0d,
+	y: -2.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "4057b13b",
+		type: "fluid",
+		fluid: "lifeessence",
+		amount: 100000
+	}],
+	rewards: [{
+		uid: "563fc283",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

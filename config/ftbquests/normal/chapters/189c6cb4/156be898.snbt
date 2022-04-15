@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7d02b508c8448ab63a929fe6dc2f0aee77d05875b119e62c121c90e9780b7e11
-size 397
+{
+	x: -5.0d,
+	y: 7.5d,
+	dependencies: [
+		"fd84f3cd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1f3bd246",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:extraction_chamber"
+		}]
+	},
+	{
+		uid: "c80d889e",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:simulation_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "0bb26d14",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

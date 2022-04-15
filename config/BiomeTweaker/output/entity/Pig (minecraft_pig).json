@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a642b4ebce46791ea8923df8ccaa70d4dbd497c0830434ac08c4da757edf13d9
-size 108
+
+{
+  "Name": "Pig",
+  "Registry ID": "minecraft:pig",
+  "Class": "net.minecraft.entity.passive.EntityPig"
+}

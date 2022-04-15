@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:694cb61d4275f95a6d28a44aaa9c6ce097279f2f28578a7cfa42c9bc711dc5e1
-size 286
+{
+	x: -4.5d,
+	y: -1.0d,
+	dependencies: [
+		"bda25258"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cdaa7611",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_alloy_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "3214f9ce",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

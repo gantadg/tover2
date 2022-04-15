@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bcd95837fbd60683e9d818ac5b4400c9d3ecf2fc01491b7585baf8ade8a03268
-size 286
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"bde98ba3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3008ab44",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockstarlightinfuser"
+		}]
+	}],
+	rewards: [{
+		uid: "430bd045",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

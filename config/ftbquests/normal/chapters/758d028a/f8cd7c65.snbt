@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5f77616254680ae4c3c4d8c6c37f6a34f18d95044d4d2cefb2f74b59e86f7edf
-size 274
+{
+	x: 4.0d,
+	y: 9.0d,
+	dependencies: [
+		"d0f3cd7d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5e7999ee",
+		type: "item",
+		items: [{
+			item: "rustic:evaporating_basin"
+		}]
+	}],
+	rewards: [{
+		uid: "099ecf4f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

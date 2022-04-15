@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c9eac8f45dd419bbdc04844e655bfbb3a33ed3ca0d006ee24382fe392c01475c
-size 295
+efab的合成主要是通过多方块结构来完成的，所以一定要合理搭建
+![Example](1.png)
+合成器所能识别的范围只能是由EFab框架所勾勒出来的范围，（就是多方块结构必须搭建在同一块黄色方块区域内）
+![Example](2.png)
+![Example](4.png)

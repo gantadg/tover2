@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2c144edac27c4a5d76de9d20ee2a203285cc6734905d96bb1d652965e7a17cc1
-size 275
+{
+	x: 10.5d,
+	y: -1.0d,
+	dependencies: [
+		"834ca648"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d3e9c383",
+		type: "item",
+		items: [{
+			item: "contenttweaker:circuit7"
+		}]
+	}],
+	rewards: [{
+		uid: "01f7e82d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

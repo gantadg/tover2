@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:55435bb739691d02b411d47da4461f9c6199df5685655ae480ca31892c7a6cc0
-size 139
+
+{
+  "Name": "pink_slime",
+  "Registry ID": "industrialforegoing:pink_slime",
+  "Class": "com.buuz135.industrial.entity.EntityPinkSlime"
+}

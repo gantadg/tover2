@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9cbfc06b00cfe81db5b9ae5d28671e5c302494bb89f7d090bb99f0be2a3412aa
-size 759
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
+
+
+val adv_del = [
+<advgenerators:power_capacitor_redstone>,
+
+<advgenerators:upgrade_kit>,
+<advgenerators:advanced_pressure_valve>,
+<advgenerators:controller>,
+<advgenerators:iron_wiring>,
+<advgenerators:iron_tubing>,
+<advgenerators:power_io>,
+<advgenerators:iron_frame>,
+<advgenerators:turbine_blade_enderium>,
+<advgenerators:turbine_enderium>,
+<advgenerators:turbine_steel>,
+<advgenerators:turbine_bronze>,
+<advgenerators:turbine_gold>,
+<advgenerators:turbine_iron>,
+<advgenerators:turbine_blade_bronze>,
+<advgenerators:turbine_blade_steel>,
+<advgenerators:turbine_blade_iron>,
+
+
+] as IIngredient[];
+
+
+for item in adv_del {
+    recipes.remove(item);
+}

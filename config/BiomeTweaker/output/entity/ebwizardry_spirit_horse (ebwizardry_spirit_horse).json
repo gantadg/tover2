@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f53ca67f0b978b0c7e7634fd5795eb0884d5d997a4488f4e574142a35b25f57c
-size 152
+
+{
+  "Name": "ebwizardry:spirit_horse",
+  "Registry ID": "ebwizardry:spirit_horse",
+  "Class": "electroblob.wizardry.entity.living.EntitySpiritHorse"
+}

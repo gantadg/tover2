@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e6db13cc82bc4978ec99a9588173a7584257548b0cdf2736f47c8a13a5914314
-size 466
+[
+ {
+  "id": "1",
+  "title": "奥术粉灰",
+  "icon": "item:bloodmagic:arcane_ashes"
+ },
+ {
+  "id": "2",
+  "title": "原生意志",
+  "icon": "item:bloodmagic:monster_soul"
+ },
+ {
+  "id": "3",
+  "title": "炼金术",
+  "icon": "item:rustic:condenser"
+ },
+ {
+  "id": "4",
+  "title": "净化仪式",
+  "icon": "item:minecraft:ender_eye"
+ },
+ {
+  "id": "5",
+  "title": "特殊意志的意志吊坠",
+  "icon": "item:minecraft:ender_eye"
+ },
+]

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a77faa268906c65624904293d8a468d10f5ca25c290b4bcb76a64e7f47a63de9
-size 160
+
+{
+  "Name": "primal:canis_campestris",
+  "Registry ID": "primal:canis_campestris",
+  "Class": "nmd.primal.core.common.entities.living.EntityCanisCampestris"
+}

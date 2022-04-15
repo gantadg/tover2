@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:05f2dea851dc9b334b6e0f57b321ba67299726276252b0826feb0388163ea12a
-size 482
+{
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"恭喜你成功研究出了金，现在回到之前的任务中看看被卡住的地方是不是可以完成了",
+		"研究出钻石后，一些工具与功能性方块可以更新材料了"
+	],
+	dependencies: [
+		"9d029e02"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7785742c",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "eb99f2a0",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

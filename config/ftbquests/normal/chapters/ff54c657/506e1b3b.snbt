@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:02c733b366a44777c2d39447ae5300c4428c79b2a42d0a47dbcd80cbea72b99b
-size 466
+{
+	x: 0.5d,
+	y: -3.0d,
+	text: [
+		"在一段时间内，这个发电机将承担起研究东西时所消耗的电量",
+		"注：由于没有导线，直接把发电机贴在研究台旁边就可传输电量了"
+	],
+	dependencies: [
+		"53d41d59"
+	],
+	tasks: [{
+		uid: "37f61bfd",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:coal_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "75be541d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

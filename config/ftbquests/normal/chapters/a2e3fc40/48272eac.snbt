@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a8729eb387be87ca966334ca53e3724839114800bfc9b8c7ee501584bf21c9fc
-size 297
+{
+	x: -5.5d,
+	y: 0.0d,
+	dependencies: [
+		"adbbd902",
+		"af7d335b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2abf71b6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_compass"
+		}]
+	}],
+	rewards: [{
+		uid: "a6616e59",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

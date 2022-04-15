@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c0f7db96ce13976e24bf77682aa9157e1367a7b72d4cbef09038cb2bd94887eb
-size 286
+8240909e-4e0a-3462-aa9c-eb9655e16f05 = gan'ta
+578166fe-2118-3637-aec2-c0737cfd2514 = ganta
+3dcdb7d8-9ddd-4bef-833c-862574fcb02f = ganta_dg
+5c7d791b-654f-450f-a199-b3e27ed90223 = Neptune
+7bf32b90-00db-454d-b835-7766595e4e83 = Ele_Sakura

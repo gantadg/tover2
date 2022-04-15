@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:02e9008034e6380a4e96214b9c751a5f02dff2c636eaf836a2e3cd72d73599b4
-size 139
+
+{
+  "Name": "ElderGuardian",
+  "Registry ID": "minecraft:elder_guardian",
+  "Class": "net.minecraft.entity.monster.EntityElderGuardian"
+}

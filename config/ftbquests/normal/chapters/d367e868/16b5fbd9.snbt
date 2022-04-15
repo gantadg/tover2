@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:621a51c7933e88a7d08906c6041c9ee1bd64048378a6a48986654ac831d81faa
-size 337
+{
+	x: 12.5d,
+	y: 6.5d,
+	text: [
+		"大大加快了你制皮的速度"
+	],
+	dependencies: [
+		"5a344d73"
+	],
+	hide: true,
+	tasks: [{
+		uid: "48623fc1",
+		type: "item",
+		items: [{
+			item: "artisanworktables:worktable 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "92456864",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,3 +1,39 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:70ed4f28ee93db3e07365349f23c34ff6c59d94e01f337e92c931f14a7c8902c
-size 754
+{
+	x: 2.0d,
+	y: -12.0d,
+	shape: "gear",
+	text: [
+		"你凝视着它：通过无数次对恒星合金的压缩而得来的奇点",
+		"你的灵魂仿佛被吸入在了恒星奇点里",
+		"突然之间，你的思维得到了重构",
+		"去探索星空的奥秘"
+	],
+	dependencies: [
+		"cd2c6220",
+		"85368a07"
+	],
+	hide: true,
+	size: 4.0d,
+	tasks: [{
+		uid: "151795dc",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 36"
+		}]
+	}],
+	rewards: [{
+		uid: "cbda9d42",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:the_secret_of_starry_sky"
+		}
+	},
+	{
+		uid: "e38e734b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a99923701e658e048e3187001af8de794087966642556cf21def8005d2e48c01
-size 275
+{
+	x: 2.5d,
+	y: 0.0d,
+	dependencies: [
+		"33d3ddf8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "042d81f0",
+		type: "item",
+		items: [{
+			item: "calculator:stoneseparator"
+		}]
+	}],
+	rewards: [{
+		uid: "524fe177",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

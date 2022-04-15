@@ -1,3 +1,37 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5201e71bbcb98ad594230025aef14ae39fd8386bb8215b38e3feeeded3848316
-size 540
+{
+	x: 9.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "4b21cfdf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal:cauldron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ddcbf6df",
+		type: "item",
+		title: "Any ladle",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ladle",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "9866c1d8",
+		type: "item",
+		items: [{
+			item: "primal:cauldron_lid"
+		}]
+	}]
+}

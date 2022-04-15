@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3002efd82f907d863c87db480881e307cfcc6aee6a6833afedb07276366c7015
-size 270
+{
+	x: 10.5d,
+	y: 11.0d,
+	dependencies: [
+		"a5ffca31"
+	],
+	hide: true,
+	tasks: [{
+		uid: "50ce47e9",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	}],
+	rewards: [{
+		uid: "9bc35635",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

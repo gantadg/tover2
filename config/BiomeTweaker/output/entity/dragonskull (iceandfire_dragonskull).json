@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7bdb96132a5efa737915ec799a6777b8a77f36cef858e28f0ccc20e648e21bfa
-size 144
+
+{
+  "Name": "dragonskull",
+  "Registry ID": "iceandfire:dragonskull",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityDragonSkull"
+}

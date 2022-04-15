@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:90c1f97f4d64452905a7808ddc75f92966aedc526033dde971034a2873798eca
-size 323
+{
+	x: -2.5d,
+	y: -2.0d,
+	text: [
+		"箱子管理器，喜欢吗"
+	],
+	dependencies: [
+		"12553177"
+	],
+	hide: true,
+	tasks: [{
+		uid: "95b2d361",
+		type: "item",
+		items: [{
+			item: "rftools:storage_scanner"
+		}]
+	}],
+	rewards: [{
+		uid: "57f81ac4",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

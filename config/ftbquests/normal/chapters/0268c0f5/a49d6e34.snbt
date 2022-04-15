@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:771393d778636ae3851e2fe7a8a5bca7b8e9a86523b1cfbf902a86f8c84ee786
-size 280
+{
+	x: 1.0d,
+	y: -5.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "be51cd14",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 128L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "91004d30",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

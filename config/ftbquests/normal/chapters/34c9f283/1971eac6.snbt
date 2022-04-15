@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:eea68fd57f6fd118f392163410ea56d7e6ee61bdb5ddac721df744130ab46268
-size 246
+{
+	x: 4.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "15f3e01c",
+		type: "item",
+		title: "Any dryingrack",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dryingrack",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

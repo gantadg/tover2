@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cea483672358beb301fb0a6814dd168fc1b1e03dabd82f7f3de7cf5e7b553cd2
-size 157
+注意，这些方块只有本mod的，带各种信息的物品才能使用。（即使你使用give指令，也会因为nbt等原因，无法起到效果）

@@ -1,3 +1,31 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:53d32b553ba3806accf86343df4e39d70e6c1d4669f669af63bc4fc29249c123
-size 448
+{
+	x: 12.5d,
+	y: -8.5d,
+	text: [
+		"温馨提示：祭坛不能被破坏"
+	],
+	dependencies: [
+		"972a4e5e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a01ac0c5",
+		type: "item",
+		items: [{
+			item: "ebwizardry:imbuement_altar"
+		}]
+	},
+	{
+		uid: "7e0a9e13",
+		type: "item",
+		items: [{
+			item: "ebwizardry:receptacle"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "1a552eca",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

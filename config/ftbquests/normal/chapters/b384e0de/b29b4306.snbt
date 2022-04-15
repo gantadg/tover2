@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f16e90e8a9ebf16a63eba030c5a413ea378b4896ad839131449203dbb65d7ded
-size 272
+{
+	x: 0.5d,
+	y: -1.0d,
+	dependencies: [
+		"dadbf019"
+	],
+	hide: true,
+	tasks: [{
+		uid: "35e99db1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gem_ss"
+		}]
+	}],
+	rewards: [{
+		uid: "c5e29db1",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

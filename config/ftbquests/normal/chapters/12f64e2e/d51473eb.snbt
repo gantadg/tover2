@@ -1,3 +1,40 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b2e57b09a5440eea753c37c296246f3c1f31496f3c129eb01e4d5e8dda3cdc2b
-size 724
+{
+	title: "谁想要玩玩火？",
+	icon: {
+		id: "primal:hibachi",
+		tag: {
+			type: "mud"
+		}
+	},
+	x: 4.0d,
+	y: -1.0d,
+	text: [
+		"用火盆不仅可以快速烧制食物，同时也可以快速烧制泥砖、沙子等物品",
+		"虽然有些麻烦，但烧玻璃可比熔炉快多了",
+		"支持漏斗自动化哦"
+	],
+	dependencies: [
+		"fd5910c5"
+	],
+	hide: true,
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "52472dc4",
+		type: "item",
+		title: "火盆",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "hibachi",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "c8846b1e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

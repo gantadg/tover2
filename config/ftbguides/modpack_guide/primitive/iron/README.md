@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d39d401479ddb112b7fce99c45901afac2d634efddc2ef87f8cec619cf026a29
-size 183
+在原始阶段，采集下来的铁矿是无法直接烧炼成铁锭的，需要通过敲击石头变成沼泽铁矿簇后在冶炼炉里与木炭进一步冶炼后才能冶炼出铁

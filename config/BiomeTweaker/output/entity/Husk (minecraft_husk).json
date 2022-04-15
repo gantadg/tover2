@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f24328a17b9ae6e355b68dd1094c4133b05c4ad2c256cea8a2262dc242170b9c
-size 111
+
+{
+  "Name": "Husk",
+  "Registry ID": "minecraft:husk",
+  "Class": "net.minecraft.entity.monster.EntityHusk"
+}

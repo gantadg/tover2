@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0747b82cda1fd63a253147c66fd853102af0ce925f0a4662623ec802e73e66fa
-size 275
+{
+	x: -4.5d,
+	y: 6.0d,
+	dependencies: [
+		"7c5ead8b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9d05a5ef",
+		type: "item",
+		items: [{
+			item: "mekanism:polyethene 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "f8deb9b3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

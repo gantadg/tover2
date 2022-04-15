@@ -1,3 +1,211 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:15e160c43940992c6f80cf30d1d7b9bf81da7f1157eb74cbb4a19460b5e45f86
-size 2706
+{
+  "name": "compactmachines3:storage4",
+
+  "target-item": "storagedrawers:upgrade_storage",
+  "target-meta": 4,
+  "target-count": 15,
+
+  "duration": 200,
+
+  "catalyst": "storagedrawers:upgrade_storage",
+  "catalyst-meta": 3,
+
+  "input-types": {
+    "a": {
+      "id": "storagedrawers:trim",
+      "meta": 0
+    },
+    "b": {
+      "id": "minecraft:emerald_block",
+      "meta": 0
+    }
+  },
+   "shape": [
+    [
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "b",
+        "b",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "b",
+        "b",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "a",
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "b",
+        "a",
+        "b"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+
+}

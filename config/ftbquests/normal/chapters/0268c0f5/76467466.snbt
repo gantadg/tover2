@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6a5143c75f4fe95bfba6aa5d9b21d4f0883831790106bef558f560f1149cdcdc
-size 218
+{
+	x: -6.5d,
+	y: -5.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "3844169d",
+		type: "forge_energy",
+		value: 10000000L
+	}],
+	rewards: [{
+		uid: "2a60815b",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

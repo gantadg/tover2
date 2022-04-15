@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d4ad6c34eb3cbafcb573244adc3a4806bcc9ff771c2db48a99e34d6a331fd0fd
-size 193
+前期没有什么好的发电手段，只能使用最普通的发电机来发电，而且由于没有管道，所以直接将发电机贴到研究台旁边便可传输电力
+![Example](1.png)

@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:00a78ff79716fd59f4b7812fd2bd6e02d8d1fd40885daa310183ae6f5a0bea8e
-size 246
+{
+	x: -3.5d,
+	y: -10.5d,
+	tasks: [{
+		uid: "236ff9aa",
+		type: "item",
+		items: [{
+			item: "toughasnails:rain_collector"
+		}]
+	},
+	{
+		uid: "e527060b",
+		type: "item",
+		items: [{
+			item: "toughasnails:thermometer"
+		}]
+	}]
+}

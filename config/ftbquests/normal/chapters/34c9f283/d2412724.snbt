@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c2a8193d4578da5714133d2c8196e36219925cbac6f6dd93e82c9369bbe4a69f
-size 311
+{
+	x: -3.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "ba87bd3a",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}]
+	},
+	{
+		uid: "e218330f",
+		type: "item",
+		items: [{
+			item: "primal:plant_fiber"
+		}]
+	}],
+	rewards: [{
+		uid: "0502043b",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

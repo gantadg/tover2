@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f5d90e9e0d870674d65fef6914ea6c0dfd81e78cca427a715529a139a1206fcd
-size 263
+{
+	x: -2.0d,
+	y: -2.5d,
+	dependencies: [
+		"52a689ff"
+	],
+	tasks: [{
+		uid: "526c266e",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:manufactory"
+		}]
+	}],
+	rewards: [{
+		uid: "c0d25520",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

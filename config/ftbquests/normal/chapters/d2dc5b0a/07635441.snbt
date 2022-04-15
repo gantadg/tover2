@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e6dab205a0b5b5da8f5801e354cc079d6089efdce283823a7432449207405884
-size 247
+{
+	x: -0.5d,
+	y: -3.0d,
+	dependencies: [
+		"da9620bd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a67848d3",
+		type: "fluid",
+		fluid: "if.pink_slime"
+	}],
+	rewards: [{
+		uid: "16f85a58",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

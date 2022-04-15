@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:54372d7625d48b822a85e4238f13921edbae9baac00a818d04b35b35120d710f
-size 282
+{
+	x: 10.0d,
+	y: -6.0d,
+	dependencies: [
+		"d0e27ef6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "acf70861",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "43b0ee62",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

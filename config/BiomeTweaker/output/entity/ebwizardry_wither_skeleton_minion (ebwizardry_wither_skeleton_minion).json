@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4fef2738275d9cc96fea3c06e9f2b9d5201848df102155ee7ae81446efd41295
-size 181
+
+{
+  "Name": "ebwizardry:wither_skeleton_minion",
+  "Registry ID": "ebwizardry:wither_skeleton_minion",
+  "Class": "electroblob.wizardry.entity.living.EntityWitherSkeletonMinion"
+}

@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:53d81e592a090e21cf522c4092b63f9242d1880d7b6736c064a7f3aada4a837c
-size 535
+{
+	title: "努力的活下去",
+	x: -2.5d,
+	y: -3.0d,
+	text: [
+		"口渴了？是时候掏出你的水罐了，虽然会因为不干净导致脱水，但起码能让你活下去",
+		"注意，死亡会掉营养值"
+	],
+	dependencies: [
+		"8114f631"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b5a16883",
+		type: "checkmark",
+		title: "渴了"
+	}],
+	rewards: [{
+		uid: "f9e61209",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "toughasnails:canteen"
+		}
+	}]
+}

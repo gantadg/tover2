@@ -1,3 +1,36 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:47a67895b83a690b8bf5ef54619893e1f4bb758d2f43a4495dcf3195af35d237
-size 552
+{
+	title: "砍点木头",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "primal:flint_axe"
+	},
+	x: -6.5d,
+	y: 1.0d,
+	dependencies: [
+		"4ecee46f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "78569231",
+		type: "item",
+		title: "Any logWood",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 32L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "81e166be",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

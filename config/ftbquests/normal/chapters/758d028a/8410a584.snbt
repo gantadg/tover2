@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2fddd5d1908e081c475ee790e7307770845b159baf17daba3e16e705b185acb4
-size 366
+{
+	x: 2.0d,
+	y: 3.0d,
+	shape: "circle",
+	text: [
+		"长木匠，短铁匠，不长不短是石匠"
+	],
+	dependencies: [
+		"63556da9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4baca04c",
+		type: "item",
+		items: [{
+			item: "artisanworktables:worktable 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "295b0792",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

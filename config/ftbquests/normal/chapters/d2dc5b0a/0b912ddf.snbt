@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:425841f5b71c3f44fc5d0ad799afa3bc47a87a3015539ed461131f92d3facc64
-size 269
+{
+	x: -2.5d,
+	y: -7.0d,
+	dependencies: [
+		"d95af927"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f1901b35",
+		type: "item",
+		items: [{
+			item: "enderio:block_vat"
+		}]
+	}],
+	rewards: [{
+		uid: "f4ee03d1",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

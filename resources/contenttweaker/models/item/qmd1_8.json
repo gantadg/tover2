@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c760eae239d8a306d80e4554b81549b2a67f454303ccb6f41bbcf01f4f0c28a9
-size 98
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/qmd1_8"
+  }
+}

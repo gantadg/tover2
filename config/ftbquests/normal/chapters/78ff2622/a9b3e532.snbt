@@ -1,3 +1,44 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cc1b4ad3155c52605a9ef42d49a828b441d1c4688951b24987db3ff4fd845a87
-size 766
+{
+	x: -18.0d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"此为提尔之旅的最终目标",
+		"你将凭此获得提尔至高的魔权",
+		"再也没有什么能阻挡你了",
+		"恭喜通关"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f550a667"
+	],
+	size: 6.0d,
+	tasks: [{
+		uid: "ff790601",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:end"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "04bb900c",
+		type: "ftbmoney:money",
+		ftb_money: 9999999999L
+	},
+	{
+		uid: "dff2c307",
+		type: "xp_levels",
+		xp_levels: 114514
+	},
+	{
+		uid: "19055828",
+		type: "command",
+		auto: "disabled",
+		command: "/gamemode 1"
+	}]
+}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2af231cd267bb08c41dcdc5bd06f46f2a79fb51ab78933ee4d3b43dfbdd8e242
-size 73
+
+{
+  "Name": "nc_wasteland",
+  "Suffix": "_nc_wasteland",
+  "ID": 4598
+}

@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:361cfcb89f685740fe96ce803eac51fcf79ec12f0d1f7c1a9ae91747a2dc4022
-size 450
+{
+	x: 0.5d,
+	y: -9.5d,
+	text: [
+		"这是个必要的东西，因此即使不会也得从零开始学了"
+	],
+	dependencies: [
+		"4b1fc695"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d80d3ed9",
+		type: "item",
+		items: [{
+			item: "psi:cad_assembler"
+		}]
+	},
+	{
+		uid: "5d5a6ef4",
+		type: "item",
+		items: [{
+			item: "psi:programmer"
+		}]
+	}],
+	rewards: [{
+		uid: "698b712d",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

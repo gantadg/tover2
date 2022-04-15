@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:71b7e052894d28e16ed384501aefb4cc4cab3ca56f8be815da0d64b729b783af
-size 463
+{
+	x: 12.5d,
+	y: 4.0d,
+	text: [
+		"在坩埚燃烧的结晶会在区块中弥散超过能凝聚一个结晶的意志，这东西需求挺多，如果你不会自动化，乖乖赚钱去商店买吧"
+	],
+	dependencies: [
+		"c3778130"
+	],
+	hide: true,
+	tasks: [{
+		uid: "45c0c670",
+		type: "item",
+		items: [{
+			item: "bloodmagic:item_demon_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "07c0a9f2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

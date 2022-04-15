@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:924cd15abffe4db45febd192e354fa647141722b1b5368e784dcd43f70418a6b
-size 54
+
+{
+  "Name": "overworld",
+  "Suffix": "",
+  "ID": 0
+}

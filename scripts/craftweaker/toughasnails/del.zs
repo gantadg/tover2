@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:28088f35dba958e997c86ee945d23d24bbbc5b6723c708c0cbb7d78005f28ad7
-size 426
+
+////////////////////////////////////////////////////////////////////////
+import crafttweaker.item.IItemStack;
+
+////////////////////////////////////////////////////////////////////////
+
+val toughasnails = [
+
+<toughasnails:canteen>, //水罐
+<toughasnails:charcoal_filter>, //活性炭滤纸
+<toughasnails:rain_collector>, //雨水收集器
+
+
+
+				] as IItemStack[];
+for item in toughasnails {
+    recipes.remove(item);
+    }
+

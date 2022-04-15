@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:85d94164f5860d45447af8d032a3ff871464a9d09eb78e430f279ab512b85a77
-size 222
+{
+	x: 0.0d,
+	y: -2.0d,
+	dependencies: [
+		"ca932860"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d1e72deb",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 10"
+		}],
+		count: 8L
+	}]
+}

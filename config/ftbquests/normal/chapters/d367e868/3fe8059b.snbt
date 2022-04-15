@@ -1,3 +1,31 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cb659205ef86edeb69d3f4b9fa97a60c84e5d8186a596625262b81b550812fe5
-size 466
+{
+	x: 23.5d,
+	y: -3.5d,
+	text: [
+		"于祭坛灌注灵气"
+	],
+	dependencies: [
+		"d1960a42"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bafb34f9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturesaura:aura_trove",
+			tag: {
+				aura: 1200000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a3f08e51",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

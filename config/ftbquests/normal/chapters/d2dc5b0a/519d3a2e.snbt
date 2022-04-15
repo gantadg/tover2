@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0568ffd5a162b66db0d3d08a6eff412de2aa8379e5e8c0b022cfd730eef4349b
-size 281
+{
+	x: -0.5d,
+	y: -5.0d,
+	dependencies: [
+		"07635441"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2a2df786",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_sieve"
+		}]
+	}],
+	rewards: [{
+		uid: "e680cdb8",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

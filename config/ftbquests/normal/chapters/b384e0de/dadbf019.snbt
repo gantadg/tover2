@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ec19486fc2cc58329b507a4fefbfb579ac6bca195b508312209f198498ca5b78
-size 284
+{
+	x: 0.5d,
+	y: -4.0d,
+	dependencies: [
+		"78dbc052"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a0cf5daa",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	}],
+	rewards: [{
+		uid: "3eb466cf",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

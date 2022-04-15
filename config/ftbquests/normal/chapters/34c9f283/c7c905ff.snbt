@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:57be883f02364841a09957f3576dec97bcc2d4ebac145b3f50e1590f5b509c7b
-size 275
+{
+	title: "鞣酸",
+	x: 9.0d,
+	y: -4.5d,
+	text: [
+		"用坩埚制作鞣酸，用以制作鞣质皮革"
+	],
+	dependencies: [
+		"2048c17e",
+		"b75438ab"
+	],
+	tasks: [{
+		uid: "570aa137",
+		type: "item",
+		items: [{
+			item: "primal:tannin_bottle"
+		}]
+	}]
+}

@@ -1,3 +1,45 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5d28d401cf1e04281da3c3f97795f6552ef4c6a44283773680ce9bc01062a360
-size 648
+{
+	x: 8.5d,
+	y: -7.0d,
+	text: [
+		"不会有人不知道热力机器升级需要套件吧）"
+	],
+	dependencies: [
+		"c81570b3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "77a42d70",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "57bf23c8",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 288"
+		}]
+	}],
+	rewards: [{
+		uid: "a9580179",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

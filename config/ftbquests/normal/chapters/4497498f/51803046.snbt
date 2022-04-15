@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fbf37d0a7892310f3109d18dc543cb3056003ea2a9cc87f1c312891634ee2dd1
-size 296
+{
+	x: 12.5d,
+	y: 11.0d,
+	dependencies: [
+		"e248b91c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c5e02e8f",
+		type: "item",
+		items: [{
+			item: "botanianeedsit:mana_capacitor_terrasteel 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "3ce49558",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

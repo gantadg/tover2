@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2a35e8ffca1798d240543fe5090553e01f5412b6c1523fa7cb4042c1a69fab33
-size 123
+
+{
+  "Name": "Enderman",
+  "Registry ID": "minecraft:enderman",
+  "Class": "net.minecraft.entity.monster.EntityEnderman"
+}

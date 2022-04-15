@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:90a61be02246407fc90b0eaa47874da99929843d6a69b648b767c88a7403414e
-size 397
+{
+	x: 2.0d,
+	y: 7.0d,
+	text: [
+		"这次的盆栽，额外的简单啊，相比于一代，不是么（来自同作者提尔空岛的吐槽"
+	],
+	dependencies: [
+		"d0f3cd7d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "30540c69",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot"
+		}]
+	}],
+	rewards: [{
+		uid: "40640372",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

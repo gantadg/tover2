@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e7372e4027965d1909a5caf18df51fed85bde8bc8950614dbb64b4c918f2f239
-size 324
+
+mods.DimensionStages.addDimensionStage("nether", -1);
+	mods.ItemStages.addItemStage("nether",<inventorypets:nether_portal_pet>);
+	mods.ItemStages.addItemStage("nether",<extrautils2:ingredients:10>);
+mods.DimensionStages.addDimensionStage("end", 1);
+
+mods.DimensionStages.addDimensionStage("dark", -11325);
+
+
+
+
+

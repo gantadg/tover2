@@ -1,3 +1,34 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:884e02e0f5cc8470ed474276e2ff5ec196a5e38c948f1ead8cda125c53ab54f5
-size 696
+{
+	title: "晒太阳咯",
+	x: -2.5d,
+	y: 1.0d,
+	text: [
+		"制作晾晒架用来晾晒砖块等物品",
+		"由于并没有ui界面，所以你只需要拿材料直接右键，一个晾干架最多能放四个物品，会以极其慢的速度晾干(真的很长)",
+		"多做点一定是个好方法）",
+		"tip:别让他淋雨了"
+	],
+	dependencies: [
+		"53d41d59"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7f1c94bd",
+		type: "item",
+		title: "晾晒架",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dryingrack",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "43fb75b2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

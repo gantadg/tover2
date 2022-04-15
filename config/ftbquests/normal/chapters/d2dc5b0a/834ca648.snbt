@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:92abb10ff7f3daf9e16ecc9cf8acf4e2d0769bba20c1779ef04f8a1021f8fa4d
-size 373
+{
+	x: 8.5d,
+	y: -1.0d,
+	text: [
+		"都来到这了，应该早就起ae了吧.那这繁琐的合成就不在话下了"
+	],
+	dependencies: [
+		"71a8f1c0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9c516646",
+		type: "item",
+		items: [{
+			item: "threng:material 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "1d5e24be",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

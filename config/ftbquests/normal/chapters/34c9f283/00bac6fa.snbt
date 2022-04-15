@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f4086142cf1e53a12eb8c8e0bd9c99056b6968af623b8bf9a348357457198f7a
-size 248
+{
+	x: 1.5d,
+	y: -10.5d,
+	tasks: [{
+		uid: "83b757b3",
+		type: "item",
+		title: "Any tatami_bed",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "tatami_bed",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

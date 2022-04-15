@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7f96c0307f6148e028bca5bc8d3204e6e98b2a2ce3b9ca5faa41d2bef7b347aa
-size 163
+// THIS FILE IS A TUTORIAL FILE, IT LETS YOU KNOW WHAT ITEM TYPES THERE ARE
+Chest
+Necklace
+Hammer
+Shield
+Staff
+Pants
+Bow
+Axe
+Helmet
+Sword
+Bracelet
+Ring
+Boots
+Charm

@@ -1,3 +1,35 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3d896ac9b55cda5cd8c10306d36b555084e76668cfdcff96df019d54db9d31e3
-size 462
+{
+	x: 4.5d,
+	y: -3.0d,
+	dependencies: [
+		"ced1d95e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b72bb2c7",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 6s
+		}]
+	}],
+	rewards: [{
+		uid: "e4c43ada",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

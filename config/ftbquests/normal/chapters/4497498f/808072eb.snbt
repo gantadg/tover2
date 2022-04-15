@@ -1,3 +1,47 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f2b9606875aa0278ecf6da561b2b9a747141e723614835da3954ede7bc4eeaee
-size 935
+{
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"将水晶石与星尘扔进星能液中等待一段时间即可产生天体水晶簇，成熟后破坏就可以获得天体水晶"
+	],
+	dependencies: [
+		"57a403b2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d9dbe470",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockcelestialcollectorcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					},
+					collectorType: 1
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2c4cff72",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcelestialcrystals 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "d33bd868",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

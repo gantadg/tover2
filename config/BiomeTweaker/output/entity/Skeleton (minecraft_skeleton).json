@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ca7104b9f7ad914bbeb6e57095824da5c07026544936b504e508e9dae16e1de7
-size 123
+
+{
+  "Name": "Skeleton",
+  "Registry ID": "minecraft:skeleton",
+  "Class": "net.minecraft.entity.monster.EntitySkeleton"
+}

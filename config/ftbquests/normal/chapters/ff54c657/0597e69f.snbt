@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:048d4ee28efdaa7c56f4c4cd7f76fc24d496f60dfc4099d5b623592e9781977f
-size 292
+{
+	title: "第三阶段",
+	x: 5.5d,
+	y: 0.0d,
+	dependencies: [
+		"305b06d9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "08f3d25d",
+		type: "gamestage",
+		title: "第三阶段",
+		stage: "three"
+	}],
+	rewards: [{
+		uid: "0f292683",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9a41609d12fab072ce355195e2696de61282994d3f00c427761bd5c4332dfab2
-size 141
+
+{
+  "Name": "grottol",
+  "Registry ID": "mowziesmobs:grottol",
+  "Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol"
+}

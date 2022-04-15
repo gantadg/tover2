@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:49da6513ab46d0693609dd24d0ea67e14d61d6f754e7a01b20348f68638041e7
-size 522
+{
+	x: -2.5d,
+	y: 2.5d,
+	text: [
+		"建议整一个生物群系指南针，并善用翻译和wiki。没指南针的帮助，你的路途将会很艰难",
+		"建议多做几个"
+	],
+	dependencies: [
+		"12553177"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c5ff7331",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:snowglobe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ac69edf8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

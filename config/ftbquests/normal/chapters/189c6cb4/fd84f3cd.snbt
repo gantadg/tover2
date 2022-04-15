@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c31db75e2352fba1c3375c2749be19de71a7f4b0b4332e06482f3f6c5a844c9a
-size 502
+{
+	x: -5.0d,
+	y: 5.0d,
+	dependencies: [
+		"6d63104c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "25d5257c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "deepmoblearning:deep_learner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1cd03501",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_blank"
+		}]
+	}],
+	rewards: [{
+		uid: "8e2df0e9",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

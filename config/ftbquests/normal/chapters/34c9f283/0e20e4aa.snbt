@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b36fe736d736d217d0aebeb456212e6abcc850f4fbed4868f48f5a1e8716c8fa
-size 260
+{
+	x: 4.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "7c7d385d",
+		type: "item",
+		title: "Any smelter",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "smelter",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d96d453933728e4365e227950ad89b8dc50fb2de100bb8dfe0c02562559af73c
-size 295
+{
+	x: -3.5d,
+	y: 0.0d,
+	dependencies: [
+		"af7d335b",
+		"48272eac"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b6a0d7bc",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}],
+	rewards: [{
+		uid: "6b5e270e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

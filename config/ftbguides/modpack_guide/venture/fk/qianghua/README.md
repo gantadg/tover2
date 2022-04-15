@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:acbccdf6c8aad659187d8f4624a276cbd52b07d814b958867412a5e9cde06987
-size 243
+![Example](qiang1.png)
+顾名思义，用来强化装备.
+左边放入要强化的装备，上边放入要用的强化物品(如后缀祝福宝珠）
+同样，你可以在其中用装备镶嵌符文，以组成套装效果（详见符文）

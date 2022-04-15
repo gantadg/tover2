@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2a78974861ef4dc8c0c2dd2454711ae6173d059aa98e862507a368a594129695
-size 106
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/atomicbinder_5"
+  }
+}

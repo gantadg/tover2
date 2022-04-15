@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:418f05817c0d4a491bd99704d6b9d2d90f7bfe62ece013dc88600dade4a42e59
-size 150
+
+{
+  "Name": "sentient_specter",
+  "Registry ID": "bloodmagic:sentient_specter",
+  "Class": "WayofTime.bloodmagic.entity.mob.EntitySentientSpecter"
+}

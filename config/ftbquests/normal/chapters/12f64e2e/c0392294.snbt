@@ -1,3 +1,49 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:eb07ac8fc91b7d8510446fc0522782e03e4037599b543b356439a26866cc6d78
-size 1073
+{
+	title: "石器时代的合金炉",
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"向顶部的开口丢入材料，然后盖上盖子并用打火石或火弓右击侧面点燃（听：呲~）",
+		"要取出成品，先取下盖子，然后空手潜行右击顶部的开口。产出的物品会立即进到你的物品栏中，任何剩余的材料都要慢慢地捞出。",
+		"对着正面下蹲右键就能查看进度，能中途收获，只不过需要重新点一次火"
+	],
+	dependencies: [
+		"76ed0004",
+		"4bd92083"
+	],
+	hide: true,
+	tasks: [{
+		uid: "15c7e6f3",
+		type: "item",
+		title: "Any smelter",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "smelter",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eec2918a",
+		type: "item",
+		title: "Any lidSmeltery",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "lidSmeltery",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "2158ab56",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

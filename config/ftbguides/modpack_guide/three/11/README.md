@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:59062e41795b847dd1efeb09ed13038e9043a07d789ec740313417759bb5e2bb
-size 405
+气体净化器是生产合成气的，将压缩空气处理为清洁空气，还可以从原烟道气种回收一部分碳粉。需求：气体净化器，集尘器，旋风分离器，旋风分离器顶部，气体增压器，电站，储气罐/压力容器2个。摆放如下：
+侧面
+![Example](侧面.png)
+顶部
+![Example](顶部.png)
+正面
+![Example](正面.png)
+合成配方以jei为准

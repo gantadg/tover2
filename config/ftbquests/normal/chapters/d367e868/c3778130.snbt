@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a0747d30ef35afadbd49edc0332a0ebb01dca8a110dde12a558e39829c6b4b2a
-size 488
+{
+	x: 10.0d,
+	y: 4.0d,
+	text: [
+		"将地狱魂石于坩埚献祭，区块中弥漫的意志将会于结晶坛上凝聚"
+	],
+	dependencies: [
+		"e3fc5e9b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "87cea835",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crucible"
+		}]
+	},
+	{
+		uid: "999bca1e",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crystallizer"
+		}]
+	}],
+	rewards: [{
+		uid: "21fe9817",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

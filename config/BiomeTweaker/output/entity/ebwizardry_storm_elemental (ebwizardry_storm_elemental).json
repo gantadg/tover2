@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:19b528152b1f71a66b1adb3c06241de73fc842da0183fa061460e68131c42e3b
-size 161
+
+{
+  "Name": "ebwizardry:storm_elemental",
+  "Registry ID": "ebwizardry:storm_elemental",
+  "Class": "electroblob.wizardry.entity.living.EntityStormElemental"
+}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4eaf69f5ef00d74c48cacf2f908a34a251cac95d844e0f8e527aa34c54fd25bc
-size 72
+
+{
+  "Name": "rftools_dimension",
+  "Suffix": "_rftools",
+  "ID": 145
+}

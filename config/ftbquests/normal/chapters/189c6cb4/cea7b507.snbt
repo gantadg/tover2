@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ab136a701fc51f5d7d5bfb4fc9e9df75eb293c55e82d3acbd414849bccb41a3d
-size 732
+{
+	x: 7.0d,
+	y: 0.0d,
+	text: [
+		"不得不说，这应该是噩梦的开始",
+		"虽然并没有太多的魔改成分，但你却必须搓几十台多方块来做自动化",
+		"集成管道np。相信我，你会需要它的，不会建议去b站找找教程（如果你不想拧麻花）",
+		"你需要足够耐心~"
+	],
+	dependencies: [
+		"61cf9230"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2d876458",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gbook:guidebook",
+			tag: {
+				Book: "rockhounding_chemistry:xml/chembook.xml"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e93e5b63",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

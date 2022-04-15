@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:099fa48a2c793ac103bf3e496fc84378d78aadc81c4621384eb2f639ca4c2fcd
-size 451
+{
+	x: 2.5d,
+	y: -4.0d,
+	text: [
+		"接下来，为了更好的矿物获取，你需要着手去准备电弧炉了（烧粒真是缺德的事情）",
+		"但显然水车发电供不起，，因此，你应该准备去做生物柴油发电的自动化",
+		"园艺玻璃罩真是个好东西"
+	],
+	dependencies: [
+		"e7248dd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "00f4b49c",
+		type: "checkmark",
+		title: "我需要更多的电量"
+	}]
+}

@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bc55a0d5794140e4aa2243dfac19935d8f53c445f32616937331f12a64392f28
-size 245
+{
+	x: -6.5d,
+	y: -2.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "26b2f0d1",
+		type: "botania_mana",
+		value: 10000000L,
+		max_input: 2424242424L
+	}],
+	rewards: [{
+		uid: "2cf7f2e5",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

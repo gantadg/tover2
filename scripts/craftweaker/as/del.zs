@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:da1c03315d9c76f6e7b9f8b245afc1076bf72ba1a44f49ff748cf2310f121494
-size 409
+//删除聚星杠
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/lightwell");
+//删除祭坛配方
+recipes.remove(<astralsorcery:blockaltar>);
+//删除共振宝石
+mods.astralsorcery.StarlightInfusion.removeInfusion(<astralsorcery:itemcraftingcomponent:4>);
+//删除遏制圣杯
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/chalice");

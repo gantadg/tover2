@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2aa323a3a3a40f444d1bfb49191d2cb0a3991271264c8320695fe1a888225503
-size 1058
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.player.IPlayer;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.ILivingEvent;
+import crafttweaker.event.PlayerCraftedEvent;
+
+/*
+events.onGameStageAdd(function(event as mods.ctintegration.gamestages.GameStageAddEvent) {
+   event.player.sendChat("Gamestage add! " + event.gameStage);
+});
+events.onGameStageAdded(function(event as mods.ctintegration.gamestages.GameStageAddedEvent) {
+   event.player.sendChat("Gamestage added! " + event.gameStage);
+});
+events.onGameStageRemove(function(event as mods.ctintegration.gamestages.GameStageRemoveEvent) {
+   event.player.sendChat("Gamestage remove! " + event.gameStage);
+});
+events.onGameStageRemoved(function(event as mods.ctintegration.gamestages.GameStageRemovedEvent) {
+   event.player.sendChat("Gamestage remove! " + event.gameStage);
+});
+events.onGameStageCleared(function(event as mods.ctintegration.gamestages.GameStageClearedEvent) {
+   event.player.sendChat("Gamestage Cleared! ");
+});
+*/
+
+
+
+
+
+

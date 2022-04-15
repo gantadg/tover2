@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ba4434c06946c89e817b2b28d78796e95627a4bdb5546e8ef68c5b9e0132af73
-size 398
+[
+ {
+  "id": "xiuli",
+  "title": "装备修理台",
+  "icon": "item:mmorpg:repair_station"
+ }, 
+ {
+  "id": "huishou",
+  "title": "装备回收台",
+  "icon": "item:mmorpg:salvage_station"
+ }, 
+ {
+  "id": "qianghua",
+  "title": "装备强化台",
+  "icon": "item:mmorpg:modify_station"
+ }, 
+ {
+  "id": "ditu",
+  "title": "地图装置",
+  "icon": "item:mmorpg:map_device"
+ }, 
+]

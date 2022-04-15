@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4272d81219e29b2333538a555bd37f94659524432a1e07c8d6fa5139b6f814ef
-size 125
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/another_half_singularity_ultimate"
+  }
+}

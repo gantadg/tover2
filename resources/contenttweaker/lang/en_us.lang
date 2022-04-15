@@ -1,3 +1,103 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0367fdd9fe85bc6a66dc917898a191dfcf08338033911b6e7b27970934811aaa
-size 3655
+
+item.contenttweaker.stage_keytwo.name=Stage Key two
+
+item.contenttweaker.blood_orb_weak.name=[weak]blood orb[empty]
+item.contenttweaker.blood_orb_apprentice.name=[apprentice]blood orb[empty]
+item.contenttweaker.blood_orb_magician.name=[magician]blood orb[empty]
+item.contenttweaker.blood_orb_master.name=[master]blood orb[empty]
+item.contenttweaker.blood_orb_archmage.name=[archmage]blood orb[empty]
+
+//
+fluid.preser_vative=preservative
+fluid.fluid_up=Molten half of the ultimate singularity
+fluid.fluid_down=Molten the ultimate singularity of the other half
+
+fluid.tree_oil_c=Synthetic tree oil
+//
+
+item.contenttweaker.kinetic_energy_coil.name=Kinetic Energy Coil
+
+item.contenttweaker.gear.name=Universal gear
+
+item.contenttweaker.coin.name=Universal coin
+
+item.contenttweaker.rubber.name=Universal rubber
+
+
+item.contenttweaker.ball.name=Universal ball
+
+item.contenttweaker.the_secret_of_starry_sky.name=The secret of starry sky
+
+item.contenttweaker.half_singularity_ultimate.name=Half of the ultimate singularity
+item.contenttweaker.another_half_singularity_ultimate.name=The ultimate singularity of the other half.
+
+
+item.contenttweaker.torch_core.name=Torch core
+
+item.contenttweaker.sheet.name=Strengthening sheet metal
+
+item.contenttweaker.tover.name=Tover ingot
+
+item.contenttweaker.isotopic_polymer.name=Isotopic polymer
+item.contenttweaker.exhausted_core.name=Exhausted 
+item.contenttweaker.ooooo.name=ooooo
+
+item.contenttweaker.end.name=Tover Creation Matrix
+
+item.contenttweaker.void_core_1.name=Fluid resource void extraction core [blank]
+item.contenttweaker.void_core_2.name=Fluid resource void extraction core [oil]
+
+item.contenttweaker.alchemical_proliferator.name=Alchemical Proliferator
+
+
+
+
+qmd.particle.tover_meson.name=Tover Meson
+qmd.particle.tover_innerquark.name=Tover Inner Quark
+qmd.particle.tover_outerquark.name=Tover Outer Quark
+qmd.particle.tover_neutron.name=Tover Neutron
+qmd.particle.tover_boson.name=Tover Boson
+
+qmd.particle.tover_meson.desc=The hadrons produced by the decay of Tover neutrons are the basic units of Tover neutrons
+qmd.particle.tover_innerquark.desc=Contains the inner quark of the outer quark
+qmd.particle.tover_outerquark.desc=Since the date cake model was overthrown, humans have never thought of finding a similar structure in the Tover galaxy
+qmd.particle.tover_neutron.desc=Constituent particles of black holes in the three body system of Tover Galaxy
+qmd.particle.tover_boson.desc=The ultimate micro world???
+
+
+
+
+
+item.contenttweaker.tover_64.name=64 Tover
+item.contenttweaker.end_4.name=32 End diamond
+item.contenttweaker.atomicbinder_5.name=5 atomicbinder
+item.contenttweaker.dockingstation_5.name=5 dockingstation
+
+item.contenttweaker.circuit12_8.name=8 circuit12
+item.contenttweaker.circuit13_8.name=8 circuit13
+
+item.contenttweaker.adamantine_4.name=4 adamantine
+item.contenttweaker.adamantine_64.name=64 adamantine
+item.contenttweaker.tartarite_4.name=4 tartarite
+item.contenttweaker.tartarite_64.name=64 tartarite
+item.contenttweaker.etherium_4.name=4 etherium
+
+item.contenttweaker.ultimate_32.name=32 Ultimate
+item.contenttweaker.nather_4.name=4 nather
+
+item.contenttweaker.mek1_4.name=4 mek1
+item.contenttweaker.mek2_4.name=4 mek2
+item.contenttweaker.mek3_4.name=4 mek3
+
+item.contenttweaker.k16384_2.name=2 16384K
+
+item.contenttweaker.qmd1_8.name=8 qmd1
+item.contenttweaker.qmd2_8.name=8 qmd2
+item.contenttweaker.qmd3_8.name=8 qmd3
+item.contenttweaker.qmd4_8.name=8 qmd4
+
+item.contenttweaker.nu0_8.name=8 nu0
+item.contenttweaker.nu1_8.name=8 nu1
+item.contenttweaker.nu2_8.name=8 nu2
+
+

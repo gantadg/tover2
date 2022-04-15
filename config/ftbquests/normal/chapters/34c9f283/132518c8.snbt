@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e1005477778e031cd5c1fd427061d97cc59e480b4a31a1b94591a3f5dc162d35
-size 132
+{
+	x: 9.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "b451e99a",
+		type: "item",
+		items: [{
+			item: "minecraft:leather"
+		}]
+	}]
+}

@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e53dbff5701db1036be40d261a10bdf77d1ae5520488b35292ef19817bf21dd6
-size 958
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <!-- This is an example a broken spawner crafting recipes. Copy this file into the enderio/config/recipes/user folder to activate it. -->
+
+  <recipe name="Broken Spawner" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item name="enderio:block_dark_iron_bars" /><item name="enderio:block_dark_iron_bars" /><item name="enderio:block_dark_iron_bars" />
+        <item name="enderio:block_dark_iron_bars" /><item /><item name="enderio:block_dark_iron_bars" />
+        <item name="enderio:block_dark_iron_bars" /><item name="enderio:block_dark_iron_bars" /><item name="enderio:block_dark_iron_bars" />
+      </grid>
+      <output name="enderio:item_broken_spawner" amount="1" />
+    </crafting>
+  </recipe>
+
+</enderio:recipes>

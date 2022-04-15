@@ -1,3 +1,31 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:343e9654c376fd9bea38dd58ad77ecb310ac36808ea23c5062ab7535e659bbcf
-size 557
+{
+	x: 2.5d,
+	y: 5.0d,
+	text: [
+		"这个mod可能并不是完全体，所以不能加入升级，但物品能通过能源站自动输入",
+		"指南有具体的教程（大概）"
+	],
+	dependencies: [
+		"27a4ccc4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7391918e",
+		type: "item",
+		items: [{
+			item: "artisanautomation:automator"
+		}]
+	},
+	{
+		uid: "ed309351",
+		type: "item",
+		items: [{
+			item: "artisanautomation:automator_power_rf"
+		}]
+	}],
+	rewards: [{
+		uid: "cdeabfec",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

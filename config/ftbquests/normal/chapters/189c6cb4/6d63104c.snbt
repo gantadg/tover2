@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9ae6ddabed360d1ff580a78878867f37550bf861601a28a77531d311e24b1504
-size 721
+{
+	x: -5.0d,
+	y: 2.5d,
+	text: [
+		"拿红石往煤炭块上右键抹一抹，合理"
+	],
+	dependencies: [
+		"12553177"
+	],
+	hide: true,
+	tasks: [{
+		uid: "af3e6eec",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:soot_covered_redstone"
+		}]
+	},
+	{
+		uid: "eed04150",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6228671679307915014L,
+					AS_Amulet_HolderMost: 3L
+				}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "deepmoblearning:book"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0bc5ee4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

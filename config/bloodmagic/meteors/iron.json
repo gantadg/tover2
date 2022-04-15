@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:438eea5dbf93b63b3f92f6f330fd946d232ec817d1b7db4265e479b93c565740
-size 481
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "minecraft",
+      "path": "iron_block"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 400,
+      "oreName": "oreIron"
+    },
+	{
+	"weight": 30,
+	"oreName": "oreUninspected"
+	},
+    {
+      "weight": 30,
+      "oreName": "oreChaos"
+    },
+    {
+      "weight": 130,
+      "oreName": "oreCoal"
+    }
+  ],
+  "explosionStrength": 15.0,
+  "radius": 6,
+  "maxWeight": 590,
+  "version": 3,
+  "cost": 100000
+}

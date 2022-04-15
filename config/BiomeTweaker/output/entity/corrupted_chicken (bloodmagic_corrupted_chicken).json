@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2828a802440ea6ce991174c76e5385b9b832816badb8b28718c790830956be4c
-size 153
+
+{
+  "Name": "corrupted_chicken",
+  "Registry ID": "bloodmagic:corrupted_chicken",
+  "Class": "WayofTime.bloodmagic.entity.mob.EntityCorruptedChicken"
+}

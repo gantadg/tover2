@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d7073b7df21d48d27630f1a6cfe280c3b8e79554071baec3667b1cd0085afa09
-size 337
+{
+	x: 1.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "1f385e3c",
+		type: "item",
+		title: "Any craftingtable",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingtable",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "a143cbfb",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

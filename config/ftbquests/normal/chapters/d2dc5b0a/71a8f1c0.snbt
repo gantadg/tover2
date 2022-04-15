@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d27ee4beb3ac3fcf2b5914e59ac26c7628936e36877996c502f0b5c2dddb7583
-size 328
+{
+	x: 6.5d,
+	y: -1.0d,
+	text: [
+		"它甚至还是一些矿物的唯一来源"
+	],
+	dependencies: [
+		"1d2a4748"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e6090f23",
+		type: "item",
+		items: [{
+			item: "threng:machine"
+		}]
+	}],
+	rewards: [{
+		uid: "f94c31f3",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d72f0da5788d13da09de9271e02f174ccc554e9eb5a34e6bb7e31934b74f87b8
-size 164
+
+{
+  "Name": "ebwizardry:lightning_wraith",
+  "Registry ID": "ebwizardry:lightning_wraith",
+  "Class": "electroblob.wizardry.entity.living.EntityLightningWraith"
+}

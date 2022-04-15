@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e25bc37ec2ce4bceaa93c3ac47d1021583fe6c1b3c26b54929c7eb72cc61ea33
-size 334
+先使用锄头将在水边的泥土变为耕地，再等耕地湿润后破坏耕地即可获得泥球
+将泥球放入模具箱里制造湿泥砖，再放到晾晒架上晾晒
+![Example](nizhuan.png)
+左侧为湿泥砖、右侧为干泥砖
+晾晒所需时间和所处环境有关，所以前期一个好的出生地是很重要的

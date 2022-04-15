@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fe93f4e2e07ae12021b7f5aad89a6c7afb7f755d6ba83cf69c055bcaf99cd44d
-size 503
+{
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"恭喜你成功研究出了第一阶段，现在回到之前的任务中看看被卡住的地方是不是可以完成了",
+		"现在可能增添了一些物品的合成配方，请自行选择最简单的方式合成"
+	],
+	dependencies: [
+		"58e5750b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4c2a4b6b",
+		type: "gamestage",
+		title: "第一阶段",
+		stage: "one"
+	}],
+	rewards: [{
+		uid: "a5e03dee",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

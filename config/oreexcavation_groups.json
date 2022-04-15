@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b24cb186a7b89c5dcf774bcba759c12c1ae6636a216b9edd6ce0ad44a7f620a2
-size 311
+{
+  "blockGroups": [
+    [
+      "treeLeaves"
+    ],
+    [
+      "logWood"
+    ]
+  ],
+  "strictSubtypes": [
+    "cropWheat",
+    "cropPotato",
+    "cropCarrot",
+    "cropNetherWart"
+  ],
+  "gamestages": {
+    "examplemod:example_block1": "example_stage1",
+    "examplemod:example_block2": "example_stage2"
+  }
+}

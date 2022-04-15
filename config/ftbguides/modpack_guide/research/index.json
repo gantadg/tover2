@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b14f911a02843f1602d0770ada7921062af0fe70af0149759926b2dbcaa631d5
-size 186
+[
+ {
+  "id": "1",
+  "title": "研究台",
+  "icon": "item:researchtable:table"
+ },
+ {
+  "id": "2",
+  "title": "发电",
+  "icon": "item:integrateddynamics:coal_generator"
+ }
+]

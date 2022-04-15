@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fe04cc7f9fa434d3064c090297cb4fad2aae456daf3e2ea3ad7af78817a713c6
-size 329
+{
+	title: "“来生硬的”",
+	x: 6.5d,
+	y: 0.0d,
+	text: [
+		"在冶炼炉中把铁矿簇、沙子、木炭在一起冶炼以得到铁"
+	],
+	dependencies: [
+		"25eaad7b",
+		"0e20e4aa",
+		"57a128ea"
+	],
+	tasks: [{
+		uid: "e40be80c",
+		type: "item",
+		items: [{
+			item: "primal:crude_iron_nugget"
+		}]
+	}]
+}

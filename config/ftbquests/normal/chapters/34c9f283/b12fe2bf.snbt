@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8a2d6f6931a3cde318c593083c000377249d8ac76ebd7f03768ee23a2d739980
-size 333
+{
+	x: -1.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "e144c08a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal:flint_hatchet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e68760ee",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

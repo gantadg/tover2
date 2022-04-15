@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:64e65e57164ea5479c04914247916c2a47682cf93b005e0d14d34ee3b7d67bd6
-size 443
+{
+	x: 0.0d,
+	y: -4.0d,
+	text: [
+		"注：动能发电机本身没有存储电力的能力，所以看到机器上0RF是正常情况哦",
+		"这可比原版猛了十倍"
+	],
+	dependencies: [
+		"eb62b26e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ec7f9dc7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "90ae5fc4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

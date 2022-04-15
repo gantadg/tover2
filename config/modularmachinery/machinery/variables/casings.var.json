@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:86fc3c5d1db8cfd06710d929a78cac4cda24b0026b5967b04b8d14598eb3a766
-size 875
+{
+    "casings_all": [
+        "modularmachinery:blockcasing",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockenergyoutputhatch",
+        "modularmachinery:blockfluidoutputhatch"
+    ],
+    "casings_decorative": [
+        "modularmachinery:blockcasing"
+    ],
+    "casings_fluid": [
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockfluidoutputhatch"
+    ],
+    "casings_energy": [
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockenergyoutputhatch"
+    ],
+    "casings_item": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus"
+    ],
+	"casings_item_out": [
+        "modularmachinery:blockoutputbus"
+    ],
+	
+}

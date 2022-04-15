@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d8b4cfb0300f9c67d4002de12064c5c398843865a8aa6de185815be93a4d6fb7
-size 487
+{
+	title: "下界",
+	x: -1.5d,
+	y: -2.0d,
+	text: [
+		"恭喜你成功研究出了下界，现在回到之前的任务中看看被卡住的地方是不是可以完成了",
+		"现在可能增添了一些物品的合成配方，请自行选择最简单的方式合成"
+	],
+	dependencies: [
+		"9d029e02"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f7077b48",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "bd7c319b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

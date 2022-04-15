@@ -1,3 +1,176 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6dc01af198319510d63951591ca2aed0e29556ddead7da2ef4cb1c3862d398b0
-size 3741
+{
+	x: 0.5d,
+	y: -7.0d,
+	text: [
+		"一块为你打开新世界大门的金属锭"
+	],
+	dependencies: [
+		"dadbf019"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6bb6ad84",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}]
+	}],
+	rewards: [{
+		uid: "e190dc69",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "29e40751",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5173097315495424381L,
+					AS_Amulet_HolderMost: 8931530383495480653L
+				}
+			},
+			id: "minecraft:white_shulker_box",
+			tag: {
+				BlockEntityTag: {
+					CustomName: "模块化图纸大礼包",
+					Items: [{
+						Slot: 0b,
+						id: "modularmachinery:itemblueprint",
+						Count: 1b,
+						tag: {
+							dynamicmachine: "modularmachinery:planetary_mining_machine"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						id: "modularmachinery:itemblueprint",
+						Count: 1b,
+						tag: {
+							dynamicmachine: "modularmachinery:fluid_mixer_mk2"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						id: "modularmachinery:itemblueprint",
+						Count: 1b,
+						tag: {
+							dynamicmachine: "modularmachinery:fluid_mixer_mk1"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 3b,
+						id: "modularmachinery:itemblueprint",
+						Count: 1b,
+						tag: {
+							dynamicmachine: "modularmachinery:electronic_machine_mk4"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						id: "modularmachinery:itemblueprint",
+						Count: 1b,
+						tag: {
+							dynamicmachine: "modularmachinery:electronic_machine_mk3"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 5b,
+						id: "modularmachinery:itemblueprint",
+						Count: 1b,
+						tag: {
+							dynamicmachine: "modularmachinery:electronic_machine_mk2"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 6b,
+						id: "modularmachinery:itemblueprint",
+						Count: 1b,
+						tag: {
+							dynamicmachine: "modularmachinery:star_communication2"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 7b,
+						id: "modularmachinery:itemblueprint",
+						Count: 1b,
+						tag: {
+							dynamicmachine: "modularmachinery:electronic_machine_mk1"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 8b,
+						id: "modularmachinery:itemblueprint",
+						Count: 1b,
+						tag: {
+							dynamicmachine: "modularmachinery:creation_machine"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 9b,
+						id: "modularmachinery:itemblueprint",
+						Count: 1b,
+						tag: {
+							dynamicmachine: "modularmachinery:star communication"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 10b,
+						id: "modularmachinery:itemblueprint",
+						Count: 1b,
+						tag: {
+							dynamicmachine: "modularmachinery:botanic_star"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 11b,
+						id: "modularmachinery:itemblueprint",
+						Count: 1b,
+						tag: {
+							dynamicmachine: "modularmachinery:mineral_generator"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 12b,
+						id: "modularmachinery:itemblueprint",
+						Count: 1b,
+						tag: {
+							dynamicmachine: "modularmachinery:10x_mineral_generator"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 13b,
+						id: "modularmachinery:itemblueprint",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 14b,
+						id: "modularmachinery:itemblueprint",
+						Count: 1b,
+						tag: {
+							dynamicmachine: "modularmachinery:falling_star_simulator"
+						},
+						Damage: 0s
+					}]
+				},
+				display: {
+					Name: "模块化图纸大礼包"
+				}
+			}
+		}
+	}]
+}

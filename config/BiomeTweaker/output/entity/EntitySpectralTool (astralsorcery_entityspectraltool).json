@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:362f8c257de7d210547796468fb2a16dd891c99584c47efa4660898d2ffa5abb
-size 164
+
+{
+  "Name": "EntitySpectralTool",
+  "Registry ID": "astralsorcery:entityspectraltool",
+  "Class": "hellfirepvp.astralsorcery.common.entities.EntitySpectralTool"
+}

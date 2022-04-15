@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2fd54215add22893ac1ea3127cdf1d79f17caa52f11b435e1c538207ba4d5dd4
-size 315
+{
+	x: -8.5d,
+	y: 3.0d,
+	text: [
+		"克里斯关下门”"
+	],
+	dependencies: [
+		"988fd9d8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c8be98da",
+		type: "item",
+		items: [{
+			item: "metallurgy:krik_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "144b4446",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

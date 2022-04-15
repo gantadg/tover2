@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0e076c7daec57b0239036ec3b0253d9cf782326dceb4110c9117dbbd75c96b24
-size 155
+
+{
+  "Name": "ebwizardry:spider_minion",
+  "Registry ID": "ebwizardry:spider_minion",
+  "Class": "electroblob.wizardry.entity.living.EntitySpiderMinion"
+}

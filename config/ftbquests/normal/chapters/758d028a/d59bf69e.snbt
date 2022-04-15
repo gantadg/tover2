@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:05aaa3f3c8f0a4790a7b265f8c9e8df16d0f8e9cebafa8fa7c6ff84999db1768
-size 377
+{
+	title: "不醉！不归！",
+	x: 6.5d,
+	y: 9.0d,
+	text: [
+		"做出一个酿造桶来酿造各类酒"
+	],
+	dependencies: [
+		"f8cd7c65",
+		"2b7da974"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aafeea88",
+		type: "item",
+		items: [{
+			item: "rustic:brewing_barrel"
+		}]
+	}],
+	rewards: [{
+		uid: "6b742644",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

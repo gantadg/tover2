@@ -1,3 +1,37 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8813714681d8c1ff7f2f182e3e744f3576c0ce81e5336e6d4a99690fb983edb0
-size 565
+{
+	x: 0.5d,
+	y: 0.0d,
+	text: [
+		" 激动人心的自动化终于来了"
+	],
+	dependencies: [
+		"e54720cc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0db5a817",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:interface"
+		}]
+	},
+	{
+		uid: "1e7404c7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	},
+	{
+		uid: "b7ee737a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 52"
+		}]
+	}],
+	rewards: [{
+		uid: "53666a4e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

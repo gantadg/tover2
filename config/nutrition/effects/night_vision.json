@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d10cd0bb4e0ce9602b6f3e164451635590c7441307e9f4e6e2fa587ff5d1f43f
-size 449
+{
+	"name": "night_vision",               
+	"potion": "minecraft:night_vision",  
+	"amplifier": 0,                  
+	"minimum": 99,                   
+	"maximum": 100,                  
+	"detect": "average",                 
+	"nutrients": [                   
+		"fruit",                   
+		"vegetable"                 
+	],                            
+	"cumulative_modifier": 1,   
+	"particles": "transparent",    
+	"enabled": true             
+}
+

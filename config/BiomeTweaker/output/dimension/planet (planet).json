@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3c3fc780dee9741e17a059590c43306f76d0bbc5c2adf7dd07af765a9d0349dd
-size 57
+
+{
+  "Name": "planet",
+  "Suffix": "planet",
+  "ID": 2
+}

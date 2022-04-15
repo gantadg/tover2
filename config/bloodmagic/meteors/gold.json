@@ -1,3 +1,48 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3eaf96025bcc6d500e9b6873966e7514c0b77044071cb54f3724bc14c2ca5572
-size 735
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "minecraft",
+      "path": "gold_block"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 200,
+      "oreName": "oreCopper"
+    },
+	{
+	  "weight": 150,
+	  "oreName": "oreTin"
+	},
+    {
+      "weight": 150,
+      "oreName": "oreLead"
+    },
+    {
+      "weight": 150,
+      "oreName": "oreAluminum"
+    },
+    {
+      "weight": 150,
+      "oreName": "oreSilver"
+    },
+	{
+      "weight": 150,
+      "oreName": "oreNickel"
+    },
+    {
+      "weight": 120,
+      "oreName": "oreLapis"
+    },
+    {
+      "weight": 200,
+      "oreName": "oreRedstone"
+    }
+  ],
+  "explosionStrength": 18.0,
+  "radius": 8,
+  "maxWeight": 1600,
+  "version": 4,
+  "cost": 250000
+}

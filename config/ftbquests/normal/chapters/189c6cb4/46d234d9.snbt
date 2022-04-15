@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:969c133f6c435d65466adecd483dca1235b45355efe578ec060ef5d507cec8f7
-size 385
+{
+	x: 2.5d,
+	y: 0.0d,
+	text: [
+		"注意，有些蓝图只能用于机械工作台，放入装配台会崩端"
+	],
+	dependencies: [
+		"ca932860"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c0519e86",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "111be3ea",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

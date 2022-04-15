@@ -1,3 +1,34 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:27ef0e0fde920007dc2eab6ff70d31161cdad7efbfb03d9cad4c6f6d1367c225
-size 619
+{
+	title: "敲碎他",
+	icon: "minecraft:flint",
+	x: -6.5d,
+	y: -3.0d,
+	text: [
+		"找个石头把燧石敲烂",
+		"欲速则不达，你需要有节奏（大概一秒一下）的频率敲击，你才能得到你想到的东西"
+	],
+	dependencies: [
+		"fbc578b4"
+	],
+	hide: true,
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "81b75cc9",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}]
+	},
+	{
+		uid: "43d6b84f",
+		type: "item",
+		items: [{
+			item: "primal:flint_knapp"
+		}]
+	}],
+	rewards: [{
+		uid: "e06ee7fe",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

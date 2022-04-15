@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ec1a58e07e1925b2c61f3b3bfafc021a534c67a67a4135d9765e085eefa5b74c
-size 305
+{
+	x: 3.5d,
+	y: 7.0d,
+	shape: "gear",
+	dependencies: [
+		"55a1d83d"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "bb187c69",
+		type: "item",
+		items: [{
+			item: "inventorypets:windows_8"
+		}]
+	}],
+	rewards: [{
+		uid: "c03ebfa3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

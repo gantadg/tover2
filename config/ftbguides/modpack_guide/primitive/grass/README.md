@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9117b937aa98a62495d9192d4b86b1ebd492e9b186534b17d8200580e55534d6
-size 125
+通过破坏草获得
+注意：大部分工具的合成是要通过杂草纤维合成的绳子制作的，请仔细查看jei

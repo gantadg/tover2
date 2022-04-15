@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:10fb244e9d6d410c7bdd9645fb6cb0b53b6981fa2b66ba9f71fd2a7c783d5e72
-size 383
+{
+  "supports": [
+    {
+      "id": "268",
+      "metadata": 0
+    },
+    {
+      "id": "272",
+      "metadata": 0
+    },
+    {
+      "id": "267",
+      "metadata": 0
+    },
+    {
+      "id": "283",
+      "metadata": 0
+    },
+    {
+      "id": "276",
+      "metadata": 0
+    },
+    {
+      "id": "metallurgy:hepatizon_ingot",
+      "metadata": 0
+    }
+  ],
+  "bonusMultiplier": 1.0
+}

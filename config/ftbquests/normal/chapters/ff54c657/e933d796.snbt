@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2733398ca32c417680ddcb669380e989d965f21aba29542f727cf7ae1d406855
-size 482
+{
+	x: -1.5d,
+	y: 2.0d,
+	text: [
+		"恭喜你成功研究出了钻石，现在回到之前的任务中看看被卡住的地方是不是可以完成了",
+		"研究出钻石后，一些工具与功能性方块可以更新材料了"
+	],
+	dependencies: [
+		"9d029e02"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4c9ed8dc",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "163ec0d9",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

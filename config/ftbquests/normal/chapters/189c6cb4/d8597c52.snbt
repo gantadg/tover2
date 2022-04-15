@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:65d4a8ed22dfab7242dbbafe82fa99e250885f364631a2c01886fdf74c65a8f2
-size 420
+{
+	x: 2.5d,
+	y: 7.5d,
+	text: [
+		"绿宝石朝南 东西丢激活的魔幻水晶球",
+		"来自某非酋群友四次实验的成果",
+		"属实保底人了"
+	],
+	dependencies: [
+		"12303a47"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c056fac1",
+		type: "item",
+		items: [{
+			item: "extrautils2:teleporter 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "6ad083c9",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

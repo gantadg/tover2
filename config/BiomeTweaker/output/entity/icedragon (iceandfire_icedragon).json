@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:235eea3790a063cddeff33099f811428c77442feba35f482bf91039d40bf2fbf
-size 138
+
+{
+  "Name": "icedragon",
+  "Registry ID": "iceandfire:icedragon",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityIceDragon"
+}

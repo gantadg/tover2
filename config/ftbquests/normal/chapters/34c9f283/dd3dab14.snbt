@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a59c1ef6704c622cf2945788e1c1cb0bd5c1eb365b199c651ebdc5aa56e784f5
-size 375
+{
+	x: -1.0d,
+	y: -10.5d,
+	tasks: [{
+		uid: "5fb638a7",
+		type: "item",
+		items: [{
+			item: "waterstrainer:strainer_base"
+		}]
+	},
+	{
+		uid: "268eb5b1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "waterstrainer:strainer_survivalist_dense"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

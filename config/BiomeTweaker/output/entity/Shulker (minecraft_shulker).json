@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:53489734499e01d408ea1a4d0d29e1b1e43db90de2a759eee4fb2e8e9566cbac
-size 120
+
+{
+  "Name": "Shulker",
+  "Registry ID": "minecraft:shulker",
+  "Class": "net.minecraft.entity.monster.EntityShulker"
+}

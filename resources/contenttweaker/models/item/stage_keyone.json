@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:928416456f2e888691503f6b3cad23894bdec7dc98e0bb33b17030a9c043fb17
-size 104
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/stage_keyone"
+  }
+}

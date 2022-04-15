@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5d55829f4e2fa71dcaf838f0e854a447942f271fbf5ce659ef2a2d038db3cd42
-size 491
+{
+	title: "来硬的！",
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		"用挖出来的铁矿石敲击石头，以得到铁矿簇",
+		"去沼泽找泥沼铁，其实更高效",
+		"提个建议，用石灰石做催化剂，能直接出锭"
+	],
+	dependencies: [
+		"964adc32"
+	],
+	hide: true,
+	tasks: [{
+		uid: "baf2707a",
+		type: "item",
+		items: [{
+			item: "primal:ore_cluster_bog_iron"
+		}]
+	}],
+	rewards: [{
+		uid: "70a5026d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

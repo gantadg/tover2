@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a6aa57d51dd1abec34cb7be828ef7c6c52eacb0f95ad1f619266b71eefd7ca4a
-size 306
+{
+	x: 0.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "e79eaf2e",
+		type: "item",
+		items: [{
+			item: "minecraft:stone"
+		}]
+	}],
+	rewards: [{
+		uid: "eb9527d3",
+		type: "item",
+		item: {
+			id: "extrautils2:spike_stone",
+			tag: {
+				ench: [{
+					lvl: 233,
+					id: 21
+				}]
+			}
+		}
+	}]
+}

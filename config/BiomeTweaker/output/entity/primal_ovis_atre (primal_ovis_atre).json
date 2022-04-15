@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:39c9f0c16cfc0b4fd40dbbf67a1dc70a8383e3399add695961ab1652d845a768
-size 139
+
+{
+  "Name": "primal:ovis_atre",
+  "Registry ID": "primal:ovis_atre",
+  "Class": "nmd.primal.core.common.entities.living.EntityOvisAtre"
+}

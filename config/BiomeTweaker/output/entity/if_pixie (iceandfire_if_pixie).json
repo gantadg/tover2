@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a855d0c234eb6c98f7aded24aa2dbaa88de6e804ac9032fbff0600f630f6e889
-size 132
+
+{
+  "Name": "if_pixie",
+  "Registry ID": "iceandfire:if_pixie",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityPixie"
+}

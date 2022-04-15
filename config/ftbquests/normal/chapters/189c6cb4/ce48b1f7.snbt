@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a607db19370e244ee5df200e8cb4fe83aa3a618e4046394b9791f3846f57bffb
-size 335
+{
+	x: 0.0d,
+	y: 2.5d,
+	text: [
+		"你可以把他当成匠魂的模具箱"
+	],
+	dependencies: [
+		"12553177"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ef733573",
+		type: "item",
+		items: [{
+			item: "artisanworktables:toolbox"
+		}]
+	}],
+	rewards: [{
+		uid: "b3d257ad",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bc0fb725a181d45e989a62f11760f16805fd79a85adac7301cb78bb705788480
-size 586
+{
+	x: -5.0d,
+	y: -1.5d,
+	text: [
+		"注意，如果你是一步一步升级上来的，务必在合成之前吧东西清空"
+	],
+	dependencies: [
+		"adbbd902"
+	],
+	tasks: [{
+		uid: "d3ad5c2f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8650533404404071803L,
+					AS_Amulet_HolderMost: 3348665796202482568L
+				}
+			},
+			id: "danknull:dank_null_5"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7d1621e8",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

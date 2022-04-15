@@ -1,3 +1,65 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8ea078bbe0e038eab75a844085792045133f96fb4dcdea69815a3dab7888f67b
-size 1704
+////////////////////////////////////////////////////////////////////////
+import crafttweaker.item.IItemStack;
+
+////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+mods.ItemStages.stageModItems("seven","calculator");
+mods.ItemStages.stageModItems("seven","nuclearcraft");
+mods.ItemStages.stageModItems("seven","qmd");
+
+
+
+
+mods.ItemStages.removeItemStage(<calculator:calculatorscreen>);
+mods.ItemStages.addItemStage("three",<calculator:calculatorscreen>);
+//饥饿
+mods.ItemStages.removeItemStage(<calculator:hungermodule>);
+mods.ItemStages.addItemStage("three",<calculator:hungermodule>); 
+mods.ItemStages.removeItemStage(<calculator:hungerprocessor>);
+mods.ItemStages.addItemStage("three",<calculator:hungerprocessor>); 
+//手摇
+mods.ItemStages.removeItemStage(<calculator:handcrankedgenerator>);
+mods.ItemStages.removeItemStage(<calculator:crankhandle>);
+mods.ItemStages.addItemStage("zero",<calculator:handcrankedgenerator>); 
+mods.ItemStages.addItemStage("zero",<calculator:crankhandle>); 
+mods.ItemStages.removeItemStage(<calculator:powercube>);
+mods.ItemStages.addItemStage("zero",<calculator:powercube>); 
+
+//锰锭
+mods.ItemStages.removeItemStage(<nuclearcraft:ingot:11>);
+mods.ItemStages.addItemStage("four",<calculator:powercube>);
+//mods.ItemStages.removeItemStage(<nuclearcraft:ore:*>);
+
+
+
+
+
+val minecraft = [
+<calculator:fiddledewfruit>,
+<calculator:broccoli>,
+<calculator:pear>,
+<calculator:rottenpear>,
+<calculator:cookedbroccoli>,
+<nuclearcraft:gem_dust:2>,
+<qmd:ingot:3>,
+<qmd:dust:3>,
+				] as IItemStack[];
+for item in minecraft {
+    mods.ItemStages.removeItemStage(item);
+    }
+	
+	
+
+
+
+
+

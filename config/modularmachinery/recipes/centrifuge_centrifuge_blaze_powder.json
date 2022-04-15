@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:85a27c756a607bf4721cd63f125eb99891b7b4bb6c48b74cb69d13408a5e7d44
-size 841
+{
+    "machine": "iron_centrifuge",
+    "registryName": "iron_centrifuge_centrifuge_blaze_powder",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:gunpowder",
+            "amount": 1,
+            "chance": 0.95
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:glowstone_dust",
+            "amount": 1,
+            "chance": 0.4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:blaze_powder",
+            "amount": 1
+        }
+    ]
+}

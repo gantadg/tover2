@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d578d653c7a8758e331313bf0e9054d50fc1d20f86033250dab11066a3436913
-size 437
+{
+	x: -1.0d,
+	y: 7.5d,
+	text: [
+		"将两个圣杯靠在一起 一个里面放上生命源质 一个里面放上大地之层岩 圣杯会将他们结合成能长出神秘花的肥料"
+	],
+	dependencies: [
+		"e4519028"
+	],
+	hide: true,
+	tasks: [{
+		uid: "58081764",
+		type: "item",
+		items: [{
+			item: "botania:fertilizer"
+		}]
+	}],
+	rewards: [{
+		uid: "3fca9454",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

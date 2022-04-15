@@ -1,3 +1,35 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2bf2737d3c5430fce975a61bca1284b7659fb4195a9c135be2623bafd7552d55
-size 723
+{
+	x: 2.5d,
+	y: 4.0d,
+	text: [
+		"使用原始投网右击怪物，等他们开始冒白色颗粒的时候击杀，就可以获得恶魔意志了（带恶人石锤了）",
+		"血魔技艺起源于下届，为了更好的探究血魔法，接下来你应该去下届看一看"
+	],
+	dependencies: [
+		"cbb28c3b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dd851754",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}]
+	},
+	{
+		uid: "9e95ac4b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:monster_soul"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e9a7c660",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

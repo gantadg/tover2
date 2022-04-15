@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:78f133bd803842e9295caea308387776d65c9802a1530a84d3a68b77d66ddba6
-size 165
+{
+  "animation": {
+    "frametime": 1,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5,
+      4,
+      3,
+      2,
+      1,
+    ]
+  }
+}

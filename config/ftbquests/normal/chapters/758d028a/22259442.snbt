@@ -1,3 +1,64 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:588bf3b82e7f80ebab8f702b6fefb17c9d1a08b4643132fab5799eb7b8630c02
-size 1601
+{
+	x: 2.0d,
+	y: 9.0d,
+	text: [
+		"据说葡萄酒是通过少女的脚在这种盆里踩出来",
+		"现在已知史蒂夫能用双脚在盆里把铁粒踩成融铸铁，求：史蒂夫的脚力",
+		"只有榨满一千才能用桶捞出来哦",
+		"我将以阿卡什的方式送你一个滴量器，他拥有着无视阶段的伟力，如果你不想每次都一桶桶装，它将是你的好帮手，当然千万别把他丢出去了"
+	],
+	dependencies: [
+		"f8cd7c65",
+		"b4c1eb84"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c9ef4a82",
+		type: "item",
+		items: [{
+			item: "rustic:crushing_tub"
+		}]
+	}],
+	rewards: [{
+		uid: "165802a5",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "7325a6fd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5173097315495424381L,
+					AS_Amulet_HolderMost: 8931530383495480653L
+				}
+			},
+			id: "akashictome:tome",
+			tag: {
+				"akashictome:is_morphing": 1b,
+				"akashictome:data": {
+					mekanism: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -5173097315495424381L,
+								AS_Amulet_HolderMost: 8931530383495480653L
+							}
+						},
+						id: "mekanism:gaugedropper",
+						Count: 1b,
+						tag: {
+							"akashictome:displayName": "滴量器",
+							"akashictome:definedMod": "mekanism",
+							"akashictome:is_morphing": 1b,
+							display: {
+								Name: "§r阿卡什宝典（§a滴量器§r）"
+							}
+						},
+						Damage: 0s
+					}
+				}
+			}
+		}
+	}]
+}

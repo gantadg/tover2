@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:25aa55ba489ae8ec381383ff6760fa388d098b3f5989518ed0642048615c7bf9
-size 114
+
+{
+  "Name": "Stray",
+  "Registry ID": "minecraft:stray",
+  "Class": "net.minecraft.entity.monster.EntityStray"
+}

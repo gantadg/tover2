@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e937e6b3ee01e2bf76be14a31bb72463b40eeb9087cf83d22195b2aee60bea43
-size 123
+
+{
+  "Name": "Guardian",
+  "Registry ID": "minecraft:guardian",
+  "Class": "net.minecraft.entity.monster.EntityGuardian"
+}

@@ -1,3 +1,415 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:43d3a504315d025a77f12d6a05d3cf6d22a0fbb81a727168c889a25d9184b26d
-size 15401
+[
+        {
+           "mode": "REMOVE",
+           "result": "draconicevolution:awakened_core",
+           "catalyst": "minecraft:nether_star",
+           "ingredients": [
+                "draconicevolution:wyvern_core",
+                "draconicevolution:wyvern_core",
+                "draconicevolution:wyvern_core",
+                "draconicevolution:wyvern_core",
+                "draconicevolution:draconic_ingot",
+                "draconicevolution:draconic_ingot",
+                "draconicevolution:draconic_ingot",
+				"draconicevolution:draconic_ingot",
+				"draconicevolution:draconic_ingot"
+			]
+		},
+        {
+           "mode": "REMOVE",
+           "result": "draconicevolution:chaotic_core",
+           "catalyst": "draconicevolution:chaos_shard",
+           "ingredients": [
+                "draconicevolution:awakened_core",
+                "draconicevolution:awakened_core",
+                "draconicevolution:awakened_core",
+                "draconicevolution:awakened_core",
+                "draconicevolution:draconic_ingot",
+                "draconicevolution:draconic_ingot",
+                "draconicevolution:draconic_ingot",
+				"draconicevolution:draconic_ingot"
+			]
+		},		
+        {
+           "mode": "REMOVE",
+           "result": "draconicevolution:draconic_block,4,0",
+           "catalyst": "draconicevolution:draconium_block,4,0",
+           "ingredients": [
+                "draconicevolution:draconic_core",
+                "draconicevolution:draconic_core",
+                "draconicevolution:draconic_core",
+                "draconicevolution:draconic_core",
+                "draconicevolution:draconic_core",
+                "draconicevolution:draconic_core",
+                "draconicevolution:dragon_heart"
+			]
+		},
+        {
+           "mode": "REMOVE",
+           "result": "draconicevolution:crafting_injector,1,1",
+           "catalyst": "draconicevolution:crafting_injector",
+           "ingredients": [
+                "draconicevolution:draconic_core",
+                "draconicevolution:draconic_core",
+                "draconicevolution:wyvern_core",
+                "draconicevolution:draconium_block",
+                "minecraft:diamond",
+                "minecraft:diamond",
+                "minecraft:diamond",
+				"minecraft:diamond"
+			]
+		},
+        {
+           "mode": "REMOVE",
+           "result": "draconicevolution:crafting_injector,1,2",
+           "catalyst": "draconicevolution:crafting_injector,1,1",
+           "ingredients": [
+                "draconicevolution:draconic_block",
+                "draconicevolution:wyvern_core",
+                "draconicevolution:wyvern_core",
+                "minecraft:diamond",
+                "minecraft:diamond",
+                "minecraft:diamond",
+				"minecraft:diamond"
+			]
+		},		
+        {
+           "mode": "REMOVE",
+           "result": "draconicevolution:crafting_injector,1,3",
+           "catalyst": "draconicevolution:crafting_injector,1,2",
+           "ingredients": [
+                "draconicevolution:chaotic_core",
+                "minecraft:dragon_egg",
+                "minecraft:diamond",
+                "minecraft:diamond",
+                "minecraft:diamond",
+				"minecraft:diamond"
+			]
+		},
+
+        {
+           "mode": "ADD",
+				"result": "draconicevolution:crafting_injector,1,1",
+				"catalyst": "draconicevolution:crafting_injector",
+                "energy": 10000000,                                                      
+                "tier": 0 , 		   
+				"ingredients": [
+                "draconicevolution:draconic_core",
+                "draconicevolution:draconic_core",
+                "rftools:infused_diamond",
+                "rftools:infused_diamond",
+                "rftools:infused_enderpearl",
+                "rftools:infused_enderpearl",
+                "metallurgy:amordrine_ingot",
+				"metallurgy:amordrine_ingot",
+				"iceandfire:summoning_crystal_fire",
+				"iceandfire:summoning_crystal_ice"
+			]
+		},
+        {
+           "mode": "ADD",
+				"result": "draconicevolution:crafting_injector,1,2",
+				"catalyst": "draconicevolution:crafting_injector,1,1",
+				"energy": 20000000,                                                      
+                "tier": 1 , 
+				"ingredients": [
+                "draconicevolution:wyvern_core",
+                "draconicevolution:wyvern_core",
+                "rftools:infused_diamond",
+                "rftools:infused_diamond",
+                "rftools:infused_enderpearl",
+				"rftools:infused_enderpearl",
+                "metallurgy:amordrine_ingot",
+				"metallurgy:amordrine_ingot",
+				"metallurgy:vyroxeres_ingot",
+				"metallurgy:vyroxeres_ingot"
+			]
+		},		
+        {
+           "mode": "ADD",
+				"result": "draconicevolution:crafting_injector,1,3",
+				"catalyst": "draconicevolution:crafting_injector,1,2",
+                "energy": 200000000,                                                      
+                "tier": 2 , 				
+				"ingredients": [
+                "draconicevolution:chaotic_core",
+                "minecraft:dragon_egg",
+                "rftools:infused_diamond",
+                "rftools:infused_diamond",
+                "rftools:infused_enderpearl",
+				"rftools:infused_enderpearl",
+				"contenttweaker:tover_64",
+				"contenttweaker:tover_64"
+			]
+		},
+        {
+           "mode": "ADD",
+				"result": "draconicevolution:draconium_block,1,1",
+				"catalyst": "draconicevolution:draconium_block",
+                "energy": 10000000,                                                      
+                "tier": 0 , 		   
+				"ingredients": [
+                "simplyjetpacks:metaitemmods,1,38",
+                "simplyjetpacks:metaitemmods,1,34"
+			]
+		},		
+        {
+           "mode": "ADD",
+				"result": "draconicevolution:draconic_block,4,0",
+				"catalyst": "draconicevolution:draconium_block,4,1",
+                "energy": 1000000,                                                      
+                "tier": 1 , 		   
+				"ingredients": [
+                "draconicevolution:draconic_core",
+                "draconicevolution:draconic_core",
+                "draconicevolution:draconic_core",
+                "draconicevolution:draconic_core",
+                "draconicevolution:draconic_core",
+                "draconicevolution:draconic_core",
+                "draconicevolution:dragon_heart"
+			]
+		},
+        {
+           "mode": "ADD",
+           "result": "calculator:flawlesscalculator,1,0",
+           "catalyst": "jecalculation:item_calculator,1,0",
+		   "energy": 10000000, 
+           "tier": 3 ,
+           "ingredients": [
+                "calculator:flawlessassembly",
+                "calculator:calculatorscreen",
+                "calculator:calculatorscreen",
+                "mekanism:polyethene,1,2",
+                "mekanism:polyethene,1,2",
+                "mekanism:polyethene,1,2",
+                "mekanism:polyethene,1,2",
+				"calculator:advancedpowercube"
+			]
+		},
+        {
+           "mode": "ADD",
+           "result": "calculator:atomicmultiplier,1,0",
+           "catalyst": "calculator:flawlessgreenhouse,1,0",
+		   "energy": 1000000000, 
+           "tier": 3 ,
+           "ingredients": [
+                "contenttweaker:end_4",
+                "contenttweaker:end_4",
+                "contenttweaker:circuit12_8",
+				"contenttweaker:circuit12_8",
+                "contenttweaker:circuit12_8",
+                "contenttweaker:circuit12_8",
+                "calculator:calculatorplug",
+				"calculator:calculatorplug",
+                "contenttweaker:adamantine_64",
+				"contenttweaker:Ultimate_32",
+                "calculator:flawlessassembly",
+                "calculator:fabricationchamber",
+				"calculator:algorithmseparator",
+				"calculator:locatormodule",
+				"calculator:atomicbinder",
+				"calculator:dockingstation"	
+			]
+		},
+        {
+           "mode": "ADD",
+           "result": "draconicevolution:wyvern_core,1,0",
+           "catalyst": "draconicevolution:draconic_core,1,0",
+		   "energy": 1000000, 
+           "tier": 0 ,
+           "ingredients": [
+                "contenttweaker:mek1_4",
+                "contenttweaker:mek1_4",
+                "draconicevolution:draconic_core",
+                "draconicevolution:draconic_core",
+                "minecraft:nether_star",
+				"minecraft:nether_star",
+				"contenttweaker:circuit7"
+			]
+		},		
+        {
+           "mode": "ADD",
+           "result": "draconicevolution:awakened_core,1,0",
+           "catalyst": "draconicevolution:wyvern_core,1,0",
+		   "energy": 10000000, 
+           "tier": 1 , 
+           "ingredients": [
+                "draconicevolution:wyvern_core",
+                "draconicevolution:wyvern_core",
+                "draconicevolution:wyvern_core",
+                "draconicevolution:wyvern_core",
+                "contenttweaker:mek2_4",
+                "contenttweaker:mek2_4",
+                "draconicevolution:draconic_ingot",
+				"draconicevolution:draconic_ingot",
+				"draconicevolution:draconic_ingot",
+				"contenttweaker:circuit8"
+			]
+		},
+        {
+           "mode": "ADD",
+           "result": "draconicevolution:chaotic_core,1,0",
+           "catalyst": "draconicevolution:awakened_core,1,0",
+		   "energy": 100000000, 
+           "tier": 2 , 
+           "ingredients": [
+                "draconicevolution:awakened_core",
+                "draconicevolution:chaos_shard,1,1",
+                "draconicevolution:chaos_shard,1,1",
+                "draconicevolution:awakened_core",
+                "contenttweaker:mek3_4",
+                "contenttweaker:mek3_4",
+                "draconicevolution:draconic_ingot",
+				"draconicevolution:draconic_ingot",
+				"contenttweaker:circuit9"
+			]
+		},
+        {
+           "mode": "ADD",
+           "result": "rftoolscontrol:advanced_network_card,1,0",
+           "catalyst": "rftoolscontrol:network_card,1,0",
+		   "energy": 10000000, 
+           "tier": 3 , 
+           "ingredients": [
+                "draconicevolution:chaotic_core",
+                "threng:material,1,6",
+                "threng:material,1,6",
+                "calculator:flawlessassembly",
+                "calculator:atomicassembly"
+			]
+		},
+        {
+           "mode": "ADD",
+           "result": "rftoolscontrol:cpu_core_2000,1,0",
+           "catalyst": "rftoolscontrol:cpu_core_1000,1,0",
+		   "energy": 10000000, 
+           "tier": 3 ,
+           "ingredients": [
+                "draconicevolution:chaotic_core",
+                "threng:material,1,6",
+                "threng:material,1,6",
+                "calculator:flawlessassembly",
+                "calculator:atomicassembly"
+			]
+		},
+        {
+           "mode": "ADD",
+           "result": "inventorypets:windows_8",
+           "catalyst": "inventorypets:windows_7",
+		   "energy": 10000000, 
+           "tier": 3 ,
+           "ingredients": [
+                "extrautils2:opinium,1,8",
+                "contenttweaker:atomicbinder_5",
+                "contenttweaker:dockingstation_5",
+                "contenttweaker:circuit13_8",
+                "rftoolscontrol:cpu_core_2000",
+				"rftoolscontrol:cpu_core_2000",
+				"rftoolscontrol:advanced_network_card",
+				"contenttweaker:k16384_2"				
+			]
+		},
+        {
+           "mode": "ADD",
+           "result": "qmd:accelerator_source",
+           "catalyst": "qmd:accelerator_casing",
+		   "energy": 1000000000, 
+           "tier": 3 ,
+           "ingredients": [
+                "inventorypets:windows_8",
+                "draconicevolution:chaotic_core",
+                "draconicevolution:chaotic_core",
+                "draconicevolution:reactor_core",
+                "draconicevolution:draconic_energy_core",
+				"draconicevolution:draconic_energy_core",
+				"calculator:flawlessassembly",
+				"calculator:flawlessassembly",	
+                "contenttweaker:tartarite_64",
+                "contenttweaker:adamantine_64",
+                "contenttweaker:qmd1_8",
+                "extendedcrafting:storage,1,2",
+                "contenttweaker:nu0_8",
+				"contenttweaker:nu0_8",
+				"contenttweaker:nu0_8",
+				"contenttweaker:qmd4_8"					
+			]
+		},
+        {
+           "mode": "ADD",
+           "result": "qmd:target_chamber_controller",
+           "catalyst": "qmd:particle_chamber_casing",
+		   "energy": 1000000000, 
+           "tier": 3 ,
+           "ingredients": [
+                "inventorypets:windows_8",
+                "draconicevolution:chaotic_core",
+                "draconicevolution:chaotic_core",
+                "draconicevolution:reactor_core",
+                "draconicevolution:draconic_energy_core",
+				"draconicevolution:draconic_energy_core",
+				"calculator:flawlessassembly",
+				"calculator:flawlessassembly",	
+                "contenttweaker:tartarite_64",
+                "contenttweaker:adamantine_64",
+                "contenttweaker:qmd3_8",
+                "contenttweaker:nather_4",
+                "contenttweaker:nu1_8",
+				"contenttweaker:nu1_8",
+				"extracpus:crafting_storage_16384k",
+				"contenttweaker:qmd4_8"			
+			]
+		},
+        {
+           "mode": "ADD",
+           "result": "qmd:decay_chamber_controller",
+           "catalyst": "nuclearcraft:decay_hastener",
+		   "energy": 1000000000, 
+           "tier": 3 ,
+           "ingredients": [
+                "inventorypets:windows_8",
+                "draconicevolution:chaotic_core",
+                "draconicevolution:chaotic_core",
+                "draconicevolution:reactor_core",
+                "draconicevolution:draconic_energy_core",
+				"draconicevolution:draconic_energy_core",
+				"calculator:flawlessassembly",
+				"calculator:flawlessassembly",	
+                "contenttweaker:tartarite_64",
+                "contenttweaker:adamantine_64",
+                "contenttweaker:qmd2_8",
+                "contenttweaker:nather_4",
+                "contenttweaker:nu2_8",
+				"contenttweaker:nu2_8",
+				"extracpus:crafting_storage_16384k",
+				"contenttweaker:qmd4_8"			
+			]
+		},
+        {
+           "mode": "ADD",
+           "result": "contenttweaker:ooooo",
+           "catalyst": "minecraft:dirt",
+		   "energy": 10000000000, 
+           "tier": 3 ,
+           "ingredients": [
+                "contenttweaker:etherium_4",
+                "contenttweaker:etherium_4",
+                "contenttweaker:etherium_4",
+                "contenttweaker:etherium_4",
+                "contenttweaker:etherium_4",
+                "contenttweaker:etherium_4",
+                "contenttweaker:adamantine_4",
+                "contenttweaker:adamantine_4",
+                "contenttweaker:adamantine_4",
+                "contenttweaker:adamantine_4",
+                "contenttweaker:adamantine_4",
+                "contenttweaker:adamantine_4",
+                "contenttweaker:tartarite_4",
+                "contenttweaker:tartarite_4",
+                "contenttweaker:tartarite_4",
+                "contenttweaker:tartarite_4",				
+                "contenttweaker:tartarite_4",				
+                "contenttweaker:tartarite_4"		
+			]
+		}
+
+]

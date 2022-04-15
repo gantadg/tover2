@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e46e3dc1050d9f64f7bf0b45e1ef3e24ab07ec71178e81a696e8778559842803
-size 441
+{
+	x: 0.5d,
+	y: 3.0d,
+	text: [
+		"恭喜你研究出了管道，现在你可以去布置你的物品和流体以及能量的运输轨道了"
+	],
+	dependencies: [
+		"9d029e02"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4116d816",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "c1e5cd43",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

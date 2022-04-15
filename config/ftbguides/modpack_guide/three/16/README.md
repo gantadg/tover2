@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fafcda1beb83ff92bbd8e66c50bb5eadb970d103222fa794a95fe367953481a9
-size 167
+主要生产本模组产品，具体配方以jei为准，摆放如下：
+
+![Example](摆放.png)
+
+打开上半部分GUI放置材料，下半部分输出成品。

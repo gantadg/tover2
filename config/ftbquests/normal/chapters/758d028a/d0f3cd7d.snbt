@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2315f6e8fac435bbf355e9cb08a0a90bc5f75033886ac06387a6400adde2b566
-size 457
+{
+	x: 4.0d,
+	y: 7.0d,
+	text: [
+		"终于不需要用模具去压制砖头了！！同时他还能让你用泥巴做陶土",
+		"赤陶等并没有特定的生成群系，多跑就完事了"
+	],
+	dependencies: [
+		"99e13907"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c566f007",
+		type: "item",
+		items: [{
+			item: "artisanworktables:worktable 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "6c832678",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

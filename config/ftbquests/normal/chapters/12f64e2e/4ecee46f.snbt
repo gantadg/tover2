@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:14bf7f50f535ba8502c0c039ecf5eba5c1e0b758095d8bd28f1babf0e09635b5
-size 422
+{
+	title: "大斧头飞过来啦！",
+	x: -6.5d,
+	y: -1.0d,
+	dependencies: [
+		"b12c0971"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cd00891c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal:flint_hatchet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b600b71",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

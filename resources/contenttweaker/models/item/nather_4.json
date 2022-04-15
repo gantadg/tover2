@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a08f4957e13feef62b9cc309e7509af3c4b135e264b7354ece5a654eea7b741f
-size 100
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/nather_4"
+  }
+}

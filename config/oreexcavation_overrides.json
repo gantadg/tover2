@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:083c28769286da8a5dd0aa6da2dac5339c5c6b1c21ce8dad2de10631f8462c86
-size 206
+{
+  "overrides": [
+    {
+      "itemID": "examplemod:nerfed_pickaxe:0",
+      "speed": 1,
+      "limit": 0,
+      "range": 0,
+      "exaustion": 0.1,
+      "experience": 0,
+      "gamestage": ""
+    }
+  ]
+}

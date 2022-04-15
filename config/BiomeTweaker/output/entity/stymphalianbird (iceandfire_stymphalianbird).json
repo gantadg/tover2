@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8a8cbd4c345bcac1d75f0915fdae7b8d084400ec71e8f6fda67dff7041b1f524
-size 156
+
+{
+  "Name": "stymphalianbird",
+  "Registry ID": "iceandfire:stymphalianbird",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityStymphalianBird"
+}

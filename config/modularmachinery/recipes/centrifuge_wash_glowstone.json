@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d0408c442a80866fbe87c6584ca212f8c6b3634e2a03ba775565f4af8249e264
-size 629
+{
+    "machine": "iron_centrifuge",
+    "registryName": "iron_centrifuge_wash_glowstone",
+    "recipeTime": 120,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:gunpowder",
+            "amount": 1,
+            "chance": 0.6
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:dustGlowstone",
+            "amount": 1
+        }
+    ]
+}

@@ -1,3 +1,39 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ceddf6cc08b79ae4e425d65d6253d05978cf19250cc2ff59e26bf99a173b1c50
-size 745
+{
+	x: 4.0d,
+	y: 5.0d,
+	text: [
+		"沥青共有两种获得方式：一种为寻找天然的沥青湖泊，另一种则是通过地下挖取的青石再加工获得",
+		"河床盐是河流干涸之后产生的，所以这东西大多在沙漠"
+	],
+	dependencies: [
+		"676edd58"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6e43925d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal:bucket_clay",
+			tag: {
+				Fluid: {
+					FluidName: "bitumen",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "405cc669",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "85ae0a07",
+		type: "item",
+		item: "primal:ore_zinc"
+	}]
+}

@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ef37ccd04e26c7529c32b28f0f6e52e9307b89f2eb29bb961cc6882c04e97a38
-size 123
+![Example](hui.png)
+顾名思义，用来回收装备.
+左边放入要回收的装备，右边会出相应品阶的矿石

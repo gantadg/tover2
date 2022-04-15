@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:69234730062e5dee86a35b64acb4a6d58e3ac9876943a406b1f89b635ba2891c
-size 279
+{
+	x: 18.0d,
+	y: 1.5d,
+	dependencies: [
+		"e39f9f07"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8efccdb4",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_extras 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "76ad3571",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

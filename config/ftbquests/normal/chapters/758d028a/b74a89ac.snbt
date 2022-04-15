@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:64fd5c9fb5d50adedcf8fabef0d65d79f8882ca22466853d28f4c6c1a56dab58
-size 480
+{
+	title: "药剂师工作台",
+	x: 6.5d,
+	y: 5.0d,
+	text: [
+		"并非所有蜘蛛都有毒，也并非所有的药水都没毒",
+		"锌多生成于石头山的顶部）"
+	],
+	dependencies: [
+		"99e13907"
+	],
+	hide: true,
+	tasks: [{
+		uid: "afe57bcf",
+		type: "item",
+		title: "蜘蛛配酒，法力无边",
+		items: [{
+			item: "artisanworktables:worktable 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "b9a29450",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

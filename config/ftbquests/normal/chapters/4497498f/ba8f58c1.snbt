@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c35be73745f5590864a29db80a2a9ec27425deee72053d7fc2f6027683304603
-size 281
+{
+	x: 24.5d,
+	y: 15.5d,
+	dependencies: [
+		"9620d89d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f097a09a",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:asteroidchip"
+		}]
+	}],
+	rewards: [{
+		uid: "0f7be43c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

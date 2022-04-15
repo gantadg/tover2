@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:59f8e81c6ac405b9bcc5f64c08b15f74d22b9a5f49d497e7068a5ce4a9b7162b
-size 317
+{
+	x: -5.5d,
+	y: -4.0d,
+	dependencies: [
+		"5cbe288a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ded63d02",
+		type: "item",
+		items: [{
+			item: "rockhounding_chemistry:mineral_ores"
+		}],
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "08eecf6a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

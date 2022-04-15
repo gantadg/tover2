@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:71d4a5cc97df7c98c4461ed47ea5a172e4f25d6f6419ab520241c8ea1281abe9
-size 137
+{
+	x: 6.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "17ee806e",
+		type: "item",
+		items: [{
+			item: "minecraft:glass_bottle"
+		}]
+	}]
+}

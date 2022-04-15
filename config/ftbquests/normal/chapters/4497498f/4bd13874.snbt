@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:547a70e585870e067dece8b513d73ada03beda26629285689e9449f6e6041c30
-size 610
+{
+	x: 4.0d,
+	y: 9.5d,
+	text: [
+		"我想 拥有了魔力的你第一件事应该就是去做一个符文吧",
+		"记得把里面的魔力倒掉",
+		"最初的魔力需要依靠原始之力和自然之力的凝聚"
+	],
+	dependencies: [
+		"ec84346c",
+		"d8dc0f53"
+	],
+	hide: true,
+	tasks: [{
+		uid: "190edeec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manatablet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "99d7364a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:23dac7a57110ff3ee81fb7311373677173c8c2e139322a6d91a8f59bd5c7b447
-size 271
+{
+	x: 7.5d,
+	y: 4.0d,
+	dependencies: [
+		"cb362b5d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "57aa526a",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}]
+	}],
+	rewards: [{
+		uid: "f40f8292",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

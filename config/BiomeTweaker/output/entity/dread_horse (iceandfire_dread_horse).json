@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c00bb6608ac8e27e48d4af758a9386758bb073e2adbaa7402c10f13a26713d15
-size 143
+
+{
+  "Name": "dread_horse",
+  "Registry ID": "iceandfire:dread_horse",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityDreadHorse"
+}

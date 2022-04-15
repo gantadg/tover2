@@ -1,3 +1,42 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ae3993d4fb93e7c6c174ca38816e3d7a820e7ce4ee9b4bbd45e80cf59d2b3803
-size 801
+{
+	title: "饮鸩止渴",
+	x: 2.0d,
+	y: -1.0d,
+	text: [
+		"用烧制出来的玻璃制作玻璃瓶用于盛水，最好再在火盆上蒸馏一下",
+		"当然，不蒸馏也是可以喝的，就是做好之后脱水的准备",
+		"其实你还能喝牛奶"
+	],
+	dependencies: [
+		"d51473eb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "95da81db",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:water"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8512ac34",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "toughasnails:purified_water_bottle"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2eb750ac",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

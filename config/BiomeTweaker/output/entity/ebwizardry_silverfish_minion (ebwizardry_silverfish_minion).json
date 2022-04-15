@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3e1f4bf6b384c81ab36f358e4dc069110a248ec112f3cd781a8c4e6f2f65118e
-size 167
+
+{
+  "Name": "ebwizardry:silverfish_minion",
+  "Registry ID": "ebwizardry:silverfish_minion",
+  "Class": "electroblob.wizardry.entity.living.EntitySilverfishMinion"
+}

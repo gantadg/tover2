@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:82f43c7d72fbf2e15b242406ab360dcca9ca7a08f9714a023bda3edc4a5abc0f
-size 242
+{
+	x: 8.5d,
+	y: -4.0d,
+	dependencies: [
+		"bc0c6276"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0d1110de",
+		type: "fluid",
+		fluid: "canolaoil"
+	}],
+	rewards: [{
+		uid: "8ad590c6",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

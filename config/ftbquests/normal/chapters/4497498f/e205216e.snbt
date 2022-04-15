@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bf75ead5c3c5aaa19862059429b48a9089170976509ab538fa2ee4f151313016
-size 410
+{
+	x: 16.5d,
+	y: 11.0d,
+	text: [
+		"注意 后面的机器大部分都是多方块结构哦，可以去全息投影仪里去寻找搭建方式"
+	],
+	dependencies: [
+		"c1c33e20"
+	],
+	hide: true,
+	tasks: [{
+		uid: "700d13e4",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rollingmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "e0bcfa2e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

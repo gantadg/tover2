@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b8efc4746bc8d475f0737ca253c3c7d40da3a9ff719a3d01c7843f328d507340
-size 354
+{
+	x: 2.0d,
+	y: -5.0d,
+	text: [
+		"好奇液态焦油在哪？不如对着液体桶按下shift"
+	],
+	dependencies: [
+		"519d3a2e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cdcba0c5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:circuit6"
+		}]
+	}],
+	rewards: [{
+		uid: "e6f53d67",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

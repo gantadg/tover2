@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5b34c089faf3d1504a4f29c92ffdd3c1d6f82c377b6aec148fb1cf01d2c016ac
-size 105
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/adamantine_64"
+  }
+}

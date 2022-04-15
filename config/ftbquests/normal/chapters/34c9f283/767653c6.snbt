@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:28dd44796886be4d25d3714c42204e8c8c01288c6a0cdf38cd8d35f6f51d77c7
-size 312
+{
+	x: 9.0d,
+	y: 7.0d,
+	tasks: [{
+		uid: "7cdea222",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "39395827",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "zero"
+	},
+	{
+		uid: "39ec2c3f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a5b4bd8251c31ff9d56ef7b7554416307a2b4f7fe6adeb0d22593fff21141b17
-size 231
+
+/*
+10000=0.5MRF=====>>生存者发电
+	 =0.2MRF=====>>集成发电
+*/
+
+
+//混沌燃料-寂静
+	furnace.setFuel(<silentgems:craftingmaterial:6>,10000);
+//纯净碳块
+	furnace.setFuel(<primal:charcoal_pure>,8000);
+
+
+

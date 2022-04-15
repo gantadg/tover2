@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f5696775fc6bd9719f4ebe2929e442ca10c0a7786b4fc69ce1bfad2388ba82c3
-size 821
+{
+    "machine": "Planetary_mining_machine",
+    "registryName": "Planetary_mining_machine_tover_1",
+    "recipeTime": 20,
+	"description": "来自提尔行星-1特产",
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "metallurgy:eximite_ore",
+            "amount": 4
+        },
+		{
+			"type": "fluid",
+			"io-type": "input",
+			"fluid": "cryotheum",
+			"amount": 100
+		},
+		{
+			"type": "gugu-utils:environment",
+			"io-type": "input",
+			"subType": "dimension",
+			"dimensions": [3]
+		},
+		{
+			"type": "gugu-utils:mana",
+			"io-type": "input",
+			"mana": 1000
+		},
+		{
+			"type": "grid",
+			"io-type": "input",
+			"power": 16
+		}
+    ]
+}

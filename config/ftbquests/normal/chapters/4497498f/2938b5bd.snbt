@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9b14e6d33f28abd25ea56be5bc2f134dbd7495ba098e61784f26f6df5bc2c5f3
-size 591
+{
+	x: 5.0d,
+	y: 11.0d,
+	text: [
+		"罪恶永无止境，但充斥于空中的不洁意志应受到主的净化，唯有罪恶归于纯粹，才能被主赐予魔力的恩惠",
+		"消耗区块中的恶魔意志以产能",
+		"ps:如果会恶魔意志自动化的话将会是很可怕的产魔花哦"
+	],
+	dependencies: [
+		"6df1bdf8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "58683a38",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "willy"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3c458659",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

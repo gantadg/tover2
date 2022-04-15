@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:44962c383c5908f7093a1761c0d81914944eb906aaeb79eca6d2a0052dfab2b6
-size 149
+
+{
+  "Name": "EntitySatyaNadella",
+  "Registry ID": "inventorypets:entitysatyanadella",
+  "Class": "com.inventorypets.entities.EntitySatyaNadella"
+}

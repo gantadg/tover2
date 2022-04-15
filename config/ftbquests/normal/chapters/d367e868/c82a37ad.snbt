@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3a0d0cdfde74dd99e52665ac2be1341882a5453fd2205437894465cd28c1ae2e
-size 276
+{
+	x: 21.0d,
+	y: -1.0d,
+	dependencies: [
+		"e39f9f07"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5605bb2f",
+		type: "item",
+		items: [{
+			item: "naturesaura:nature_altar"
+		}]
+	}],
+	rewards: [{
+		uid: "c2fa10f7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

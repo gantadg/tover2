@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:216814430cc735b5a961aa7ba29e447acf2e2018abdd6e6d8379527fbad3ec02
-size 110
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/blood_orb_archmage"
+  }
+}

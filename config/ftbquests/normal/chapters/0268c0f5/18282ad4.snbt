@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4afed84fd0286cdc6a9e0b4486fec26a382929a6577dc3ab8f6690d892ad3ef0
-size 281
+{
+	x: 1.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "ce18f3da",
+		type: "item",
+		items: [{
+			item: "minecraft:melon_block"
+		}],
+		count: 256L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "eb3e6be4",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

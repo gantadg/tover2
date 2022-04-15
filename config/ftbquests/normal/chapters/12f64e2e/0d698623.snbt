@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c7029b1d561fd32296ca3dd999eed72628f92a2b6ba10a84a74f18bd5a1a376a
-size 329
+{
+	x: 6.0d,
+	y: -3.0d,
+	text: [
+		"这可真是个漫长的等待"
+	],
+	dependencies: [
+		"b5bb3c28"
+	],
+	hide: true,
+	tasks: [{
+		uid: "393c95c5",
+		type: "item",
+		items: [{
+			item: "silentgems:craftingmaterial"
+		}]
+	}],
+	rewards: [{
+		uid: "027a92c4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

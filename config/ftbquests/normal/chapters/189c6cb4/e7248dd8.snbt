@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d5e54df278fcd7511d245310b2d478a4834872e95e16b75b5ac2ce7690e0250c
-size 301
+{
+	x: 2.5d,
+	y: -2.0d,
+	dependencies: [
+		"7fe5a8c9",
+		"46d234d9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dffafee9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1"
+		}]
+	}],
+	rewards: [{
+		uid: "b0d125fc",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

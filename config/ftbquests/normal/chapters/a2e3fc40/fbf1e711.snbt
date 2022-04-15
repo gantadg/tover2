@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:78eac32a34781b8196bf79b1c98f66d5dfd00ba4a8637888f831b485f29ee57e
-size 284
+{
+	x: -3.5d,
+	y: 2.0d,
+	dependencies: [
+		"af7d335b",
+		"c56787e0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "61bc4b63",
+		type: "item",
+		items: [{
+			item: "ae2stuff:inscriber"
+		}]
+	}],
+	rewards: [{
+		uid: "ae87927c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

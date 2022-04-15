@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:aee3f858dcfea110d93c85a0238194f9e4448d03f8ad4009cbe8b9fa2537f0b2
-size 271
+{
+	x: 10.0d,
+	y: 6.5d,
+	dependencies: [
+		"c3778130"
+	],
+	hide: true,
+	tasks: [{
+		uid: "14365ddd",
+		type: "item",
+		items: [{
+			item: "primal:adamant_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "3373683d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

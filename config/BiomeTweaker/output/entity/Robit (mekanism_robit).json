@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:42ea3041077d94ea27143425373f8992be47bc53d73cdf208b7c6eb2b50295d5
-size 107
+
+{
+  "Name": "Robit",
+  "Registry ID": "mekanism:robit",
+  "Class": "mekanism.common.entity.EntityRobit"
+}

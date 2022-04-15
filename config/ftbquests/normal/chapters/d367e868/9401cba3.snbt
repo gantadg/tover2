@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f2f9387b539d87a6f49765348f4b7417d797b83e3c0e22640e646514d998ed61
-size 273
+{
+	x: 18.0d,
+	y: -6.0d,
+	dependencies: [
+		"e0a0511b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a83318a9",
+		type: "item",
+		items: [{
+			item: "naturesaura:sky_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "a7526f51",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

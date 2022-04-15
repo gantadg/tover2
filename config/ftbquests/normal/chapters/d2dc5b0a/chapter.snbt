@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f06643cadb679c2dd2e346330a409631a6561b516f14905e38c80be5283eb486
-size 493
+{
+	title: "four 末影与热力的时代",
+	icon: "extendedcrafting:singularity_custom 1 36",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 1.5d,
+		y: -12.0d,
+		width: 9.0d,
+		height: 4.5d,
+		rotation: 0.0d,
+		image: "assets:earth.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 15.5d,
+		y: 3.0d,
+		width: 40.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "assets:four.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

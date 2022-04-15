@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:48666fe7caaffd5d5e6c4d4532bc6a07a8561a9255b4e28967be53539ed9ae84
-size 496
+{
+	x: 7.0d,
+	y: -4.0d,
+	text: [
+		"具体的方法在指南里有说哦（右上角）",
+		"温馨提示，如果你发现配方并没有什么问题，但是却依然合成不了，这时候建议试试加个能量优化器"
+	],
+	dependencies: [
+		"8576fa8c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "be159062",
+		type: "item",
+		items: [{
+			item: "efab:grid"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "b9da7e6d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

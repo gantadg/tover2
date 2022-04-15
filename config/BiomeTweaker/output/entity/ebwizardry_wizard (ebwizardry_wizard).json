@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:eca04490270f794ebf6ea8a2e83e74d306b7ffde26d173f736962882b4b90f14
-size 135
+
+{
+  "Name": "ebwizardry:wizard",
+  "Registry ID": "ebwizardry:wizard",
+  "Class": "electroblob.wizardry.entity.living.EntityWizard"
+}

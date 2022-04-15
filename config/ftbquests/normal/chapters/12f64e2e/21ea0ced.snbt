@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ee4518dc5bc75b672041ba667f80492aeb81abd69615df53fe973a3885621cda
-size 509
+{
+	x: -6.5d,
+	y: 3.0d,
+	text: [
+		"由于不能作弊。。。。当你出现重大失误的时候，不能通过jei进行“补偿”",
+		"所以你应该养成勤存档的好习惯",
+		"打开设置-模组配置，搜索backup，自己设置备份定时（默认2h一次）",
+		"回档方法：将游戏根目录backup中最近的压缩包解压丢入saves"
+	],
+	dependencies: [
+		"ce67bc15"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f53d3552",
+		type: "checkmark",
+		disable_toast: true
+	}]
+}

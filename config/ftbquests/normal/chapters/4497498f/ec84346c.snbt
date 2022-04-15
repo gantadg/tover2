@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:db32f25e1b604cfd64e8995ce365fafa7fc8d0320db7b78261e19238a62921e6
-size 427
+{
+	x: 4.0d,
+	y: 7.5d,
+	text: [
+		"在夜晚用艾克斯去探寻埋藏着的元始魔力，利用万象泉和喷口将它提取出来",
+		"当然 你也可以考虑使用流体搅拌机mk2"
+	],
+	dependencies: [
+		"e111f66d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7851bfac",
+		type: "fluid",
+		fluid: "mana",
+		amount: 10
+	}],
+	rewards: [{
+		uid: "9a6cd771",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

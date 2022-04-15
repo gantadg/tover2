@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:725ff3d432c986f4b3d6aac851650a292e4f4a3b584f73b36ce52b773f2afc3b
-size 295
+{
+	x: 8.5d,
+	y: 7.5d,
+	text: [
+		"虽然没啥用，但多种矿物来源也是好的"
+	],
+	dependencies: [
+		"6df1bdf8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1c4b34ad",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "orechid"
+			}
+		}]
+	}]
+}

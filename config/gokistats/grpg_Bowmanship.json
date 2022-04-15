@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:832f25fb4b2a17b5300b84ef9c0b75866f3c6286926b7eca86feddf68dd763a5
-size 100
+{
+  "supports": [
+    {
+      "id": "261",
+      "metadata": 0
+    }
+  ],
+  "bonusMultiplier": 1.0
+}

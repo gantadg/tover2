@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bd1bee7b9a3b18def4797122140c7cbcb398f087e5ed7a92c0c03e6c10eb0f1e
-size 162
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "custom": {
+      "fluid": "tree_oil_c"
+    }
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}

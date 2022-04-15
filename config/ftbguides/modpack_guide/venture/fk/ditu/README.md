@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f6ed163482afee2d087893131e4dd8b5cdb81f5bc7d525492ca2852f3e92a43b
-size 347
+![Example](ditu.png)
+杀死十级以上怪时，有几率掉落地图。放入地图装置后加入小麦种子，会出现传送门，里面是生态随机的世界，怪物等级由地图等级决定
+进入地图后，会送你一个传送宝石，可以用它返回主世界
+地图传送门有时间限制，过会就会消失，抓紧时间

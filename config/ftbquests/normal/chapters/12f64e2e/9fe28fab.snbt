@@ -1,3 +1,84 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a618f218d93f3a0f67b395500331191bdfe0805448cb0e9d4828d721b11f9802
-size 1522
+{
+	title: "FTB等价交易学（",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "primal:diamond_axe"
+	},
+	x: 0.0d,
+	y: -3.0d,
+	text: [
+		"现在的你只能做出燧石镐，但它的强度不足以挖掘宝石矿",
+		"但你可以用一些资源去换取一把不错的镐子，它对接下来的任务很有帮助",
+		"当然，也只有一把，省着点用，除非你找到了寂静的混沌节点，它能帮助你缓慢的修理装备"
+	],
+	dependencies: [
+		"964adc32"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a8858a26",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "d9116f89",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "c5257913",
+		type: "item",
+		title: "Any logWood",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "115785f8",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3fa4ea3f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal:diamond_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 34s
+				},
+				{
+					lvl: 2s,
+					id: 35s
+				}],
+				RepairCost: 3
+			},
+			Damage: 31s
+		}
+	}]
+}

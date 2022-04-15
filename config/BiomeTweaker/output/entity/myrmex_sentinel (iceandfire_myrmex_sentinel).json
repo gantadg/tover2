@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2fd1e8c457f9e2c0b7d67a59a90dee18c63f099d8acd1406873f110f7f292504
-size 155
+
+{
+  "Name": "myrmex_sentinel",
+  "Registry ID": "iceandfire:myrmex_sentinel",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexSentinel"
+}

@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:203ce24a6ce83f26972bd3888b020b782e6cb81e6afad1d243d1c77655afcb6f
-size 278
+{
+	x: 4.5d,
+	y: -9.0d,
+	dependencies: [
+		"8901dc69"
+	],
+	hide: true,
+	tasks: [{
+		uid: "099f0f57",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "c5d72f13",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f6dfe88bf72600d68123ec9ab7ce38d60d2cb8966f15303d030aeef6007896c5
-size 365
+{
+	x: 8.0d,
+	y: -3.0d,
+	text: [
+		"用混沌源质和纸张做的标识牌，用它制作的物品会激发更多的创作欲望，用来做工作台在合适不过了"
+	],
+	dependencies: [
+		"0d698623"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ecca932f",
+		type: "item",
+		items: [{
+			item: "silentgems:craftingmaterial 1 13"
+		}],
+		count: 4L
+	}]
+}

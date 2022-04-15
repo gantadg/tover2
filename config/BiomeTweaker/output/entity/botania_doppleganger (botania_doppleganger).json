@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:68561155aeeb62c4547444c9795d60ac4df7aa674141c424dfe40244f64ddb9b
-size 141
+
+{
+  "Name": "botania:doppleganger",
+  "Registry ID": "botania:doppleganger",
+  "Class": "vazkii.botania.common.entity.EntityDoppleganger"
+}

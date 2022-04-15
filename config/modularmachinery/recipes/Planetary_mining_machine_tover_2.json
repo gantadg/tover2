@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e4259ed98f1ef2143d7da73fa6662fc485c3df92c7e8af3f1022234353a1630e
-size 822
+{
+    "machine": "Planetary_mining_machine",
+    "registryName": "Planetary_mining_machine_tover_2",
+    "recipeTime": 20,
+	"description": "来自提尔行星-2特产",
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "metallurgy:atlarus_ore",
+            "amount": 4
+        },
+		{
+			"type": "fluid",
+			"io-type": "input",
+			"fluid": "petrotheum",
+			"amount": 100
+		},
+		{
+			"type": "gugu-utils:environment",
+			"io-type": "input",
+			"subType": "dimension",
+			"dimensions": [3]
+		},
+		{
+			"type": "gugu-utils:mana",
+			"io-type": "input",
+			"mana": 1000
+		},
+		{
+			"type": "grid",
+			"io-type": "input",
+			"power": 16
+		}
+    ]
+}

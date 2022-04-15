@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c7eebd1f5bb62d1f3ea8adc80227706d5070791af4d72b0b4419098acd911b0a
-size 390
+{
+	x: -5.5d,
+	y: -3.0d,
+	text: [
+		"tips:压缩空间才能做做抽屉管理器"
+	],
+	dependencies: [
+		"adbbd902"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb0f0509",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f2e9a22a",
+		type: "item",
+		item: "storagedrawers:controller"
+	}]
+}

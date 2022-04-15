@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0507e219caca1e0e49c72d128e241320219b2c7ee4f79e54595c71fe6747ec08
-size 541
+{
+	x: 8.0d,
+	y: 11.0d,
+	text: [
+		"“尘封弥散之音，赐予本该尘封的无用之物以新的使命--万物皆有终归之所，众生的一切都应该弥散成世界的构成之法”",
+		"消耗周围的无用掉落物进行产能"
+	],
+	dependencies: [
+		"6df1bdf8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "62763e9c",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "trashonadro"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c362bb79",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

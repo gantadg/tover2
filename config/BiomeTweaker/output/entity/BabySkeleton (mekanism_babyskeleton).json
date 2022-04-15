@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:72174234707ae455b7fbf539676f90b3419598279dfb300d6068ab9139076d4a
-size 128
+
+{
+  "Name": "BabySkeleton",
+  "Registry ID": "mekanism:babyskeleton",
+  "Class": "mekanism.common.entity.EntityBabySkeleton"
+}

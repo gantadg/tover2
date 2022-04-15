@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cc56614c549624de42a7331ad7668f176bc1aeae2af26e031bf4a9f883c086a6
-size 851
+{
+	x: 10.5d,
+	y: 12.5d,
+	text: [
+		"这四个人分别就是提尔2的制作成员（按理论来说，v姐应该能算进去）",
+		"ganta_dg（小萌新）:主策划，负责流程与包内绝大部分的魔改、材质和代码编写",
+		"Really_Man（泷）:可爱的萌妹子一枚，负责包内的任务与指南编写",
+		"Neptune（屑鳕鱼）:咸鱼一个，当你看到有个玩意的配方阴间到不行的时候，就是他干的。",
+		"Vazkii：植物魔法的作者，又叫v姐，感谢她提供了植物魔法这么好的模组来让我们感受游戏的魅力"
+	],
+	dependencies: [
+		"e248b91c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "53dcbd74",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 32"
+		}]
+	}],
+	rewards: [{
+		uid: "7a22ffd7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

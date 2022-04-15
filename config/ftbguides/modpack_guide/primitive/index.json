@@ -1,3 +1,37 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9470cf211970360df97a444f274c7529bed15c99fa4757c36ae5557cfb6db564
-size 630
+[
+ {
+  "id": "grass",
+  "title": "杂草纤维",
+  "icon": "item:minecraft:grass"
+ },
+ {
+  "id": "knapp",
+  "title": "燧石碎片",
+  "icon": "item:primal:flint_knapp"
+ },
+ {
+  "id": "wet",
+  "title": "泥砖",
+  "icon": "item:primal:mud_brick_wet"
+ },
+ {
+  "id": "iron",
+  "title": "铁",
+  "icon": "item:minecraft:iron_ingot"
+ },
+  {
+  "id": "yelian",
+  "title": "冶炼",
+  "icon": "item:primal:smelter"
+ },
+  {
+  "id": "coal",
+  "title": "木炭",
+  "icon": "item:minecraft:coal"
+ },
+  {
+  "id": "lvwang",
+  "title": "滤网",
+  "icon": "item:waterstrainer:strainer_survivalist_dense"
+ }
+]

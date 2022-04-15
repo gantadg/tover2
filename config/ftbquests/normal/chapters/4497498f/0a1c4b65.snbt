@@ -1,3 +1,34 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:badb87f04b34647858c38ff63e706ad68dccdf45f0879125dd8179855a416454
-size 506
+{
+	x: 22.5d,
+	y: 17.0d,
+	dependencies: [
+		"fe584c1f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "17f096dd",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satellitecontrolcenter"
+		}]
+	},
+	{
+		uid: "147444d8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satelliteidchip"
+		}]
+	},
+	{
+		uid: "dd7f4da9",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:loader 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "23cbea59",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0787a7db15b251a0b2c895c82f67443e12736e8dda457a1ae88200d0ff028720
-size 191
+手持其右击创建‘炼金矩阵’，再使用对应的试剂对其右击，之后再放入材料进行制作
+以下为jei的表达方式，切记不要记错顺序
+![Example](1.png)
